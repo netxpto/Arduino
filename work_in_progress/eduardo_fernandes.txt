@@ -1,0 +1,19 @@
+Tasks:
+	1) implementação o modulo de receção do QKD em Arduine (Coincidence Detector, QBER, Source, Sink)
+
+
+2019-07-18
+
+	- criar um projeto com o nome arduino_quantum_rx
+		doc\tex\sdf\arduino_quantum_rx
+		sdf\arduino_quantum_rx
+
+	- descrever a arquitetura do projeto (documentar)
+
+	- implementar o Coincidence Detector + Sink
+
+	- documentar todas as alterações necessáro para passar do C++ => Arduino
+
+next meeting: 25/7, 11h
+
+

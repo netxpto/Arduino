@@ -1,0 +1,28 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx   diff=astextplain
+*.DOCX   diff=astextplain
+*.dot    diff=astextplain
+*.DOT    diff=astextplain
+*.pdf    diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+
+# Files to be preserved (not subject to merge)
+lib/*.*							merge=ours
+include/*.*						merge=ours	
+visualizerXPTO/*.*				merge=ours
+doc/tex/*.*						merge=ours
+doc/tex/algorithms/*.*			merge=ours
+doc/tex/chapter/*.*				merge=ours
+doc/tex/lib/*.*					merge=ours
+doc/tex/mtools/*.*				merge=ours
+doc/tex/style/*.*				merge=ours

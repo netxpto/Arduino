@@ -1,0 +1,76 @@
+\clearpage
+
+\section{BobQuantumRx}
+
+\begin{tcolorbox}	
+\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
+\textbf{Header File}   &:& BobQRx.h \\
+\textbf{Source File}   &:& BobQRx.cpp \\
+\textbf{Version}       &:& 20190410
+\end{tabular}
+\end{tcolorbox}
+
+\maketitle
+This block is quantum channel Bob's receiver. This block accepts a binary signal, which comprises the values of basis to measure the encode single photons. These values must be randomly chosen between two different basis corresponding to the two non-orthogonal basis needed. Furthermore, this block also accepts a PhotonStreamXY signal corresponding to the single photon that arrives from quantum channel. It produces a binary signal which contains the modeSelection.
+
+\begin{itemize}
+  \item inputSignal[0] $\rightarrow$ BobQRxBasis (Binary)
+  \item inputSignal[1] $\rightarrow$ BobQRx\_In (PhotonStreamXY)
+\end{itemize}
+
+This block produces the following output signals,
+
+\begin{itemize}
+  \item outputSignal[0] $\rightarrow$ BobQRx\_DataOut (TimeDiscreteAmplitudeContinuousReal)
+  \item outputSignal[1] $\rightarrow$ ModeSelection (Binary)
+  \item outputSignal[2] $\rightarrow$ QBER\_QChannel (TimeDiscreteAmplitudeContinuousReal)
+\end{itemize}
+
+
+\subsection*{Input Parameters}
+
+	\begin{itemize}
+        \item string controlBasisSequence - This string is the sequence of basis used to control qubits. Its default value is "0".
+
+        \item string controlSequence - This string is the sequence of bits used to control qubits. Its default value is "0".
+
+	\end{itemize}
+
+\subsection*{Methods}
+\begin{itemize}
+        \item void setControlBasisMeasurement(string cBasis) - This method allows to set the control basis measurement sequence accepting a string value.
+
+        \item void setControlSequenceBits(string cSeq) - This method allows to set the control bits sequence to use for quantum bit error rate estimation, taking into account this sequence. It accepts a string value.
+
+\end{itemize}
+
+\subsection*{Functional description}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[clip, trim=0.5cm 6.0cm 0.5cm 2cm, width=1.0\textwidth]{./lib/BobQuantumRx/figures/BobQRx_diagram.pdf}
+	\caption{Schematic of Bob Quantum Receiver}\label{bobQuantumRxDiagram}
+\end{figure}
+
+This block receives 1 input binary signal that will have the information about basis ("BobQRxBasis") to measure the single-photons that arrives from the quantum channel. This signal must comprise two possible values corresponding to two non-orthogonal basis used in the communication protocol. It also accepts a PhotonStreamXY signal corresponding to the encoded single photon that arrives from quantum channel sent by AliceQTx.
+
+The mode selection signal that outputs this superblock will inform Alice about which mode she should selects, and so that if she should send data or control qubits.
+
+Apart from the detection scheme, this block also comprises an active random polarization drift compensation scheme. This scheme includes a randomSopCompensation block that is responsible for all post processing tasks, including QBER estimation, and sends three feedback signals with information about the rotations to be performed by an electronic polarization controller (EPC). In this way, the random polarization drift is compensated before the single photons reach the detection scheme.
+
+
+\subsection*{Input Signals}
+\paragraph*{Number}: 2
+\paragraph*{Type}: Binary, PhotonStreamXY.
+
+\subsection*{Output Signals}
+\paragraph*{Number}: 3
+\paragraph*{Type}: TimeDiscreteAmplitudeContinuousReal, Binary.
+
+\subsection*{Examples}
+
+
+\subsection*{Sugestions for future improvement}
+
+
+

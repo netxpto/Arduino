@@ -1,0 +1,56 @@
+\clearpage
+
+\section{Matched Filter}
+
+\begin{tcolorbox}	
+	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
+		\textbf{Header File}   &:& matched\_filter.h \\
+		\textbf{Source File}   &:& matched\_filter.cpp \\
+        \textbf{Version}       &:& 20190205 (Daniel Pereira)\\
+	\end{tabular}
+\end{tcolorbox}
+
+This block applies a matched filter to the input signal.
+
+\subsection*{Input Parameters}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|p{60mm}|c|ccc}
+		\cline{1-4}
+		\textbf{Parameter} & \textbf{Type}   & \textbf{Values} & \textbf{Default} \\ \cline{1-4}
+		numberOfTaps       & int             & any             & 64               \\ \cline{1-4}
+		rollOffFactor      & double          & any             & 0.5              \\ \cline{1-4}
+	\end{tabular}
+	\caption{Matched filter input parameters} 
+	\label{table:MatchedFilter_in_par}
+\end{table}
+
+\subsection*{Methods}
+
+\bigbreak
+MatchedFilter(initializer\_list$<$Signal *$>$ \&InputSig, initializer\_list$<$Signal *$>$ \&OutputSig) :Block(InputSig, OutputSig)\{\};
+\bigbreak
+void initialize(void);
+\bigbreak
+bool runBlock(void);
+\bigbreak
+void setNumberOfTaps(int numberOfTaps);
+\bigbreak
+void setRollOffFactor(double rollOffFactor);
+
+\subsection*{Functional description}
+
+
+This block implements a matched filter, that coincides with the modulation applied to the signal at the transmitter stage. The filter is applied in frequency domain, where it takes the form of a simple multiplication.
+
+\subsection*{Input Signals}
+
+\textbf{Number:} 1\\
+\textbf{Type:} Complex signal
+
+\subsection*{Output Signals}
+
+\textbf{Number:} 1\\
+\textbf{Type:} Complex signal
+

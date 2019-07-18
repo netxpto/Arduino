@@ -1,0 +1,13 @@
+Total Average BER=           0.00833333
+Highest estimated BER=       0.01
+Lowest estimated BER=        0.005
+Upper and lower confidence bounds for 95% confidence level 
+Highest Upper Bound=         0.0180851
+Lowest Upper Bound=          0.0113043
+Highest Lower Bound=         0.00475133
+Lowest Lower Bound=          0.00156104
+Number of measurements=      3
+Number of received bits=     303310
+Number of sent bits=         204096
+Bits in estimation interval= 101000
+Bits used for estimation=    1000

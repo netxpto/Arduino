@@ -1,0 +1,60 @@
+\clearpage
+
+\section{Matched Filter}
+
+\begin{tcolorbox}	
+	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
+		\textbf{Header File}   &:& resampler.h \\
+		\textbf{Source File}   &:& resampler.cpp \\
+        \textbf{Version}       &:& 20190319 (Daniel Pereira)\\
+	\end{tabular}
+\end{tcolorbox}
+
+This block upsamples the input signal by a user defined factor.
+
+\subsection*{Input Parameters}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|p{60mm}|c|ccc}
+		\cline{1-4}
+		\textbf{Parameter} & \textbf{Type}   & \textbf{Values} & \textbf{Default} \\ \cline{1-4}
+		numberOfTaps       & int             & any             & 64               \\ \cline{1-4}
+		upSamplingFactor   & int          & any             & 0.5              \\ \cline{1-4}
+	\end{tabular}
+	\caption{Matched filter input parameters} 
+	\label{table:MatchedFilter_in_par}
+\end{table}
+
+\subsection*{Methods}
+
+\bigbreak
+Resampler(initializer\_list$<$Signal *$>$ \&InputSig, initializer\_list$<$Signal *$>$ \&OutputSig);
+\bigbreak
+void initialize(void);
+\bigbreak
+bool runBlock(void);
+\bigbreak
+void setNumberOfTaps(int numberOfTaps);
+\bigbreak
+void setUpsamplingFactor(int upSamplingFactor);
+
+\subsection*{Functional description}
+
+
+This block condenses the blocks interspace0s and upsampler into a single. A complex signal at its input is upsampled by using a FIR interpolation filter.
+
+
+\subsection*{Input Signals}
+
+\textbf{Number:} 1\\
+\textbf{Type:} Complex signal
+
+\subsection*{Output Signals}
+
+\textbf{Number:} 1\\
+\textbf{Type:} Complex signal
+
+\subsection*{Suggestions for future improvement}
+
+Have this block also be able to downsample signals.

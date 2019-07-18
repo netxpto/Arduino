@@ -1,0 +1,58 @@
+\clearpage
+
+\section{AliceQuantumTx}
+
+\maketitle
+This block is the quantum channel Alice's transmitter. This block accepts binary signals, which comprises the values for basis and bits to be used to encode single photons, as well as another binary value with enable that selects the operation mode that Alice must operate. It produces PhotonStreamXY signal which comprises the encoded single photons.
+
+
+\subsection*{Input Parameters}
+
+	\begin{itemize}
+		\item double RateOfPhotons\{1e3\}
+	
+		\item int StringPhotonsLength\{ 12 \}
+	\end{itemize}
+
+\subsection*{Methods}
+
+
+\subsection*{Functional description}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[clip, trim=0.5cm 15.0cm 0.5cm 0.1cm, width=1.0\textwidth]{./lib/AliceQuantumTx/figures/AliceQTx_diagram.pdf}
+	\caption{Schematic of Alice Quantum Transmitter}\label{aliceQuantumTxDiagram}
+\end{figure}
+
+This block receives 3 input binary signals. One is the "ModeSelection" signal that will give to AliceQTx the information about operation mode, and so that she will know if she should send control or data qubits. The second and third input signals are also binary signals and they will have the information about basis ("AliceQTxBasis") and bits ("AliceQTxBits", respectively. These two binary signals will be responsible for data qubits encoding.
+
+The mode selection signal allows to select the operation mode, and so that if ModeSelection has the value "0" the monitoring mode is selected, and the output of this multiplexer will be a pre-defined sequence that should be "0" when data qubits are sent and "1" when control qubits are sent. This choice is made based on a sequence which should be deterministically made. Otherwise, if ModeSelection has the value "1", the actuation mode is selected and all qubits sent are control qubits.
+
+The operationMode signal will feed the other multiplex with an enable signal that should put on the output of the multiplexer, the input $s_2$ if this signal has the value "0" (control qubits), and the input $s_1$ if this signal has the value "1"(data qubits).
+
+A triple bit stream binary signal outputs the multiplexer, where the sequence is $\{\textrm{Monitoring/Actuation}, \textrm{Basis}, \textrm{Bits}\}$, where the first bit is "0" if the actuation mode was selected, and "1" if the monitoring mode was selected. The MQAM Mapper block receives this bit stream and will be able to encode a constellation with 8 different symbols as shown in Figure \ref{AliceQTxconstellation}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[clip, trim=0.5cm 0.5cm 0.5cm 0.5cm, width=1.0\textwidth]{./lib/AliceQuantumTx/figures/constellation.pdf}
+	\caption{8 symbols constellation for Alice Quantum transmitter single photon codification.}\label{AliceQTxconstellation}
+\end{figure}
+
+The Quadrature component will provide an input signal for amplitude modulator, and it will modulate the signal according with two different amplitudes depending on the type of qubits to send, i.e. the control qubits will have higher amplitude than data qubits. The Intensity component will provide a signal with 4 different steps that will choose the polarization to encode the single photons. The amplitude modulator outputs a signal that enters in the polarization modulator and outputs with a certain polarization. At the output of Alice quantum transmitter there is a variable optical attenuator that will be responsible to reduce the number of photons per pulse until 0.1 for data qubits.
+
+\subsection*{Input Signals}
+\paragraph*{Number}: 3
+\paragraph*{Type}: Binary.
+
+\subsection*{Output Signals}
+\paragraph*{Number}: 1
+\paragraph*{Type}: PhotonStreamXY.
+
+\subsection*{Examples}
+
+
+\subsection*{Sugestions for future improvement}
+
+
+

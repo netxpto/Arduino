@@ -1,0 +1,3174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="114.82798mm"
+   height="78.253494mm"
+   viewBox="0 0 114.82798 78.253486"
+   version="1.1"
+   id="svg4849"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="BobQKD_blockDiagram.svg">
+  <defs
+     id="defs4843">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4526"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4497"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6416"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6414"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6052"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6070"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       id="endMarker3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578" />
+    </marker>
+    <marker
+       id="marker4538"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline4536" />
+    </marker>
+    <defs
+       id="defs581">
+      <marker
+         refY="5"
+         refX="1"
+         viewBox="0 0 10 10"
+         markerHeight="6"
+         markerWidth="8"
+         orient="auto"
+         markerUnits="strokeWidth"
+         id="marker4884">
+        <polyline
+           id="polyline4882"
+           fill="solid"
+           points="0,0 10,5 0,10 1,5" />
+      </marker>
+    </defs>
+    <marker
+       id="endMarker3-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-4" />
+    </marker>
+    <marker
+       id="endMarker3-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-6" />
+    </marker>
+    <marker
+       id="endMarker3-4-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-6-0" />
+    </marker>
+    <marker
+       id="endMarker3-5"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-64" />
+    </marker>
+    <marker
+       id="endMarker3-46"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-5" />
+    </marker>
+    <marker
+       id="endMarker3-56"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63" />
+    </marker>
+    <marker
+       id="endMarker3-56-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-1" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-5"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-5-5"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-3-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-5-5-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-3-7-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-5-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-3-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-1-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-1-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-1" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-18"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-34"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-6" />
+    </marker>
+    <marker
+       id="endMarker3-5-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-64-0" />
+    </marker>
+    <marker
+       id="endMarker3-5-4-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-64-0-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-5-5-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-3-7-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-5-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-3-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-1-8"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-1-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-20"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-2" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2" />
+    </marker>
+    <marker
+       id="endMarker3-56-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-1-8-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-1-4-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-1-8-0"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-1-4-1" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-20-8"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-2-1" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-5-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-3-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-1-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-1-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-13" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-8"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-6" />
+    </marker>
+    <marker
+       id="endMarker3-46-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-5-3" />
+    </marker>
+    <marker
+       id="endMarker3-5-0"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-64-9" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4526-1"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4497-9"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       id="endMarker3-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-65" />
+    </marker>
+    <marker
+       id="endMarker3-5-4-0"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-64-0-2" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-5-27"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-3-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-1-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-1-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-17" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-15"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-15"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-10" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-26"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8-0"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0-6" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8-2-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0-4-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-9-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-7-1" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-20-8-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-2-1-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-2-5"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-4-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8-2-6-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0-4-7-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-9-6-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-7-1-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8-0-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0-6-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-1-5"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-8-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8-2-6-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0-4-7-6" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-9-6-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-7-1-2" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8-2-6-9-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0-4-7-6-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-9-6-7-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-7-1-2-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-9-8-2-6-9-1-8"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-0-0-4-7-6-0-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-9-6-7-9-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-7-1-2-3-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-32-2-9-6-7-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-9-0-7-1-2-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-2" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-25" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-6-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-3-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1-6" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-6-6-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-3-9-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0-9-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1-6-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-6-6-2-8"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-3-9-9-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0-9-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1-6-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-6-6-2-8-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-3-9-9-8-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0-9-2-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1-6-4-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-6-6-2-8-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-3-9-9-8-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0-9-2-76"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1-6-4-6" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-6-6-2-8-1-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-3-9-9-8-5-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0-9-2-76-5"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1-6-4-6-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0-9-2-76-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1-6-4-6-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-6-6-2-8-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-3-9-9-8-56" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-2-4-6-8-0-9-2-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-2-5-2-0-1-6-4-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-0-7-1-9-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-3-1-1-9-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-9-3-1-6-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-0-35-2-13-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-2"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7-4-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9-3-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7-4-7-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9-3-8-6" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7-4-7-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9-3-8-7" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7-7-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3-3-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7-5"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3-5" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7-5-8"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3-5-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7-7-7-7"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3-3-4-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-4" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-0"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-6" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7-4-7-1-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9-3-8-7-3" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-9-1"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-8-8" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7-4-7-1-6-4"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9-3-8-7-3-6" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7-5-9"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3-5-6" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7-5-9-0"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3-5-6-0" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-7-4-6"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-9-3-9" />
+    </marker>
+    <marker
+       id="endMarker3-56-4-9-4-1-6-7-5-8-3"
+       markerUnits="strokeWidth"
+       orient="auto"
+       markerWidth="8"
+       markerHeight="6"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5">
+      <polyline
+         points="0,0 10,5 0,10 1,5"
+         fill="solid"
+         id="polyline578-63-8-0-2-0-0-3-5-3-5" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="227.14035"
+     inkscape:cy="129.98299"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-path-clip="true"
+     inkscape:snap-perpendicular="true"
+     inkscape:snap-tangential="true"
+     gridtolerance="10"
+     inkscape:snap-path-mask="true"
+     objecttolerance="20"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-grids="false"
+     fit-margin-top="0.3"
+     fit-margin-bottom="0.3"
+     fit-margin-right="0.3"
+     fit-margin-left="0.3"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:lockguides="false">
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid5486"
+       units="mm"
+       empspacing="5"
+       enabled="false"
+       originx="-55.884037"
+       originy="44.887909" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid5631"
+       originx="-55.884037"
+       originy="44.887909" />
+    <sodipodi:guide
+       position="-45.299753,80.606672"
+       orientation="1,0"
+       id="guide2934"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-55.88412,96.254302"
+       orientation="1,0"
+       id="guide2936"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-45.299754,107.06459"
+       orientation="0,1"
+       id="guide2938"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-77.021417,96.512924"
+       orientation="1,0"
+       id="guide2940"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-66.496825,91.158356"
+       orientation="0,1"
+       id="guide2942"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-66.467453,80.606681"
+       orientation="0,1"
+       id="guide2944"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-55.884121,85.897274"
+       orientation="0,1"
+       id="guide3708"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-55.884121,101.7735"
+       orientation="0,1"
+       id="guide3710"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-87.634117,85.897254"
+       orientation="1,0"
+       id="guide3712"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="18.19611,56.794181"
+       orientation="0,1"
+       id="guide3729"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="18.199213,56.529598"
+       orientation="1,0"
+       id="guide3731"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="18.545443,51.502514"
+       orientation="0,-1"
+       id="guide3733"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="81.632028,35.631647"
+       orientation="0,1"
+       id="guide3735"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="18.199214,30.336261"
+       orientation="0,1"
+       id="guide4496"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="24.814198,30.401944"
+       orientation="1,0"
+       id="guide5995"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="32.74208,30.336261"
+       orientation="1,0"
+       id="guide5997"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="36.203222,19.790667"
+       orientation="1,0"
+       id="guide6752"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="21.369043,29.864558"
+       orientation="1,0"
+       id="guide6754"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="36.203226,27.454491"
+       orientation="0,1"
+       id="guide6783"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="36.203223,24.538436"
+       orientation="0,1"
+       id="guide6785"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="49.950007,51.502527"
+       orientation="1,0"
+       id="guide6842"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="41.498048,65.248445"
+       orientation="0,-1"
+       id="guide7757"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="39.366672,31.497533"
+       orientation="1,0"
+       id="guide7759"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="60.534379,30.339493"
+       orientation="1,0"
+       id="guide7763"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="55.239846,58.815764"
+       orientation="1,0"
+       id="guide10119"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="76.406512,59.609513"
+       orientation="1,0"
+       id="guide10121"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="52.368701,67.377513"
+       orientation="0,1"
+       id="guide10123"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="77.88032,19.752515"
+       orientation="0,1"
+       id="guide10125"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="84.353945,6.4818492"
+       orientation="1,0"
+       id="guide11699"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="93.171715,43.56554"
+       orientation="0,1"
+       id="guide13383"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="92.285405,56.226182"
+       orientation="1,0"
+       id="guide13385"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="96.001435,59.663936"
+       orientation="0,-1"
+       id="guide13389"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="102.86978,56.797415"
+       orientation="1,0"
+       id="guide13391"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="108.71373,43.428962"
+       orientation="1,0"
+       id="guide13393"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="81.524542,38.272439"
+       orientation="0,1"
+       id="guide13425"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="65.823191,14.464515"
+       orientation="0,1"
+       id="guide13444"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="65.824301,72.66549"
+       orientation="0,1"
+       id="guide13463"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="54.432725,61.582892"
+       orientation="0,1"
+       id="guide13499"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="66.047031,43.490843"
+       orientation="-1,0"
+       id="guide13505"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="28.782944,43.565225"
+       orientation="-1,0"
+       id="guide1757"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0.30005062,30.336261"
+       orientation="1,0"
+       id="guide1803"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="114.52798,43.568478"
+       orientation="1,0"
+       id="guide1805"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="20.342485,61.469586"
+       orientation="1,0"
+       id="guide1807"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="11.151193,70.768965"
+       orientation="1,0"
+       id="guide2072"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="55.240969,77.953488"
+       orientation="0,1"
+       id="guide2074"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="65.824304,83.241483"
+       orientation="0,-1"
+       id="guide2076"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4846">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-55.884028,-263.63444)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="71.696159"
+       y="143.76811"
+       id="text2369"><tspan
+         sodipodi:role="line"
+         id="tspan2367"
+         x="71.696159"
+         y="145.15718"
+         style="stroke-width:0.26458332" /></text>
+    <g
+       id="g6948-2-1-3"
+       transform="translate(105.47681,115.70182)" />
+    <g
+       id="g5687-37-4-5-6-4"
+       transform="translate(82.776156,129.34353)" />
+    <g
+       transform="translate(-7.2977518,177.6782)"
+       id="g5687-37-6-1-2">
+      <path
+         d="m 63.481831,112.70722 16.867763,0.003"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4)"
+         id="path583-8-2-1-6"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="289.46259"
+       x="66.157402"
+       height="1.8520935"
+       width="5.5838237"
+       id="rect5879-9-7-5-9-5"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35821384;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="66.478806"
+       y="290.82349"
+       id="text587-6-7-7-3-3">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">Data_In</tspan>
+    </text>
+    <g
+       transform="translate(-7.2977518,193.55442)"
+       id="g5687-37-6-1-8-3">
+      <path
+         d="m 63.481831,112.70186 16.867763,0.009"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-7-4)"
+         id="path583-8-2-1-2-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="305.41104"
+       x="67.54464"
+       height="1.8520935"
+       width="2.7156894"
+       id="rect5879-9-7-5-9-9-1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24981387;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="68.746223"
+       y="286.79858"
+       id="text2377-5-1-2-1-9"><tspan
+         sodipodi:role="line"
+         x="68.746223"
+         y="286.79858"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan2140-5">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="68.746223"
+         y="288.78296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9">Signal</tspan></text>
+    <rect
+       ry="0.79374999"
+       y="305.41098"
+       x="66.235306"
+       height="1.8520935"
+       width="5.7860374"
+       id="rect5879-9-7-5-9-2-6"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.36464238;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="66.549843"
+       y="306.77185"
+       id="text587-6-7-7-3-7-9">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-5-5"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">Basis_In</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="68.746223"
+       y="302.66647"
+       id="text2377-5-1-2-1-6-7"><tspan
+         sodipodi:role="line"
+         x="68.746223"
+         y="302.66647"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1981-9">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="68.746223"
+         y="304.65085"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1985-1">Signal</tspan></text>
+    <rect
+       rx="2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.13136449;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4741-61-5-0-1-4-5-8-1-5-6"
+       width="21.036095"
+       height="26.326559"
+       x="74.148926"
+       y="285.15942"
+       ry="2" />
+    <g
+       transform="translate(24.453042,177.67493)"
+       id="g5687-37-6-1-2-5">
+      <path
+         d="m 70.797661,112.71048 9.551933,-1e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-1)"
+         id="path583-8-2-1-6-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="289.45932"
+       x="97.908195"
+       height="1.8520935"
+       width="5.2413864"
+       id="rect5879-9-7-5-9-5-2"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.34705603;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="98.404991"
+       y="290.82022"
+       id="text587-6-7-7-3-3-1">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9-3"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">DataIn</tspan>
+    </text>
+    <g
+       transform="translate(24.453042,193.55115)"
+       id="g5687-37-6-1-8-3-1">
+      <path
+         d="m 70.797661,112.71049 9.551933,-2e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-7-4-7)"
+         id="path583-8-2-1-2-2-9"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="305.40778"
+       x="99.295433"
+       height="1.8520935"
+       width="2.7156894"
+       id="rect5879-9-7-5-9-9-1-4"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24981387;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="100.49702"
+       y="286.79532"
+       id="text2377-5-1-2-1-9-3"><tspan
+         sodipodi:role="line"
+         x="100.49702"
+         y="286.79532"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan2140-5-7">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="100.49702"
+         y="288.77969"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9-3">Signal</tspan></text>
+    <rect
+       ry="0.79374999"
+       y="305.40771"
+       x="97.986092"
+       height="1.8520935"
+       width="5.1712279"
+       id="rect5879-9-7-5-9-2-6-6"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.34472546;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="98.300636"
+       y="306.76859"
+       id="text587-6-7-7-3-7-9-6">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-5-5-7"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">BasisIn</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="100.49702"
+       y="302.66321"
+       id="text2377-5-1-2-1-6-7-8"><tspan
+         sodipodi:role="line"
+         x="100.49702"
+         y="302.66321"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1981-9-5">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="100.49702"
+         y="304.64758"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1985-1-7">Signal</tspan></text>
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+       id="text576-18-9-9-9-0"
+       y="297.91412"
+       x="84.620461">
+      <tspan
+         style="stroke-width:0.26458332"
+         y="297.91412"
+         x="84.620461"
+         sodipodi:role="line"
+         id="tspan6821">Bob Incoming</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="299.67801"
+         x="84.620461"
+         sodipodi:role="line"
+         id="tspan6825">Data Processor</tspan>
+    </text>
+    <rect
+       rx="2.0008705"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0928394;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4741-61-5-0-1-4-5-4"
+       width="10.491528"
+       height="26.365082"
+       x="105.88046"
+       y="285.13693"
+       ry="2.0003114" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+       id="text576-18-9-9-9-0-0"
+       y="297.88815"
+       x="111.11795">
+      <tspan
+         style="stroke-width:0.26458332"
+         y="297.88815"
+         x="111.11795"
+         sodipodi:role="line"
+         id="tspan6825-1">Basis</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="299.65204"
+         x="111.11795"
+         sodipodi:role="line"
+         id="tspan6867">Reconciliation</tspan>
+    </text>
+    <g
+       transform="translate(45.620749,185.6145)"
+       id="g5687-37-6-1-8-3-1-06">
+      <path
+         d="m 70.797661,112.71049 9.551933,-2e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-7-4-7-1)"
+         id="path583-8-2-1-2-2-9-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="297.39899"
+       x="120.46313"
+       height="1.8520935"
+       width="2.7156894"
+       id="rect5879-9-7-5-9-9-1-4-4"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24981387;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <rect
+       ry="0.79374999"
+       y="297.39893"
+       x="118.74038"
+       height="1.8520935"
+       width="6.3813577"
+       id="rect5879-9-7-5-9-2-6-6-9"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.38294205;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="119.2444"
+       y="298.81912"
+       id="text587-6-7-7-3-7-9-6-4">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-5-5-7-2"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">DataRec</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="121.88572"
+       y="294.65442"
+       id="text2377-5-1-2-1-6-7-8-4"><tspan
+         sodipodi:role="line"
+         x="121.88572"
+         y="294.65442"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1981-9-5-6">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="121.88572"
+         y="296.63879"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1985-1-7-2">Signal</tspan></text>
+    <rect
+       rx="2.0006752"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.05874304;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4741-61-5-0-1-4-5-1-3-6"
+       width="10.524591"
+       height="10.522304"
+       x="127.03111"
+       y="293.06381"
+       ry="1.9999983" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+       id="text576-18-9-9-9-0-0-0"
+       y="297.87677"
+       x="132.31149">
+      <tspan
+         style="stroke-width:0.26458332"
+         y="297.87677"
+         x="132.31149"
+         sodipodi:role="line"
+         id="tspan6867-6">Error</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="299.64066"
+         x="132.31149"
+         sodipodi:role="line"
+         id="tspan7767">Correction</tspan>
+    </text>
+    <g
+       transform="rotate(90,19.326493,223.03601)"
+       id="g5687-37-6-1-2-5-7-3-5-2">
+      <path
+         d="M 70.800896,112.71632 H 88.293522"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-1-6-7-7-7)"
+         id="path583-8-2-1-6-8-4-2-4-0"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="130.36569"
+       y="280.80655"
+       id="text587-6-7-7-3-3-1-2-5">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9-3-5-9"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">DataMPR</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="133.3756"
+       y="276.78165"
+       id="text2377-5-1-2-1-9-3-7-9"><tspan
+         sodipodi:role="line"
+         x="133.3756"
+         y="276.78165"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan2140-5-7-8-6">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="133.3756"
+         y="278.76602"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9-3-8-3">Signal</tspan></text>
+    <g
+       transform="rotate(90,11.381426,215.09094)"
+       id="g5687-37-6-1-2-5-7-3-1">
+      <path
+         d="m 70.797661,112.71048 9.551933,-1e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-1-6-7-5)"
+         id="path583-8-2-1-6-8-4-2-45"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="107.08553"
+       y="280.81198"
+       id="text587-6-7-7-3-3-1-2-4-4">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9-3-5-7-6"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">BasisMPR</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="110.21325"
+       y="276.78165"
+       id="text2377-5-1-2-1-9-3-7-3-0"><tspan
+         sodipodi:role="line"
+         x="110.21325"
+         y="276.78165"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan2140-5-7-8-0-6">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="110.21325"
+         y="278.76602"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9-3-8-2-6">Signal</tspan></text>
+    <g
+       transform="rotate(90,0.84110991,241.54546)"
+       id="g5687-37-6-1-2-5-7-3-5-2-6">
+      <path
+         d="m 62.911137,112.71048 17.438457,-1e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-1-6-7-7-7-7)"
+         id="path583-8-2-1-6-8-4-2-4-0-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="130.38979"
+       y="317.84598"
+       id="text587-6-7-7-3-3-1-2-5-2">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9-3-5-9-1"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">DataMPT</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="133.09195"
+       y="313.82108"
+       id="text2377-5-1-2-1-9-3-7-9-4"><tspan
+         sodipodi:role="line"
+         x="133.09195"
+         y="313.82108"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan2140-5-7-8-6-6">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="133.09195"
+         y="315.80545"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9-3-8-3-9">Signal</tspan></text>
+    <g
+       transform="rotate(90,-7.1039575,233.60039)"
+       id="g5687-37-6-1-2-5-7-3-1-7">
+      <path
+         d="m 70.797661,112.71048 9.551933,-1e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-1-6-7-5-8)"
+         id="path583-8-2-1-6-8-4-2-45-4"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="105.35098"
+       y="317.80679"
+       id="text587-6-7-7-3-3-1-2-4-4-6">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9-3-5-7-6-7"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">BasisMPT</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="109.02168"
+       y="313.77646"
+       id="text2377-5-1-2-1-9-3-7-3-0-2"><tspan
+         sodipodi:role="line"
+         x="109.02168"
+         y="313.77646"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan2140-5-7-8-0-6-4">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="109.02168"
+         y="315.76083"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9-3-8-2-6-9">Signal</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path583-8-2-1-6-9"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-4)"
+       d="m 56.184079,269.22244 53.909521,-1e-5" />
+    <rect
+       ry="0.79374999"
+       y="268.29639"
+       x="87.585838"
+       height="1.8520935"
+       width="8.9406605"
+       id="rect5879-9-7-5-9-5-0"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45327452;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <g
+       transform="translate(61.492891,214.72372)"
+       id="g5687-37-6-1-2-3">
+      <path
+         d="m 70.756148,112.71048 37.131572,-1e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-0)"
+         id="path583-8-2-1-6-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="326.50809"
+       x="145.65919"
+       height="1.8520935"
+       width="9.9481573"
+       id="rect5879-9-7-5-9-5-1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.47813201;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="146.15599"
+       y="327.86899"
+       id="text587-6-7-7-3-3-2">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9-0"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">Messages_Out</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="150.94833"
+       y="323.84409"
+       id="text2377-5-1-2-1-9-7"><tspan
+         sodipodi:role="line"
+         x="150.94833"
+         y="323.84409"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9-0">Message</tspan><tspan
+         sodipodi:role="line"
+         x="150.94833"
+         y="325.82846"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan12562">Signal</tspan></text>
+    <g
+       transform="translate(66.788447,185.61449)"
+       id="g5687-37-6-1-8-3-1-06-3">
+      <path
+         d="m 70.797661,112.71049 9.551933,-2e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-7-4-7-1-6)"
+         id="path583-8-2-1-2-2-9-3-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="297.4711"
+       x="141.79608"
+       height="1.8520935"
+       width="2.7156894"
+       id="rect5879-9-7-5-9-9-1-4-4-8"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24981387;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <rect
+       ry="0.79374999"
+       y="297.47104"
+       x="140.07695"
+       height="1.8520935"
+       width="6.4844446"
+       id="rect5879-9-7-5-9-2-6-6-9-9"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.38602275;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="140.40323"
+       y="298.83191"
+       id="text587-6-7-7-3-7-9-6-4-9">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-5-5-7-2-7"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">DataCorr</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="143.27383"
+       y="294.72653"
+       id="text2377-5-1-2-1-6-7-8-4-6"><tspan
+         sodipodi:role="line"
+         x="143.27383"
+         y="294.72653"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1981-9-5-6-8">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="143.27383"
+         y="296.71091"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1985-1-7-2-0">Signal</tspan></text>
+    <rect
+       rx="2.0006752"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.05874304;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4741-61-5-0-1-4-5-1-3"
+       width="10.524591"
+       height="10.522304"
+       x="148.19881"
+       y="293.06125"
+       ry="1.9999982" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+       id="text576-18-9-9-9-0-0-0-4"
+       y="297.88815"
+       x="153.45337">
+      <tspan
+         style="stroke-width:0.26458332"
+         y="297.88815"
+         x="153.45337"
+         sodipodi:role="line"
+         id="tspan7767-5">Privacy</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="299.65204"
+         x="153.45337"
+         sodipodi:role="line"
+         id="tspan12558">Amplification</tspan>
+    </text>
+    <g
+       transform="translate(87.956147,185.60898)"
+       id="g5687-37-6-1-8-3-1-06-3-0">
+      <path
+         d="m 70.797661,112.71049 10.626803,-2e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-7-4-7-1-6-4)"
+         id="path583-8-2-1-2-2-9-3-1-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="297.46558"
+       x="162.79854"
+       height="1.8520935"
+       width="2.7156894"
+       id="rect5879-9-7-5-9-9-1-4-4-8-1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24981387;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <rect
+       ry="0.79374999"
+       y="297.46552"
+       x="161.4892"
+       height="1.8520935"
+       width="6.0615764"
+       id="rect5879-9-7-5-9-2-6-6-9-9-4"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.37322375;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="161.80374"
+       y="298.82639"
+       id="text587-6-7-7-3-7-9-6-4-9-1">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-5-5-7-2-7-5"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">Key_Out</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="164.55241"
+       y="294.72101"
+       id="text2377-5-1-2-1-6-7-8-4-6-6"><tspan
+         sodipodi:role="line"
+         x="164.55241"
+         y="294.72101"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1981-9-5-6-8-8">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="164.55241"
+         y="296.70538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1985-1-7-2-0-1">Signal</tspan></text>
+    <rect
+       rx="2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.08302717;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4741-61-5-0-1-4-5-5"
+       width="10.492958"
+       height="21.083641"
+       x="322.17694"
+       y="-132.24904"
+       ry="2"
+       transform="rotate(90)" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+       id="text576-18-9-9-9-0-0-7-3"
+       y="326.09879"
+       x="121.7148">
+      <tspan
+         style="stroke-width:0.26458332"
+         y="326.09879"
+         x="121.7148"
+         sodipodi:role="line"
+         id="tspan6867-5-3">Message</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="327.86267"
+         x="121.7148"
+         sodipodi:role="line"
+         id="tspan6921-4">Processor</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="329.62656"
+         x="121.7148"
+         sodipodi:role="line"
+         id="tspan7771">Transmitter</tspan>
+    </text>
+    <rect
+       rx="2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.08302717;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4741-61-5-0-1-4-5-5-0"
+       width="10.492958"
+       height="21.083641"
+       x="263.97595"
+       y="-132.25015"
+       ry="2"
+       transform="rotate(90)" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+       id="text576-18-9-9-9-0-0-7"
+       y="267.8978"
+       x="121.66182">
+      <tspan
+         style="stroke-width:0.26458332"
+         y="267.8978"
+         x="121.66182"
+         sodipodi:role="line"
+         id="tspan6867-5">Message</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="269.66168"
+         x="121.66182"
+         sodipodi:role="line"
+         id="tspan6921">Processor</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="271.42557"
+         x="121.66182"
+         sodipodi:role="line"
+         id="tspan7769">Receiver</tspan>
+    </text>
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="87.91851"
+       y="269.58987"
+       id="text587-6-7-7-3-3-2-4">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9-0-9"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">Messages_In</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="91.958611"
+       y="265.59805"
+       id="text2377-5-1-2-1-9-7-1"><tspan
+         sodipodi:role="line"
+         x="91.958611"
+         y="265.59805"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9-0-0">Message</tspan><tspan
+         sodipodi:role="line"
+         x="91.958611"
+         y="267.58243"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan12562-4">Signal</tspan></text>
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path583-8-2-1-6-8-4-2-45-5-4"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.19100001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-1-6-7-5-9-0)"
+       d="m 84.66697,332.68457 0.0992,7.97731 84.59542,1e-5" />
+    <g
+       id="g5687-37-6-1-8-3-5"
+       transform="translate(-2.00568,214.71295)">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path583-8-2-1-2-2-6"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-7-4-6)"
+         d="m 58.189759,112.71049 22.159835,-2e-5" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24981387;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect5879-9-7-5-9-9-1-3-3"
+       width="2.7156894"
+       height="1.8520935"
+       x="71.358452"
+       y="316.42346"
+       ry="0.79374999" />
+    <text
+       id="text587-6-7-7-3-7-9-9-4"
+       y="317.78427"
+       x="70.363647"
+       style="font-size:3.17499995px;stroke-width:0.26458332">
+      <tspan
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1"
+         id="tspan585-3-2-1-9-5-5-9-3"
+         font-size="6.0000">TransmissionModeIn</tspan>
+    </text>
+    <text
+       id="text2377-5-1-2-1-6-7-4-8"
+       y="313.67886"
+       x="77.207726"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan1981-9-8-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         y="313.67886"
+         x="77.207726"
+         sodipodi:role="line">Binary</tspan><tspan
+         id="tspan1985-1-2-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         y="315.66324"
+         x="77.207726"
+         sodipodi:role="line">Signal</tspan></text>
+    <rect
+       rx="2.0006752"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.05874304;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4741-61-5-0-1-4-5-1-3-6-2"
+       width="10.524591"
+       height="10.522304"
+       x="79.404686"
+       y="-332.68457"
+       ry="1.9999985"
+       transform="scale(1,-1)" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+       id="text576-18-9-9-9-0-0-3"
+       y="326.89658"
+       x="84.658699">
+      <tspan
+         style="stroke-width:0.26458332"
+         y="326.89658"
+         x="84.658699"
+         sodipodi:role="line"
+         id="tspan6867-0">Transmission</tspan>
+      <tspan
+         style="stroke-width:0.26458332"
+         y="328.66046"
+         x="84.658699"
+         sodipodi:role="line"
+         id="tspan2101">Control</tspan>
+    </text>
+    <g
+       transform="matrix(0,-1,-1,0,197.37745,392.92312)"
+       id="g5687-37-6-1-2-5-7-3-1-7-9">
+      <path
+         d="m 70.797661,112.71048 9.551933,-1e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.191;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#endMarker3-56-4-9-4-1-6-7-5-8-3)"
+         id="path583-8-2-1-6-8-4-2-45-4-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       ry="0.79374999"
+       y="339.73584"
+       x="89.737587"
+       height="1.8520935"
+       width="17.320147"
+       id="rect5879-9-7-5-9-2-6-3"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6308881;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       style="font-size:3.17499995px;stroke-width:0.26458332"
+       x="90.752518"
+       y="341.05875"
+       id="text587-6-7-7-3-3-1-2-4-4-7">
+      <tspan
+         font-size="6.0000"
+         id="tspan585-3-2-1-9-9-3-5-7-6-78"
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1">TransmissionMode_Out</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="97.740463"
+       y="337.02841"
+       id="text2377-5-1-2-1-9-3-7-3-0-3"><tspan
+         sodipodi:role="line"
+         x="97.740463"
+         y="337.02841"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan2140-5-7-8-0-6-7">Binary</tspan><tspan
+         sodipodi:role="line"
+         x="97.740463"
+         y="339.01279"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1989-9-3-8-2-6-1">Signal</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24981387;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect5879-9-7-5-9-9-1-3-3-2"
+       width="2.7156894"
+       height="1.8520935"
+       x="65.62175"
+       y="326.43546"
+       ry="0.79374999" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.36464238;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect5879-9-7-5-9-2-6-5-7-6"
+       width="5.7860374"
+       height="1.8520935"
+       x="64.312408"
+       y="326.43539"
+       ry="0.79374999" />
+    <text
+       id="text587-6-7-7-3-7-9-9-4-8"
+       y="327.79626"
+       x="64.626945"
+       style="font-size:3.17499995px;stroke-width:0.26458332">
+      <tspan
+         style="font-size:1.58749998px;font-family:Calibri;fill:#000000;fill-opacity:1;stroke-width:0.26458332;stroke-opacity:1"
+         id="tspan585-3-2-1-9-5-5-9-3-4"
+         font-size="6.0000">BER_In</tspan>
+    </text>
+    <text
+       id="text2377-5-1-2-1-6-7-4-8-4"
+       y="321.83139"
+       x="66.823326"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan1985-1-2-7-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         y="321.83139"
+         x="66.823326"
+         sodipodi:role="line">Time Discrete</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         y="323.81577"
+         x="66.823326"
+         sodipodi:role="line"
+         id="tspan4954">Amplitude Continuous</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.58749998px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         y="325.80014"
+         x="66.823326"
+         sodipodi:role="line"
+         id="tspan4956">Signal</tspan></text>
+  </g>
+</svg>

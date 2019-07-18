@@ -1,0 +1,12 @@
+Total received qubits:            1000000
+Average QBER:                     0.00833333
+Key after basis reconciliation:   399824
+Key after parameter estimation:   300000
+Key after error correction:       179421
+Final key size:                   179392
+##########################################################
+Basis reconciliation efficiency:  0.399824
+Parameter estimation efficiency:  0.75033
+Error correction efficiency:      0.59807
+Privacy amplification key ratio:  1
+Overall efficiency:               0.179392
