@@ -8,7 +8,8 @@
 \begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
 \textbf{Header File}    &:& phase\_mismatch\_compensation\_*.h \\
 \textbf{Source File}    &:& phase\_mismatch\_compensation\_*.cpp \\
-\textbf{Version}        &:& 20190114 (Daniel Pereira)
+\textbf{Version}        &:& 20190114 (Daniel Pereira)\\
+						&:& 20190506 (Daniel Pereira)
 \end{tabular}
 \end{tcolorbox}
 
@@ -83,6 +84,28 @@ with the mismatch compensation being accomplished by multiplying the constellati
 x_q(t_n)e^{i[\theta_q(t_n)+\epsilon(t_n)-\hat{\epsilon}(t_n)]}.
 \end{equation}
 
+\subsection*{Version 20190506}
+
+Version 20190506 allows setting different pilot constellations and orders. Associated with this additional capability, the new version also allows setting the state of the first pilot symbol.
+
+\begin{itemize}
+  \item \textbf{Input Parameters}
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    Name           & Type           & Default Value     \\ \hline
+    pilotStateIndex     & int  & 1 \\ \hline
+    pilotConstellation  & vector<vector<t\_real>> & \{ \{1.0, 0.0\} \} \\ \hline
+    \end{tabular}
+  \end{table}
+
+  \item \textbf{Methods}
+  \begin{itemize}
+    \item void setFirstPilotState(int fPilotState) \{ pilotStateIndex = fPilotState; \}
+    \item void setPilotConstellation(vector<vector<t\_real>> pConstellation) \\ \{  pilotConstellationPhase.resize(pConstellation.size());\\ pilotConstellation.resize(pConstellation.size());\\ pilotConstellation = pConstellation; \}
+  \end{itemize}
+\end{itemize}
 
 % bibliographic references for the section ----------------------------
 \clearpage

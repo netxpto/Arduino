@@ -1,0 +1,175 @@
+\clearpage
+\graphicspath{{./lib/quantum_channel_emulator_dv/figures/}}
+\section{Quantum Channel Emulator DV}
+
+\begin{tcolorbox}	
+	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
+        \textbf{Header Files}    &:& quantum\_channel\_emulator\_dv\_*.h \\
+		\textbf{Source Files}    &:& quantum\_channel\_emulator\_dv\_*.cpp \\
+        \textbf{Version}        &:& 20190328 (Andoni Santos)
+	\end{tabular}
+\end{tcolorbox}
+
+\maketitle
+The Quantum Channel Emulator DV block tries to imitate the possible outcomes
+of the discrete variable quantum channel used in the laboratory.
+There is another more complex model of this system. However, the additional
+complexity makes it difficult to test and troubleshoot the software to be used
+with it. Therefore, this block was created. It is able to simulate the
+conditions existent on the complex system conditions in a stationary manner.This
+way, it produces similar results, while being much faster and simpler to
+interact with.
+
+% \begin{multicols}{3}
+% \begin{enumerate}
+% 	\item Random
+% 	\item PseudoRandom
+% 	\item DeterministicCyclic
+% 	\item DeterministicAppendZeros
+%     \item AsciiFileAppendZeros
+%     \item AsciiFileCyclic
+% \end{enumerate}
+% \end{multicols}
+
+\subsection*{Signals}
+
+\begin{table}[h]
+	%\centering
+	\begin{tabular}{|c|l|}
+		\hline
+		\textbf{Number of Input Signals} & 4 \\ \hline
+        \textbf{Type of Input Signals} & Binary, Binary, Binary, Binary \\ \hline
+    	\textbf{Number of Output Signals} & 3 \\ \hline
+		\textbf{Type of Output Signals} & TimeContinuousAmplitudeDiscreteReal, \\
+		& Binary,TimeContinuousAmplitudeContinuousReal \\ \hline
+	\end{tabular}
+	\caption{Quantum Channel Emulator signals}
+	\label{table:QCE_signals}
+\end{table}
+
+\subsection*{Input Signals}
+
+\begin{itemize}
+	\item[0] - Binary signal with Alice's key, to be transmitted to Bob.
+	\item[1] - Binary signal with Alice's basis, used to encode the key
+	\item[2] - Binary signal with transmission mode.
+	\item[3] - Binary signal with Bob's basis, used to measure the
+	transmitted data.
+\end{itemize}
+
+\subsection*{Output Signals}
+
+\begin{itemize}
+	\item[0] - TimeContinuousAmplitudeDiscreteReal signal containing the
+	results from measuring the transmitted data on Bob's side.
+	\item[1] - Binary signal with transmission mode.
+	\item[2] - TimeContinuousAmplitudeDiscreteReal signal containing the
+	upper bound for the QBER estimate.
+\end{itemize}
+
+
+\subsection*{Input Parameters}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|p{20mm}|c|p{35mm}|}
+		\hline
+		\textbf{Parameter} & \textbf{Type} & \textbf{Values} & \textbf{Default}& \textbf{Description} \\ \hline
+		doubleClickNumber & t\_integer & any &  2 & Number to signal that
+		both detectors clicked \\\hline
+		noClickNumber & t\_integer & any &  3 & Number to signal that
+		no detectors clicked \\\hline
+		qber & t\_real & [0,1] &  0 & Desired average quantum bit error rate \\\hline
+		probabilityOfDoubleClick & t\_real & [0,1] &  0 & Probability of
+		both the detectors clicking\\\hline
+		probabilityOfNoClick & t\_real & [0,1] &  0 & Probability of
+		both no detectors clicking\\\hline
+		seed & t\_integer & any & 1 & Random number generator seed.\\\hline
+		deadtime & double & any & $1\times10^-5$ & Amount of time the detectors
+		aren't responsive after clicking\\\hline
+		detectorEfficiency & double & [0,1] & 0.25 & Efficiency of the detectors
+		receiving the photons. \\\hline
+		fiberAttenuation\_dB & double & $\geq 0$ & 0.2 & Fiber optical
+		attenuation in dB \/ km. \\\hline
+		fiberLength & double & $\geq 0$ & 50 & Length of the fiber in km. \\\hline
+		insertionLosses\_dB & double & $\geq 0$ & 2 & Attenuation by insertion losses. \\\hline
+		numberOfPhotonsPerInputPulse & double & $\geq 0$ & 0.1 & Statistical
+		average of the number of photons per input pulse. \\\hline
+	\end{tabular}
+	\caption{Binary source input parameters}
+	\label{table:bin_sour_in_par}
+\end{table}
+
+\subsection*{Methods}
+
+QuantumChannelEmulatorDv(initializer\_list<Signal *> InputSig, initializer\_list<Signal *> OutputSig) : Block(InputSig, OutputSig) \{\};
+\bigbreak	
+void initialize(void);
+\bigbreak	
+bool runBlock(void);
+\bigbreak
+initialize(void);
+\bigbreak
+runBlock(void);
+\bigbreak
+setProbabilityOfBothClick(t\_real pbc)
+\bigbreak
+setProbabilityOfNoClick(t\_real pnc)
+\bigbreak
+setProbabilityOfError(t\_real pe)
+\bigbreak
+setNoClickNumber(t\_integer ncn)
+\bigbreak
+setDoubleClickNumber(t\_integer dcn)
+\bigbreak
+setDeadtime(t\_integer dt)
+\bigbreak
+setDetectorEfficiency(t\_real def)
+\bigbreak
+setFiberAttenuation\_dB(t\_real fatt)
+\bigbreak
+setFiberLength(t\_real fl)
+\bigbreak
+setInsertionLosses\_dB(t\_real il)
+\bigbreak
+setNumberOfPhotonsPerInputPulse(t\_real nPhotons)
+\bigbreak
+
+\subsection*{Functional description}
+This block receives three main input signals: the key provided by Alice, the basis
+chosen by Alice to encode the key, and the basis chosen by Bob to decode the
+key.
+
+The \textit{onDeadtime} and \textit{elapsedDeadtime} variables control whether
+the detectors are recovering from a click. Each time anything except a \textit{noClick} is
+output, the variable \textit{onDeadtime} is set to true. From them on, on every
+iteration, the \textit{symbolPeriod} of the data signal is added to the
+\textit{elapsedDeadtime} variable. When that number grows higher than
+\textit{deadtime}, the \textit{elapsedDeadtime} is set to zero and
+\textit{onDeadtime} is set to false.
+
+The process to determine the output of the Bob's measurement is as follows:
+
+\begin{enumerate}
+	\item If \textit{onDeadtime} is true, a \textit{noClickNumber} is output;
+	\item A random number between zero and one, \textit{randomRollClicks}, is drawn. If that number is lower
+	than \textit{probabilityOfNoClick}, a \textit{noClickNumber} is output;
+	\item else, if that number is lower than \textit{probabilityOfNoClick} +
+	\textit{probabilityOfDoubleClick}, a \textit{doubleClickNumber} is output;
+	\item If none of the above happens, another random number between zero and one, \textit{randomRollError}, is drawn. If the number is
+	lower than \textit{probabilityOfError}, the wrong bit is put in the buffer,
+	indicating an error (independently of the measurement basis);
+	\item If the \textit{randomRollError} is higher than the
+	\textit{probabilityOfError}, then the outcome depends on whether Alice's and
+	Bob's basis are equal. If they are, the correct bit is output;
+	\item If the basis are different, a random number
+	\textit{randomRollErrorFromWrongBasis} between zero and one is generated. If
+	the value is lower than 0.5, the correct bit is output. Otherwise, the wrong
+	bit is output.
+\end{enumerate}
+
+In addition, the third input signal is copied to the second output signal, at
+the same rate as the key. The third output signal currently is a placeholder and
+produces no output.
+
+\subsection*{Suggestions for future improvement}

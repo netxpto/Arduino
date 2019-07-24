@@ -1,0 +1,415 @@
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:03
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=408
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 19 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=104
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:03
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=408
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 19 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=104
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:03
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=408
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=461
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:03
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=408
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=461
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+Block start time: 2019-05-02 12:03:03
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=51
+Decoder|S5_Sampler_1_Out|ready=51
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=410
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S0_InPhase_In|ready=0
+Output Signals: 
+PulseShaper|S2_ReceiverFilter_0_Out|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S1_Quadrature_In|ready=0
+Output Signals: 
+PulseShaper|S3_ReceiverFilter_1_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S2_ReceiverFilter_0_Out|ready=0
+Output Signals: 
+Sampler|S4_Sampler_0_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S3_ReceiverFilter_1_Out|ready=0
+Output Signals: 
+Sampler|S5_Sampler_1_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+Block start time: 2019-05-02 12:03:04
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S4_Sampler_0_Out|ready=0
+Decoder|S5_Sampler_1_Out|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+
+

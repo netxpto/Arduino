@@ -2,6 +2,22 @@ Tasks:
 	1) implementação o modulo de receção do QKD em Arduine (Coincidence Detector, QBER, Source, Sink)
 
 
+2019-07-24
+
+	- descrever a arquitetura do projeto (documentar)
+
+	- implementar o projeto netxpto c++
+
+	- migrar para o arduino
+
+	- documentar todas as alterações necessáro para passar do C++ => Arduino
+
+	- netplanner - revisses e colocasses todo o teu material de mestrado (código, dissertação latex, apresentacao)
+
+	- netplanner - integrar a parte do Élio
+
+next meeting: 20/8, 18h
+
 2019-07-18
 
 	- criar um projeto com o nome arduino_quantum_rx

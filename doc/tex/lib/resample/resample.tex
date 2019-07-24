@@ -7,6 +7,7 @@
 		\textbf{Header File}   &:& resample$\_*$.h \\
 		\textbf{Source File}   &:& resample$\_*$.cpp \\
         \textbf{Version}       &:& 20180423 (Celestino Martins) \\
+        					   &:& 20190509 (Daniel Pereira)
 	\end{tabular}
 \end{tcolorbox}
 
@@ -61,6 +62,36 @@ Firstly, the parameter \textit{nBits} is checked and if it is greater than 1 it 
 \subparagraph*{Type:} Electrical complex signal
 
 \subsection*{Examples}
+
+\subsection*{Version 20190506}
+
+Version 20190509 adds the option to use FIR interpolation using a multiphase interpolation filter similar to the one presented in Figure~\ref{fig:FILTER}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[trim={7cm 8cm 7cm 8cm},width=.3\linewidth]{./lib/resample/figures/FILTER}
+\caption{Impulse response of a 4$\times$ upsampling filter using 16 taps.}
+\label{fig:FILTER}
+\end{figure}	
+
+\begin{itemize}
+  \item \textbf{Input Parameters}
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l| m{4cm}|l|}
+    \hline
+    Name & Type & Values & Default Value \\ \hline
+    mode & UpSamplingMode & LinearInterpolation, FIRFilterInterpolation & LinearInterpolation \\ \hline
+    numberOfTaps & int & any & 8 \\ \hline
+    \end{tabular}
+  \end{table}
+
+  \item \textbf{Methods}
+  \begin{itemize}
+    \item void setNumberOfTaps(int nTaps) \{ numberOfTaps = nTaps; \}
+    \item void setMode(UpSamplingMode m) \\ \{ mode = m; \}
+  \end{itemize}
+\end{itemize}
 
 \subsection*{Sugestions for future improvement}
 

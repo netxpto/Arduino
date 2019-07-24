@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{2FD263E7-35F8-4D07-977C-BFA61DDBCEFF}</ProjectGuid>
+    <RootNamespace>DvQuantumTxRx</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\binary_source_20180815.cpp" />
+    <ClCompile Include="..\..\lib\clock_20181113.cpp" />
+    <ClCompile Include="..\..\lib\coincidence_detector_20181113.cpp" />
+    <ClCompile Include="..\..\lib\discrete_to_continuous_time_20190406.cpp" />
+    <ClCompile Include="..\..\lib\fork_20180815.cpp" />
+    <ClCompile Include="..\..\lib\laser_20190408.cpp" />
+    <ClCompile Include="..\..\lib\mux2To1_20190404.cpp" />
+    <ClCompile Include="..\..\lib\m_qam_mapper_20180815.cpp" />
+    <ClCompile Include="..\..\lib\netxpto_20180815.cpp" />
+    <ClCompile Include="..\..\lib\optical_attenuator_20180304.cpp" />
+    <ClCompile Include="..\..\lib\parallelToSerial_20190404.cpp" />
+    <ClCompile Include="..\..\lib\polarization_beam_splitter_20181113.cpp" />
+    <ClCompile Include="..\..\lib\pulse_shaper_20180815.cpp" />
+    <ClCompile Include="..\..\lib\sink_20180815.cpp" />
+    <ClCompile Include="..\..\lib\time_delay_20180815.cpp" />
+    <ClCompile Include="DvQuantumTxRx_sdf.cpp" />
+    <ClCompile Include="lib\AliceQTx_20190404.cpp" />
+    <ClCompile Include="lib\amplitude_modulator_20190418.cpp" />
+    <ClCompile Include="lib\BobQRx_20190410.cpp" />
+    <ClCompile Include="lib\counter_n_20190426.cpp" />
+    <ClCompile Include="lib\electronic_polarization_controller_20181220.cpp" />
+    <ClCompile Include="lib\one_to_n_20190410.cpp" />
+    <ClCompile Include="lib\polarization_modulator_20190418.cpp" />
+    <ClCompile Include="lib\polarization_rotator_20190319.cpp" />
+    <ClCompile Include="lib\qber_20190418.cpp" />
+    <ClCompile Include="lib\quantum_channel_dv_20190410.cpp" />
+    <ClCompile Include="lib\random_sop_compensation_20190418.cpp" />
+    <ClCompile Include="lib\single_photon_detector_20190418.cpp" />
+    <ClCompile Include="lib\sop_rotator_20180815.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\binary_source_20180815.h" />
+    <ClInclude Include="..\..\include\clock_20181113.h" />
+    <ClInclude Include="..\..\include\coincidence_detector_20181113.h" />
+    <ClInclude Include="..\..\include\discrete_to_continuous_time_20190406.h" />
+    <ClInclude Include="..\..\include\fork_20180815.h" />
+    <ClInclude Include="..\..\include\laser_20190408.h" />
+    <ClInclude Include="..\..\include\mux2To1_20190404.h" />
+    <ClInclude Include="..\..\include\m_qam_mapper_20180815.h" />
+    <ClInclude Include="..\..\include\netxpto_20180815.h" />
+    <ClInclude Include="..\..\include\optical_attenuator_20180304.h" />
+    <ClInclude Include="..\..\include\parallelToSerial_20190404.h" />
+    <ClInclude Include="..\..\include\polarization_beam_splitter_20181113.h" />
+    <ClInclude Include="..\..\include\pulse_shaper_20180815.h" />
+    <ClInclude Include="..\..\include\sink_20180815.h" />
+    <ClInclude Include="..\..\include\time_delay_20180815.h" />
+    <ClInclude Include="include\AliceQTx_20190404.h" />
+    <ClInclude Include="include\amplitude_modulator_20190418.h" />
+    <ClInclude Include="include\BobQRx_20190410.h" />
+    <ClInclude Include="include\counter_n_20190426.h" />
+    <ClInclude Include="include\electronic_polarization_controller_20181220.h" />
+    <ClInclude Include="include\one_to_n_20190410.h" />
+    <ClInclude Include="include\polarization_modulator_20190418.h" />
+    <ClInclude Include="include\polarization_rotator_20190319.h" />
+    <ClInclude Include="include\qber_20190418.h" />
+    <ClInclude Include="include\quantum_channel_dv_20190410.h" />
+    <ClInclude Include="include\random_sop_compensation_20190418.h" />
+    <ClInclude Include="include\single_photon_detector_20190418.h" />
+    <ClInclude Include="include\sop_rotator_20180815.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

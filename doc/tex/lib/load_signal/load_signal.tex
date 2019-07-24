@@ -7,6 +7,7 @@
 		\textbf{Header File}   &:& load\_signal.h \\
 		\textbf{Source File}   &:& load\_signal.cpp \\
         \textbf{Version}       &:& 20190205 (Daniel Pereira)\\
+        &:& 20190503 (Daniel Pereira)
 	\end{tabular}
 \end{tcolorbox}
 
@@ -50,3 +51,23 @@ This block loads signals from a .sgn file into a signal with symbol and sampling
 \textbf{Number:} 1\\
 \textbf{Type:} Binary signal, Integer signal, Complex signal, Complex XY signal, Photon signal,  Photon Multipath signal,  Photon Multipath XY signal
 
+\subsection*{Version 20190503}
+
+Version 20190503 allows the user to skip a user determined number of samples at the beginning of the file.
+
+\begin{itemize}
+  \item \textbf{Input Parameters}
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    Name           & Type           & Default Value     \\ \hline
+    samplesToSkip     & int  & 0 \\ \hline
+    \end{tabular}
+  \end{table}
+
+  \item \textbf{Methods}
+  \begin{itemize}
+    \item void setSamplesToSkip(int sToSkip) \{ samplesToSkip = sToSkip; \};
+  \end{itemize}
+\end{itemize}
