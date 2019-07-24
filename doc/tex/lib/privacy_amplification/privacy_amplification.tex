@@ -1,0 +1,193 @@
+\clearpage
+\graphicspath{{./lib/privacy_amplification/figures/}}
+\section{Privacy amplification}
+
+\begin{tcolorbox}	
+	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
+        \textbf{Header Files}    &:& privacy\_amplification\_*.h \\
+		\textbf{Source Files}    &:& privacy\_amplification\_*.cpp \\
+        \textbf{Version}         &:& 20190410 (Andoni Santos)
+	\end{tabular}
+\end{tcolorbox}
+
+\maketitle
+This block implements privacy amplification by hashing segments of the key, and
+discarding bits from the corrected key, eliminating the residual knowledge that
+an attacker may still have at the end of the error correction process. It
+can share a seed between the parties to allow randomly choosing a common hash
+family, and may be easily adapted to use a different hash function.
+
+
+\subsection*{Signals}
+
+If paRole is seedTransmitter:
+
+\begin{table}[h]
+	%\centering
+	\begin{tabular}{|c|l|}
+		\hline
+		\textbf{Number of Input Signals} & 2 \\ \hline
+        \textbf{Type of Input Signals} & Binary, TimeDiscreteAmplitudeContinuousReal \\ \hline
+    	\textbf{Number of Output Signals} & 2 \ \\ \hline
+        \textbf{Type of Output Signals} & Binary, TimeDiscreteAmplitudeContinuousReal \\ \hline
+	\end{tabular}
+	\caption{Privacy amplification signals - Seed Tx}
+	\label{table:privacy_amp_tx_signals}
+\end{table}
+
+If paRole is seedReceiver:
+
+\begin{table}[h]
+	%\centering
+	\begin{tabular}{|c|l|}
+		\hline
+		\textbf{Number of Input Signals} & 3 \\ \hline
+        \textbf{Type of Input Signals} & Binary,
+        TimeDiscreteAmplitudeContinuousReal,
+	   \\
+	   & TimeDiscreteAmplitudeContinuousReal \\ \hline
+    	\textbf{Number of Output Signals} & 1 \ \\ \hline
+        \textbf{Type of Output Signals} & Binary \\ \hline
+	\end{tabular}
+	\caption{Privacy amplification signals - Seed Rx}
+	\label{table:privacy_amp_rx_signals}
+\end{table}
+
+
+\subsection*{Input Parameters}
+
+% %	\begin{itemize}
+% %		\item mode\{PseudoRandom\}\linebreak
+% %		(Random, PseudoRandom, DeterministicCyclic, DeterministicAppendZeros)
+% %		\item probabilityOfZero\{0.5\}\linebreak
+% %		(real $\in$ [0,1])
+% %		\item patternLength\{7\} \linebreak
+% %		(integer $\in$ [1,32])
+% %		\item bitStream\{"0100011101010101"\} \linebreak
+% %		(string of 0's and 1's)
+% %		\item numberOfBits\{-1\} \linebreak
+% %		(long int)
+% %		\item bitPeriod\{1.0/100e9\} \linebreak
+% %		(double)
+% %	\end{itemize}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|p{40mm}|c|ccp{60mm}}
+		\cline{1-4}
+		\textbf{Parameter} & \textbf{Type} & \textbf{Values} &   \textbf{Default}& \\ \cline{1-4}
+		ber 			& t\_real 		& [0,1] 		& 0.03 \\ \cline{1-4}
+		paRole & privacy\_amplification\_role paRole & \{SeedTransmitter,
+		SeedReceiver, Undefined\} & Undefined \\ \cline{1-4}
+		securityParameter & int &  Any natural number & 1 \\ \cline{1-4}
+		bypassHashing & bool & true or false & false \\ \cline{1-4}
+	\end{tabular}
+	\caption{Privacy amplification input parameters}
+	\label{table:bin_sour_in_par}
+\end{table}
+
+\subsection*{Methods}
+
+PrivacyAmplification(initializer\_list<Signal*> InputSig,
+initializer\_list<Signal*> OutputSig) : Block(InputSig, OutputSig) \{\};
+\bigbreak
+initialize(void);
+\bigbreak
+runBlock(void);
+\bigbreak
+setRole(privacy\_amplification\_role role)
+\bigbreak
+setBER(t\_real berValue)
+\bigbreak
+setSystematicSecurityParameter(t\_integer sp)
+\bigbreak
+setBypassHashing(bool mrb)
+\bigbreak
+getInputBits(void)
+\bigbreak
+getOutputBits(void)
+\bigbreak
+
+\subsection*{Theoretical introduction}
+
+As mentioned at the beginning, this block is used to amplify privacy on a
+quantum key distribution protocol. For instance, after the error correction part
+of the BB84 protocol, both parties share equal keys. During the previous steps
+of the key distillation process, information about the key was shared in a
+public classical channel, but all the shared information has been discarded, and
+thus, rendered useless for an attacker. However, the attacker may still have
+residual information about the key, acquired during the transmission stage. In
+addition, it may be desirable not to discard the bits during error correction,
+and deal with privacy issues all in one place.
+
+To understand why a third party (lets call her Eve) may still have information,
+recall that they may attempt to intercept the qubits sent by Alice. Let us
+assume an intercept-resend arrack. When Eve tries to intercept a certain Qubit,
+she sends to Bob the value in the basis she used.
+
+In addition, let us assume that Bob has estimated the QBER to be equal
+to a value $z$, and that transmission is perfect. This means that there is no
+source of error other and Eve, and thus every error in the received key is
+explicitly due to Eve's interference.
+
+There are four possibilities:
+\begin{enumerate}
+	\item Eve uses the correct basis, and Bob also uses the correct basis. \textit{The
+	bit is not discarded, and Eve knows it deterministically}.
+	\item Eve uses the correct basis, and Bob uses the wrong basis. The bit is
+	discarded, and no-one gains anything.
+	\item Eve uses the wrong basis, and Bob uses the wrong basis. The bit is
+	discarded, and no-one gains anything.
+	\item Eve uses the wrong basis, and Bob uses the correct basis. \textit{The
+	bit is not discarded, and it has 50\% chance to introduce and error. Alice
+	gains no information from this exchange, other than that she used the wrong
+	basis.}
+\end{enumerate}
+
+This means that the deterministic knowledge that Eve has on the final key should
+be at most twice the QBER. Typically, due to the existence of other sources of
+error, the QBER is actually higher than half of Eve's knowledge.
+
+Therefore, the rate of bits she might know is given by the
+number of times she measured correctly, which is twice the number of times she
+introduced an error, $2z$.
+
+It is important to emphasize that this analysis is based on only one type of
+attack. Nevertheless, it is enough to understand the issue. The important fact
+is that the information that Eve has is related to the estimated QBER.
+
+One way to remove that information is to use a compression function, which
+transforms a key of size $n$ into a key of size $n - t - s$, where $t$ is Eve's
+information, and $s$ is a security parameter. This transformation needs to be
+random, uniform and unique. One way to do this is with universal hash functions.
+
+\subsection*{Functional description}
+At this point it is assumed that Alice and Bob share equal keys. Any error will
+be propagated, as we will explain ahead. Therefore, it is crucial that the error
+correction is configured with parameters strict enough to avoid failure.
+
+The way this block currently works is that it uses a predefined size between Alice and
+Bob, which will be used to hash key segments. By always using segments with the
+same size, Alice and Bob are always synchronized and keep equal keys after
+privacy amplification.
+
+A seed is generated and shared by the Transmitter. That seed is used to
+choose from a universal family of hash functions. The function is then used to
+hash the chosen key segment, ending up with a bit string of the same size.
+If there is a single bit error in the chosen segment, the hashed string will be
+completely different, and will likely have a 50\% error rate (provided that the
+hash function is appropriate). We then remove $t+n$ bits from the hashed bit
+string, and output the value.
+
+When the receiver block receives the seed it replicates the process, ending up
+with the same hashed string (assuming no error is present).
+
+
+\subsection*{Suggestions for future improvement}
+
+% Currently, the number and type of signals is fixed, and cannot easily be
+% adapted. In the future, this could be changed to allow easily adapting the
+% message processors to other situations. In order to do that, it should be
+% possible to choose a given number of signals and define the desired type for
+% each of them.
+

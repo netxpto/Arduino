@@ -1,0 +1,204 @@
+\clearpage
+\graphicspath{{./lib/message_processors/figures/}}
+\section{Message Processors}
+
+\begin{tcolorbox}	
+	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
+        \textbf{Header Files}    &:& message\_processors\_common\_*.h \\
+                                &:& message\_processor\_transmitter\_*.h \\
+                                &:& message\_processor\_receiver\_*.h \\
+		\textbf{Source Files}    &:& message\_processors\_common\_*.cpp \\
+                                &:& message\_processor\_transmitter\_*.cpp \\
+                                &:& message\_processor\_receiver\_*.cpp \\
+        \textbf{Version}        &:& 20190410 (Andoni Santos)
+	\end{tabular}
+\end{tcolorbox}
+
+\maketitle
+These blocks are used to send and receive well defined sets of data in organized
+groups. They are meant to be used as a means of classically transmitting data
+between two parties. Currently these allow doing all the necessary classical
+communication needed to implement the BB84 protocol, transmitting discrete sets
+of data of arbitrary size and type at once.
+
+The \textit{MessageProcessorTransmitter} block is used to convert the data it
+receives into a Message structure, and send it on an appropriate Message signal.
+The \textit{MessageProcessorReceiver}, on the other hand, is used to receive
+Messages from appropriate signals, convert from the structure into numeric data,
+and output the data into the appropriate signal, according to its type.
+
+The \textit{message\_processors\_common} files don't contain a particular block.
+Instead, they have auxiliary functions, variables and types which are useful
+working with messages and the message processors. Both the transmitter and
+receiver make use of these files, but other blocks may use resort to them in
+order to get access to useful functions.
+
+\subsection*{Signals}
+
+\subsubsection*{Message Processor Transmitter}
+\begin{table}[h]
+    \centering
+	\begin{tabular}{|c|l|}
+		\hline
+		\textbf{Number of Input Signals} & 6 \\ \hline
+        \textbf{Type of Input Signals} & TimeDiscreteAmplitudeContinuousReal \\ \hline
+    	\textbf{Number of Output Signals} & 1 \ \\ \hline
+        \textbf{Type of Output Signals} & Message \\ \hline
+    \end{tabular}
+    \label{table:mpt_signals}
+\end{table}
+
+\subsubsection*{Message Processor Receiver}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|l|}
+        \hline
+         \textbf{Number of Input Signals} & 1 \\ \hline
+        \textbf{Type of Input Signals} & Message \\ \hline
+        \textbf{Number of Output Signals} & 6 \ \\ \hline
+        \textbf{Type of Output Signals} & TimeDiscreteAmplitudeContinuousReal \\ \hline
+    \end{tabular}
+    \label{table:mpr_signals}
+\end{table}
+
+\subsection*{Input Parameters}
+
+No input parameters.
+
+\subsection*{Methods}
+
+\subsubsection*{Message Processor Transmitter}
+\bigbreak
+MessageProcessorReceiver(initializer\_list<Signal*> InputSig, initializer\_list<Signal*> OutputSig)
+\bigbreak	
+void initialize(void);
+\bigbreak	
+bool runBlock(void);
+\bigbreak
+
+\subsubsection*{Message Processor Receiver}
+\bigbreak
+MessageProcessorTransmitter(initializer\_list<Signal*> InputSig, initializer\_list<Signal*> OutputSig)
+\bigbreak
+void initialize(void);
+\bigbreak
+bool runBlock(void);
+\bigbreak
+
+\subsubsection*{Message Processor Common}
+\bigbreak
+t\_message\_data MessageProcessors::getMessageData( const t\_message\& msg,
+t\_message\_data\_length dataLength);
+\bigbreak
+string MessageProcessors::generateMessageData(const t\_message\_data \&msgData,
+const t\_message\_type \&msgType);
+\bigbreak
+t\_message\_data\_length MessageProcessors::getMessageDataLength(const t\_message\&
+msg);
+\bigbreak
+t\_message\_type MessageProcessors::getMessageType(const t\_message\& msg);
+\bigbreak
+bool MessageProcessors::sendToMsgProc(vector <t\_integer>\& data, Signal\&
+signalToMsg, bool\& started);
+\bigbreak
+bool MessageProcessors::recvFromMsgProc(vector <t\_integer>\& data, Signal\&
+signalToMsg, bool\& started, int\& numberofValuesToRecv);
+\bigbreak
+
+\subsection*{Functional description}
+
+In the case that any of the signals in question is not required, a signal
+leading to nowhere may be used both in the transmitter and the receiver to
+bypass using that signal. That may allow using only later types of messages.
+
+\subsubsection*{Message Processor Transmitter}
+When run, the \textit{MessageProcessorTransmitter} verifies if there is anything
+in any of its input signals. If there is, it starts getting values $n+1$ values
+from the buffer, where $n$ is the first value it receives. If $n$ is bigger than
+the buffer, it continues to retrieve values in subsequent runs until it has all
+the values. When it finally has all the values to send in the message, it builds
+the message, with its structure depending on which signal were the values
+retrieved from.
+
+Each message is a structure containing three \textit{string} fields:
+\textit{messageType}, \textit{messageDataLength}, and \textit{messageData}. The
+first defines the type of information that the message carries. The possible
+types are defined in the \text{MessageProcessorsCommon} header. The second
+indicates the data string length, and the third carries the data itself, in
+string form. 
+
+Afterwards, it sends the message through the output signals.
+Each time it is run, it does this for all the input signals, and can send as
+many messages at once as it has signals.
+In order for blocks to send data to the message processor, the method
+\textit{MessageProcessors::sendToMsgProc} from the
+\textit{MessageProcessorsCommon} can be used. This method provides the
+functionality to send $n+1$ values to the buffer, where the first value is the
+total number of values to send. In addition, if the buffer it too small for all
+the values, it continues to do so after it is has more space, until it has sent
+all the relevant values.
+
+At this moment, the signals index and type correspondence is fixed as follows:
+
+\begin{itemize}
+    \item 0 - BasisReconciliationMsg
+    \item 1 - ErrorCorrectionMsg
+    \item 2 - ErrorCorrectionPermutationsMsg
+    \item 3 - PrivacyAmplificationSeedsMsg
+    \item 4 - ParameterEstimationSeedAndBitsMsg
+    \item 5 - ToggleBERChangeMsg
+\end{itemize}
+
+\subsubsection*{Message Processor Transmitter}
+This block does the inverse work: it checks the input \textit{Message} signal to
+see if any message has arrived. If it has, it retrieves it, identifies its type,
+extracts its information and outputs the data to the relevant signal, preceded
+by a total count of the number of values. Again, like in the
+\textit{MessageProcessorTransmitter} block, the data can be read using the
+\textit{MessageProcessors::recvFromMsgProc} method from the
+\textit{MessageProcessorsCommon} files. This allows receiving more data than the
+buffer can carry at any one time.
+
+At this moment, the signals index and type correspondence is fixed as follows:
+\begin{itemize}
+    \item 0 - BasisReconciliationMsg
+    \item 1 - ErrorCorrectionMsg
+    \item 2 - ErrorCorrectionPermutationsMsg
+    \item 3 - PrivacyAmplificationSeedsMsg
+    \item 4 - ParameterEstimationSeedAndBitsMsg
+    \item 5 - ToggleBERChangeMsg
+\end{itemize}
+
+\subsubsection*{Current Message Types:}
+
+Currently, the following message types are implemented, each required by a block
+needed by the BB84 protocol:
+
+\begin{itemize}
+    \item BasisReconciliationMsg - this messages carry the information for Alice
+    and Bob to do Basis reconciliation. All the values are integers between 0 and
+    5.
+    \item ErrorCorrectionMsg - this messages carry information for the cascade
+    process. All the transmitted data is composed of integers between 0 and 5.
+    \item ErrorCorrectionPermutationsMsg - this messages carry the seed for
+    generating the random permutations used to scramble the data in sequential
+    cascade iterations. It should contain a single large integer.
+    \item PrivacyAmplificationSeedsMsg - this message carries seeds used for
+    hashing the key during error correction. It should contain one or more large
+    integers.
+    \item ParameterEstimationSeedAndBitsMsg - this message carries the seeds for
+    selecting random bits from the data in order to estimate the bit error rate.
+    In addition, it also carries the values of said bits. It is composed of a
+    single large integer followed by binary values.
+    \item ToggleBERChangeMsg - this message signals to Alice when Bob updates
+    the Cascade parameters based on a new BER estimation. It contains a single "1".
+\end{itemize}
+
+\subsection*{Suggestions for future improvement}
+
+Currently, the number and type of signals is fixed and cannot be easily changed
+adapted. In the future, this could be modified to allow adapting the
+message processors to situations other than the BB84 protocol. In order to do
+that, it should be possible to choose a given number of signals and define the
+desired type for each of them.
+
