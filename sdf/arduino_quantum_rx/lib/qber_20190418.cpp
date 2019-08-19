@@ -16,6 +16,7 @@ void Qber::initialize(void) {
 
 bool Qber::runBlock(void) {
 	/* Computing z */ // This code converges in below 10 steps, exactness chosen in order to achieve this rapid convergence
+	limit++;
 	if (firstPass)
 	{
 		firstPass = 0;
@@ -47,7 +48,7 @@ bool Qber::runBlock(void) {
 
 	int process = min(ready, space);
 
-	if ((process == 0) && (window < 0))
+	if ((process == 0) && (window < 0)) // Alteraçao do operador && para || to have a stop condition
 	{
 		QBER = (receivedBits - coincidences) / receivedBits;
 		/* Calculating bounds */
@@ -69,23 +70,24 @@ bool Qber::runBlock(void) {
 		return false;
 	}
 
-	for (auto k = 0; k < process; k++) {
-		t_real dataBob{ 0.0 };
-		inputSignals[1]->bufferGet(&dataBob);
 
-		if (window > 0) {
-			if (dataBob == 5.0) {
+	for (auto k = 0; k < process; k++) { // process all demands contained in the buffer
+		t_real dataBob{ 0.0 };
+		inputSignals[1]->bufferGet(&dataBob); // data from CoincidenceDetector_
+
+		if (window > 0) {  // window represents the number of bits used to calculate the QBER
+			if (dataBob == 5.0) { // Control bit
 				outputSignals[0]->bufferPut((t_binary)dataBob);
 				cBit++;
 				
 			}
 			else {
-				if (cBit > 1) {
+				if (cBit > 1) { // If it is not a control bit and there were previously registred control bits
 					for (auto k = 0; k < windowBuffer.size(); k++) {
 						windowBuffer[k] = 0;
 					}
 				}
-				cBit = 0;
+				cBit = 0; // resets control bits
 
 				t_binary dataAlice{ 0 };
 				inputSignals[0]->bufferGet(&dataAlice);
@@ -93,22 +95,31 @@ bool Qber::runBlock(void) {
 				bool fillArray{ false };
 
 				if (dataBob == dataAlice) {
+					t_binary out = 0;
+					outputSignals[0]->bufferPut((t_binary)out);
 					windowBuffer[inBuffer] = 0;
 					fillArray = true;
 				}
-				else if (dataBob == 3.0) {
+				else if (dataBob == 3.0) { // 00
+					t_binary out = 1;
+					outputSignals[0]->bufferPut((t_binary)out);
 					noClicks++;
-				}
-				else if (dataBob == 2.0) {
+				} 
+				else if (dataBob == 2.0) { // 11
+					t_binary out = 1;
+					outputSignals[0]->bufferPut((t_binary)out); 
 					doubleClicks++;
 				}
 				else {
+					t_binary out = 1;
+					outputSignals[0]->bufferPut((t_binary)out);
+
 					windowBuffer[inBuffer] = 1;
 					fillArray = true;
 				}
 					
 				if (fillArray) {
-					emptyArray = (emptyArray == true) ? false : emptyArray;
+					emptyArray = (emptyArray == true) ? false : emptyArray; // if empty array true it becomes false and if it is false it mantains false
 					inBuffer = (inBuffer + 1) % lengthWindow;
 
 					double sum{ 0.0 };
@@ -131,7 +142,7 @@ bool Qber::runBlock(void) {
 			totalReceivedBits++;
 		}
 		
-		else {
+		else { // How can window < 0 ???
 			if (dataBob == 5.0) {
 				outputSignals[0]->bufferPut((t_binary)dataBob);
 			}
@@ -209,8 +220,7 @@ bool Qber::runBlock(void) {
 				myfile.close();
 			}
 		}
-		
 	}
-
-	return true;
+	
+		return true;
 }

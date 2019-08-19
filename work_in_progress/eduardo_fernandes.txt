@@ -4,15 +4,15 @@ Tasks:
 
 2019-07-24
 
-	- descrever a arquitetura do projeto (documentar)
+	- descrever a arquitetura do projeto (documentar)	
 
-	- implementar o projeto netxpto c++
+	- implementar o projeto netxpto c++	
 
-	- migrar para o arduino
+	- migrar para o arduino		
 
-	- documentar todas as alterações necessáro para passar do C++ => Arduino
+	- documentar todas as alterações necessáro para passar do C++ => Arduino	
 
-	- netplanner - revisses e colocasses todo o teu material de mestrado (código, dissertação latex, apresentacao)
+	- netplanner - revisses e colocasses todo o teu material de mestrado (código, dissertação latex, apresentacao)	
 
 	- netplanner - integrar a parte do Élio
 
