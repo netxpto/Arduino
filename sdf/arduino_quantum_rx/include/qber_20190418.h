@@ -1,7 +1,7 @@
 # ifndef QBER_H
 # define QBER_H
 
-# include "../../../include/netxpto_20180815.h"
+# include "netxpto_20180815.h"
 
 class Qber : public Block {
 public:
@@ -16,6 +16,7 @@ public:
 	//##############################################################################################################
 	//###############################################################################################################
 	double alpha = 0.05;
+	int limit = 0;
 	
 private:
 	//################################State variables################################################################
@@ -27,10 +28,10 @@ private:
 	int n{ 0 };
 	double noClicks{ 0.0 };
 	double doubleClicks{ 0.0 };
-	int m{ 5000 };
+	int m{ 5000 }; 
 	int totalReceivedBits{ 0 };
 	vector <int> windowBuffer;
-	int window{ 1000 };
+	int window{ -1 };
 	int inBuffer{ 0 };
 	bool firstFull{ true };
 	double QBER{ 0.0 };

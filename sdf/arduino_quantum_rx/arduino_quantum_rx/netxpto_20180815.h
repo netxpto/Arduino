@@ -14,7 +14,8 @@
 //# include <filesystem>
 # include <fstream>
 # include <functional>  
-//# include <iostream>
+# include <istream>
+# include <ostream>
 # include <locale>
 # include <map>
 # include <math.h>
@@ -25,6 +26,9 @@
 # include <String>
 # include <list>
 # include <Arduino.h>
+#include <Streaming.h>
+//#include <StandardCplusplus.h>
+
 
 
 // ####################################################################################################
@@ -110,14 +114,14 @@ public:
 
   // Signals constructors
   explicit Signal() {};
-  explicit Signal(String fileName) : fileName{ fileName }, saveSignal{ true } {};
-  explicit Signal(String fileName, t_unsigned_long bLength) : fileName{ fileName }, bufferLength{ bLength }, saveSignal{ true } {};
+  explicit Signal(String fileName) : fileName{ fileName }, saveSignal{ true } {};  // CHANGE: covert t_unsigned_long to t_integer
+  explicit Signal(String fileName, t_integer bLength) : fileName{ fileName }, bufferLength{ bLength }, saveSignal{ true } {};
   explicit Signal(String fileName, String folderName) : fileName{ fileName }, folderName{ folderName }, saveSignal{ true } {};
-  explicit Signal(String fileName, String folderName, t_unsigned_long bLength) : fileName{ fileName }, folderName{ folderName }, bufferLength{ bLength }, saveSignal{ true } {};
-  explicit Signal(t_unsigned_long bLength) : bufferLength{ bLength } {};
+  explicit Signal(String fileName, String folderName, t_integer bLength) : fileName{ fileName }, folderName{ folderName }, bufferLength{ bLength }, saveSignal{ true } {};
+  explicit Signal(t_integer bLength) : bufferLength{ bLength } {};
 
   // Signal destructors
-  ~Signal() { if (!(valueType == signal_value_type::t_message)) { delete[] buffer; }; };  
+  ~Signal() { /*if (!(valueType == signal_value_type::t_message)) { delete[] buffer; };*/ };  // Descomentar esta parte
 
   // Buffer manipulation funtions
   t_integer ready();                    // Returns the number of samples in the buffer ready to be processed
@@ -263,7 +267,7 @@ private:
 
   void setBuffer() {
 
-    string typeName;
+    String typeName;
     switch (sType) {
       case signal_type::Binary:
         typeName = "Binary";
@@ -363,7 +367,7 @@ public:
 
   //######################################################################################################
 
-  System() {};
+//  System() {};
   void setSystem(initializer_list<Block *> MainSystem);
 
   System(initializer_list<Block *> MainSystem);
