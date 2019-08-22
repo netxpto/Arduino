@@ -22,14 +22,11 @@ bool Sink::runBlock(void)
   if (numberOfSamples >= 0) numberOfSamples -= process;
 
   if (displayNumberOfSamples) {    // Change the use of cout to Serial.print() to print in the serial monitor
-    Serial.print("Samples to be processed now:");
-    Serial.print("\t");
+    Serial.print("Samples to be processed now: ");
     Serial.println(process);
-    Serial.print("Samples to be processed later:");
-    Serial.print("\t");
+    Serial.print("Samples to be processed later: ");
     Serial.println(numberOfSamples);
-    Serial.print("Samples already processed:");
-    Serial.print("\t");
+    Serial.print("Samples already processed: ");
     Serial.println(processedSamples);
   }
 

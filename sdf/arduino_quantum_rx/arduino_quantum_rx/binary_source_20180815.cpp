@@ -1,5 +1,6 @@
 # include "binary_source_20180815.h"
 
+
 void BinarySource::initialize(void) {
 
   for (auto k : outputSignals)
