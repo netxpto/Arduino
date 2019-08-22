@@ -33,7 +33,7 @@ int main()
   QBER_out.setSaveSignal(false);
 
   /* Blocks Decalration */
-  //BinarySource BinarySource0_{ {},{ &SPD0_out} };
+  BinarySource BinarySource0_{ {},{ &SPD0_out} };
   //BinarySource0_.setBitStream(s);
   //BinarySource0_.setNumberOfBits(10000);
   //BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);

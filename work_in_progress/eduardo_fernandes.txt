@@ -1,5 +1,22 @@
+Bolsa termina: 14/9/2019
+
 Tasks:
 	1) implementação o modulo de receção do QKD em Arduine (Coincidence Detector, QBER, Source, Sink)
+
+
+2019-08-22
+
+	- fazer o update do IDE para Visual Studio 2019
+	- documentar o processo de instalção do IDE
+	- começar aos poucos a implementar o projeto, documentando as alterações que forem sendo necessárias
+
+next meeting: 27/8, 17h
+
+2019-08-19
+
+	- documentar o processo de instalção do IDE do Arduino 
+	- documentar o processo de instalção da extensão do VS para o Arduino
+
 
 2019-08-19
 
