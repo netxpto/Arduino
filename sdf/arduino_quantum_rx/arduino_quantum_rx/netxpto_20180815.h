@@ -11,7 +11,7 @@
 # include <complex>
 # include <cctype> 
 # include <ctime>
-//# include <filesystem>
+//# include <filesystem>  Doesn't recognize this library
 # include <fstream>
 # include <functional>  
 # include <istream>
@@ -26,9 +26,6 @@
 # include <String>
 # include <list>
 # include <Arduino.h>
-#include <Streaming.h>
-//#include <StandardCplusplus.h>
-
 
 
 // ####################################################################################################
@@ -66,7 +63,7 @@ using namespace std;              // to be deleted 4/9/2018
 // #
 // ####################################################################################################
 
-using random_engine = std::default_random_engine;
+//using random_engine = std::default_random_engine;
 
 // ####################################################################################################
 // #
@@ -194,6 +191,9 @@ public:
   void setCentralWavelength(double cWavelength) { centralWavelength = cWavelength; centralFrequency = SPEED_OF_LIGHT / centralWavelength; }
   double getCentralWavelength() const { return centralWavelength; }
 
+  void setSaveInAscii(bool sInAscii) { saveInAscii = sInAscii; }
+  bool getSaveInAscii() const { return saveInAscii; }
+
   template<typename t, signal_type sType, signal_value_type vType> friend class BaseSignal;
 
 private:
@@ -222,6 +222,7 @@ private:
   String folderName{ "signals" };         // folder where signals are going to be saved by default
   bool headerWritten{ false };
 
+  bool saveInAscii{ false };
   long int numberOfValuesToBeSaved{ -1 };     // Number of values to be saved, if -1 all values are going to be saved
 
   double symbolPeriod{ 1.0 };           // Signal symbol period (it is the inverse of the symbol rate)
@@ -367,7 +368,7 @@ public:
 
   //######################################################################################################
 
-//  System() {};
+  System() {};
   void setSystem(initializer_list<Block *> MainSystem);
 
   System(initializer_list<Block *> MainSystem);
@@ -377,7 +378,7 @@ public:
   bool run();
   bool run(String signalPath);
   void terminate();
-  void terminateSuperBlock();
+  //void terminateSuperBlock();
 
   //########################################################################################################
 

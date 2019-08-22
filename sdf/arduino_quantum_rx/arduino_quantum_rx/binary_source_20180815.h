@@ -52,7 +52,7 @@ private:
   int patternLength{ 7 };
   String bitStream{ "0100011101010101" };
 
-  //long int seed{ (long int) chrono::system_clock::now().time_since_epoch().count() };
+//  long int seed{ (long int) chrono::system_clock::now().time_since_epoch().count() };
 
   //# State Variables #############################################################################################
 

@@ -52,14 +52,14 @@ void Signal::bufferPut(T value)
     if (saveSignal)
     {
       if (!headerWritten) writeHeader();
-
+	  /*
       if (!(type == "Message")) {
         char* ptr = (char *)buffer;
 
         ofstream fileHandler;
-//        fileHandler.open("./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app);
+        fileHandler.open("./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app);
 
-        /*if (firstValueToBeSaved <= bufferLength)
+        if (firstValueToBeSaved <= bufferLength)
         {
           if (!saveInAscii)
           {
@@ -78,7 +78,7 @@ void Signal::bufferPut(T value)
 
               t_binary *ptr = (t_binary *)buffer;
               ptr = ptr + (firstValueToBeSaved - 1);
-              //bool stop {false};
+              
               ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
               for (size_t i = 0; i < bufferLength; i++)
               {
@@ -114,13 +114,14 @@ void Signal::bufferPut(T value)
               setFirstValueToBeSaved(1);
             }
           }
-        }*/
+        }
       }
       else
       {
         firstValueToBeSaved = firstValueToBeSaved - bufferLength;
       }
-    }
+    */}
+	setFirstValueToBeSaved(1);
   }
 }
 template<typename T>
@@ -157,7 +158,7 @@ void Signal::writeHeader(){
 
   ofstream headerFile;
 
-  /*if (saveSignal && (!fileName.empty())) {
+/*  if (saveSignal && (!fileName.empty())) {
 
     headerFile.open("./" + folderName + "/" + fileName, ios::out);
 
@@ -258,6 +259,7 @@ void Signal::close() {
       }
     }*/
   }
+  setFirstValueToBeSaved(1);
 }
 
 //########################################################################################################################################################
@@ -405,13 +407,13 @@ bool System::run(String signalPath) {
             << "space=" << (*b).space() << endl; // Prints the amount of bits ready to be processed 
         }
         start = clock(); //Counts the time taken to run the current block
-      }
+      }*/
 
       bool aux = SystemBlocks[i]->runBlock();
       Alive = (Alive || aux);
       if (Alive) systemAlive = true;
 
-      if (logValue)
+      /*if (logValue)
       {
         logFile << "-----------------------------------------------------------------\n";
         logFile << "Elapsed time: " << (float)(clock() - start) << " milliseconds" << endl;

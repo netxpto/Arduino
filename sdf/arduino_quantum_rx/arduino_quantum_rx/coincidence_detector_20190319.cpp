@@ -30,6 +30,7 @@ void CoincidenceDetector::initialize(void) {
   outputSignals[0]->setSamplingPeriod(inputSignals[1]->getSamplingPeriod());
   outputSignals[0]->setSamplesPerSymbol(inputSignals[1]->getSamplesPerSymbol());
   outputSignals[0]->setFirstValueToBeSaved(inputSignals[1]->getFirstValueToBeSaved());
+   
 }
 
 bool CoincidenceDetector::runBlock(void) {
