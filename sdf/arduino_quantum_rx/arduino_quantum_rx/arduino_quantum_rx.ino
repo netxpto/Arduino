@@ -34,9 +34,28 @@ int main()
 
   /* Blocks Decalration */
   BinarySource BinarySource0_{ {},{ &SPD0_out} };
-  //BinarySource0_.setBitStream(s);
-  //BinarySource0_.setNumberOfBits(10000);
-  //BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
+  /*BinarySource0_.setBitStream(spd0);
+  BinarySource0_.setNumberOfBits(10000);
+  BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
+
+  BinarySource BinarySource1_{ {},{ &SPD1_out} };
+  BinarySource1_.setBitStream(spd1);
+  BinarySource1_.setNumberOfBits(10000);
+  BinarySource1_.setMode(BinarySourceMode::DeterministicCyclic);
+
+  BinarySource BinarySource2_{ {},{ &Alice_out} };
+  BinarySource2_.setBitStream(spd0);
+  BinarySource2_.setNumberOfBits(10000);
+  BinarySource2_.setMode(BinarySourceMode::DeterministicCyclic);*/
+
+  //CoincidenceDetector CoincidenceDetector_{ {&SPD0_out, &SPD1_out},{&CD_out} };
+
+  /*Qber QBER_{ {&Alice_out, &CD_out}, {&QBER_out} };
+
+
+  Sink Sink_QBER_{ { &QBER_out },{} };
+  Sink_QBER_.setDisplayNumberOfSamples(true);*/
+
 
   //System MainSystem{
     // BLOCKS

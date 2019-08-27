@@ -7,25 +7,30 @@
 // #
 // ####################################################################################################
 
-# include <array>
-# include <complex>
-# include <cctype> 
-# include <ctime>
+
+
+#include <array>
+#include <complex>
+#include <cctype> 
+#include <ctime>
 //# include <filesystem>  Doesn't recognize this library
-# include <fstream>
-# include <functional>  
-# include <istream>
-# include <ostream>
-# include <locale>
-# include <map>
-# include <math.h>
-# include <random>
-# include <sstream>
-# include <vector>
-# include <strstream>
-# include <String>
-# include <list>
-# include <Arduino.h>
+#include <fstream>
+#include <functional>  
+#include <istream>
+#include <ostream>
+#include <locale>
+#include <map>
+#include <math.h>
+#include <random>
+#include <sstream>
+#include <vector>
+#include <strstream>
+#include <String>
+#include <list>
+#include <Arduino.h>
+#include <initializer_list>
+
+
 
 
 // ####################################################################################################
@@ -131,7 +136,7 @@ public:
 
   // File manipulation
   void writeHeader();               // Opens the signal file in the default signals directory, \signals, and writes the signal header
-  void writeHeader(string signalPath);      // Opens the signal file in the signalPath directory, and writes the signal header
+  //void writeHeader(string signalPath);      // Opens the signal file in the signalPath directory, and writes the signal header
 
   // Buffer and File manipulation
   void close();                 // Empty the signal buffer and close the signal file

@@ -3,6 +3,23 @@
 
 #include "netxpto_20180815.h"
 
+
+template<typename T>
+void Signal::bufferGet(T* valueAddr) {
+
+	if (bufferEmpty)* valueAddr = T();
+
+	*valueAddr = static_cast<T*>(buffer)[outPosition];
+
+	bufferFull = false;
+
+	outPosition = (outPosition + 1) % bufferLength;
+
+	bufferEmpty = outPosition == inPosition;
+
+	return;
+}
+
 class CoincidenceDetector : public Block {
   /*Input Parameters*/
   bool firstTime{ true };
