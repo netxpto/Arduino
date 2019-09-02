@@ -1,4 +1,4 @@
-Bolsa termina: 15/12/2019
+﻿Bolsa termina: 15/12/2019 !
 
 Tasks:
 	1) implementação o modulo de receção do QKD em Arduine (Clock In, 2 Clock Out, DataIn0, DataIn1, {0, 1, 2, 3} => QBER)
