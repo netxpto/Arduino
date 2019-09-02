@@ -9,7 +9,8 @@ public:
 
 	// ##########################################################################
 
-	Sink(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig) : Block(InputSig, OutputSig) {};
+	//Sink(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig) : Block(InputSig, OutputSig) {};
+	Sink(vector<Signal*> InputSig, vector<Signal*> OutputSig) : Block(InputSig, OutputSig) {};
 	bool runBlock(void);
 
 	// ##########################################################################

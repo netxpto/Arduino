@@ -3,13 +3,15 @@
 
 # include "netxpto_20180815.h"
 
+
 class Sink : public Block {
 
 public:
 
   // ##########################################################################
 
-  Sink(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig) : Block(InputSig, OutputSig) {};
+  //Sink(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig) : Block(InputSig, OutputSig) {}; // Descomentar
+	Sink(vector<Signal*> InputSig, vector<Signal*> OutputSig) : Block(InputSig, OutputSig) {}; // Apagar
   bool runBlock(void);
 
   // ##########################################################################

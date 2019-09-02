@@ -1,12 +1,12 @@
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
+Block start time: 2019-08-28 16:55:41
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 11 milliseconds
+Elapsed time: 8 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -15,12 +15,12 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 6 milliseconds
+Elapsed time: 7 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -29,14 +29,14 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:28
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 10 milliseconds
+Elapsed time: 18 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -47,12 +47,12 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 12 milliseconds
+Elapsed time: 8 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -61,14 +61,14 @@ BinarySource|Alice_out|space=0
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:28
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
 Output Signals: 
 Qber|QBER_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 15 milliseconds
+Elapsed time: 10 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Qber|Alice_out|ready=0
@@ -79,7 +79,7 @@ Qber|QBER_out|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:28
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Sink|QBER_out|ready=512
 Output Signals: 
@@ -93,12 +93,12 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 4 milliseconds
+Elapsed time: 21 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -107,7 +107,7 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
@@ -121,283 +121,7 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 6 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 9 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 19 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 10 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
------------------------------------------------------------------
-Elapsed time: 7 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 6 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 10 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 22 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 2 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 7 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:28
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 6 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 9 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 29 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 3 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 10 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
------------------------------------------------------------------
-Elapsed time: 6 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
@@ -415,12 +139,12 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 10 milliseconds
+Elapsed time: 16 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -429,14 +153,14 @@ BinarySource|Alice_out|space=0
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
 Output Signals: 
 Qber|QBER_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 29 milliseconds
+Elapsed time: 10 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Qber|Alice_out|ready=0
@@ -447,12 +171,12 @@ Qber|QBER_out|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Sink|QBER_out|ready=512
 Output Signals: 
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 16 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Sink|QBER_out|ready=0
@@ -461,7 +185,7 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
@@ -475,12 +199,12 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 4 milliseconds
+Elapsed time: 29 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -489,14 +213,14 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 5 milliseconds
+Elapsed time: 6 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -507,12 +231,12 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 11 milliseconds
+Elapsed time: 7 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -521,150 +245,58 @@ BinarySource|Alice_out|space=0
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
 Output Signals: 
 Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 19 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 1 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 9 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 17 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 1 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
 Elapsed time: 10 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=0
 
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 14 milliseconds
+Elapsed time: 5 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -673,14 +305,14 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 12 milliseconds
+Elapsed time: 6 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -691,12 +323,12 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 9 milliseconds
+Elapsed time: 5 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -705,14 +337,14 @@ BinarySource|Alice_out|space=0
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
 Output Signals: 
 Qber|QBER_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 20 milliseconds
+Elapsed time: 8 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Qber|Alice_out|ready=0
@@ -723,7 +355,191 @@ Qber|QBER_out|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 16 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 10 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 16 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 12 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Sink|QBER_out|ready=512
 Output Signals: 
@@ -737,12 +553,12 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 15 milliseconds
+Elapsed time: 4 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -751,12 +567,12 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 15 milliseconds
+Elapsed time: 4 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -765,7 +581,99 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 9 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 12 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 14 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
@@ -783,12 +691,12 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 11 milliseconds
+Elapsed time: 12 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -797,7 +705,7 @@ BinarySource|Alice_out|space=0
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
@@ -815,12 +723,12 @@ Qber|QBER_out|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Sink|QBER_out|ready=512
 Output Signals: 
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 2 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Sink|QBER_out|ready=0
@@ -829,7 +737,7 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
@@ -843,12 +751,12 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 20 milliseconds
+Elapsed time: 19 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -857,14 +765,14 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 15 milliseconds
+Elapsed time: 14 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -875,7 +783,99 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 11 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 16 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 12 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 15 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 12 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
@@ -889,7 +889,467 @@ BinarySource|Alice_out|space=0
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 15 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 12 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 15 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 13 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 10 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 20 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 12 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 17 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 14 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 15 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 19 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 18 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 17 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 18 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 11 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 20 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 22 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 20 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 14 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 14 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Qber|Alice_out|ready=512
+Qber|CD_out|ready=512
+Output Signals: 
+Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 16 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 12 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 14 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=0
+
+
+-----------------------------------------------------------------
+########## CoincidenceDetector ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=512
+CoincidenceDetector|SPD1_out|ready=512
+Output Signals: 
+CoincidenceDetector|CD_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 23 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+CoincidenceDetector|SPD0_out|ready=0
+CoincidenceDetector|SPD1_out|ready=0
+Output Signals: 
+CoincidenceDetector|CD_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:42
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 11 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|Alice_out|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
@@ -907,12 +1367,12 @@ Qber|QBER_out|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Sink|QBER_out|ready=512
 Output Signals: 
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 2 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Sink|QBER_out|ready=0
@@ -921,7 +1381,7 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
@@ -935,12 +1395,12 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:42
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 17 milliseconds
+Elapsed time: 23 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -949,14 +1409,14 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 15 milliseconds
+Elapsed time: 13 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -967,12 +1427,12 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 18 milliseconds
+Elapsed time: 11 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -981,14 +1441,14 @@ BinarySource|Alice_out|space=0
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
 Output Signals: 
 Qber|QBER_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 22 milliseconds
+Elapsed time: 29 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Qber|Alice_out|ready=0
@@ -999,12 +1459,12 @@ Qber|QBER_out|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Sink|QBER_out|ready=512
 Output Signals: 
 -----------------------------------------------------------------
-Elapsed time: 57 milliseconds
+Elapsed time: 1 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Sink|QBER_out|ready=0
@@ -1013,12 +1473,12 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 12 milliseconds
+Elapsed time: 13 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1027,12 +1487,12 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 15 milliseconds
+Elapsed time: 16 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1041,14 +1501,14 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 12 milliseconds
+Elapsed time: 14 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -1059,12 +1519,12 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 12 milliseconds
+Elapsed time: 15 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1073,58 +1533,58 @@ BinarySource|Alice_out|space=0
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
 Output Signals: 
 Qber|QBER_out|space=512
+-----------------------------------------------------------------
+Elapsed time: 18 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Qber|Alice_out|ready=0
+Qber|CD_out|ready=0
+Output Signals: 
+Qber|QBER_out|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-08-28 16:55:43
+Input Signals: 
+Sink|QBER_out|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 11 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|QBER_out|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-08-28 16:55:43
+Input Signals: 
+Output Signals: 
+BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
 Elapsed time: 20 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 3 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 12 milliseconds
------------------------------------------------------------------
-Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=0
 
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 26 milliseconds
+Elapsed time: 28 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1133,14 +1593,14 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 13 milliseconds
+Elapsed time: 15 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -1151,120 +1611,28 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 11 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 19 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 2 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 12 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
 Elapsed time: 15 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 14 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 12 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
 BinarySource|Alice_out|space=0
 
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
 Output Signals: 
 Qber|QBER_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 22 milliseconds
+Elapsed time: 49 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Qber|Alice_out|ready=0
@@ -1275,12 +1643,12 @@ Qber|QBER_out|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:29
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Sink|QBER_out|ready=512
 Output Signals: 
 -----------------------------------------------------------------
-Elapsed time: 3 milliseconds
+Elapsed time: 4 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Sink|QBER_out|ready=0
@@ -1289,283 +1657,7 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 13 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
------------------------------------------------------------------
-Elapsed time: 15 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 13 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 11 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 19 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 2 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 12 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
------------------------------------------------------------------
-Elapsed time: 15 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 13 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 12 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 19 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 1 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
------------------------------------------------------------------
-Elapsed time: 12 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:29
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
------------------------------------------------------------------
-Elapsed time: 15 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 14 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 13 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 22 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 2 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
@@ -1579,7 +1671,7 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
@@ -1593,7 +1685,7 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
@@ -1611,120 +1703,28 @@ CoincidenceDetector|CD_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 13 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=0
-
-
------------------------------------------------------------------
-########## Qber ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-Qber|Alice_out|ready=512
-Qber|CD_out|ready=512
-Output Signals: 
-Qber|QBER_out|space=512
------------------------------------------------------------------
-Elapsed time: 35 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Qber|Alice_out|ready=0
-Qber|CD_out|ready=0
-Output Signals: 
-Qber|QBER_out|space=0
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-Sink|QBER_out|ready=512
-Output Signals: 
------------------------------------------------------------------
-Elapsed time: 12 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|QBER_out|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
 Elapsed time: 17 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=512
------------------------------------------------------------------
-Elapsed time: 18 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-Output Signals: 
-CoincidenceDetector|CD_out|space=512
------------------------------------------------------------------
-Elapsed time: 25 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=0
-CoincidenceDetector|SPD1_out|ready=0
-Output Signals: 
-CoincidenceDetector|CD_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
-Input Signals: 
-Output Signals: 
-BinarySource|Alice_out|space=512
------------------------------------------------------------------
-Elapsed time: 15 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
 BinarySource|Alice_out|space=0
 
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Qber|Alice_out|ready=512
 Qber|CD_out|ready=512
 Output Signals: 
 Qber|QBER_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 28 milliseconds
+Elapsed time: 19 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Qber|Alice_out|ready=0
@@ -1735,12 +1735,12 @@ Qber|QBER_out|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Sink|QBER_out|ready=512
 Output Signals: 
 -----------------------------------------------------------------
-Elapsed time: 5 milliseconds
+Elapsed time: 2 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Sink|QBER_out|ready=0
@@ -1749,7 +1749,7 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
@@ -1763,7 +1763,7 @@ BinarySource|SPD0_out|space=240
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
@@ -1777,7 +1777,7 @@ BinarySource|SPD1_out|space=240
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=272
 CoincidenceDetector|SPD1_out|ready=272
@@ -1795,12 +1795,12 @@ CoincidenceDetector|CD_out|space=240
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 0 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1809,14 +1809,14 @@ BinarySource|Alice_out|space=240
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Qber|Alice_out|ready=272
 Qber|CD_out|ready=272
 Output Signals: 
 Qber|QBER_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 8 milliseconds
+Elapsed time: 2 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Qber|Alice_out|ready=0
@@ -1827,12 +1827,12 @@ Qber|QBER_out|space=240
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Sink|QBER_out|ready=272
 Output Signals: 
 -----------------------------------------------------------------
-Elapsed time: 4 milliseconds
+Elapsed time: 1 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Sink|QBER_out|ready=0
@@ -1841,7 +1841,7 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
@@ -1855,7 +1855,7 @@ BinarySource|SPD0_out|space=512
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
@@ -1869,7 +1869,7 @@ BinarySource|SPD1_out|space=512
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
 CoincidenceDetector|SPD1_out|ready=0
@@ -1887,7 +1887,7 @@ CoincidenceDetector|CD_out|space=512
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Output Signals: 
 BinarySource|Alice_out|space=512
@@ -1901,14 +1901,14 @@ BinarySource|Alice_out|space=512
 
 -----------------------------------------------------------------
 ########## Qber ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Qber|Alice_out|ready=0
 Qber|CD_out|ready=0
 Output Signals: 
 Qber|QBER_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 6 milliseconds
+Elapsed time: 3 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Qber|Alice_out|ready=0
@@ -1919,7 +1919,7 @@ Qber|QBER_out|space=512
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-08-16 19:53:30
+Block start time: 2019-08-28 16:55:43
 Input Signals: 
 Sink|QBER_out|ready=0
 Output Signals: 

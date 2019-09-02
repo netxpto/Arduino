@@ -7,8 +7,8 @@ class Qber : public Block {
 public:
 	//##############################################################################################################
 
-	Qber(initializer_list<Signal *> InputSig, initializer_list<Signal *> OutputSig) : Block(InputSig, OutputSig) {};
-	Qber(vector<Signal *> &InputSig, vector<Signal *> &OutputSig) : Block(InputSig, OutputSig) {};
+	//Qber(initializer_list<Signal *> InputSig, initializer_list<Signal *> OutputSig) : Block(InputSig, OutputSig) {};
+	Qber(vector<Signal *> InputSig, vector<Signal *> OutputSig) : Block(InputSig, OutputSig) {}; // Deixar estar
 
 	void initialize(void);
 	bool runBlock(void);
@@ -20,7 +20,7 @@ public:
 	
 private:
 	//################################State variables################################################################
-	double z;
+	double z; 
 	int firstPass{ 1 };
 	double coincidences = 0.0;
 	double receivedBits = 0.0;

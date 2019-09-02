@@ -3,7 +3,37 @@
 
 # include "netxpto_20180815.h"
 
+
+template<typename T>
+void Signal::bufferPut(T value)
+{
+	(static_cast<T*>(buffer))[inPosition] = value;
+
+	if (bufferFull)
+	{
+		outPosition = (outPosition + 1) % bufferLength;
+	}
+
+	inPosition = (inPosition + 1) % bufferLength;
+
+	bufferEmpty = false;
+	bufferFull = inPosition == outPosition;
+
+	if (inPosition == 0)
+	{
+		if (saveSignal)
+		{
+			if (!headerWritten) 
+			{/*do something*/ }
+			
+		}
+		setFirstValueToBeSaved(1);
+	}
+}
+
+
 enum class BinarySourceMode { Random, PseudoRandom, DeterministicCyclic, DeterministicAppendZeros };
+
 
 class BinarySource : public Block {
 
@@ -11,7 +41,8 @@ public:
 
   //##############################################################################################################
 
-  BinarySource(initializer_list<Signal *> InputSig, initializer_list<Signal *> OutputSig) : Block(InputSig, OutputSig) {};
+  //BinarySource(initializer_list<Signal *> InputSig, initializer_list<Signal *> OutputSig) : Block(InputSig, OutputSig) {}; // Descomentar 
+  BinarySource(vector<Signal*> InputSig, vector<Signal*> OutputSig) : Block(InputSig, OutputSig) {}; // Apagar
 
   void initialize(void);
   bool runBlock(void);

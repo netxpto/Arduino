@@ -1,4 +1,6 @@
 #include "netxpto_20180815.h"
+# include <initializer_list>
+# include <initializer_list>
 
 using namespace std;
 
@@ -31,98 +33,31 @@ t_integer Signal::space() {
 
 }
 
-template<typename T>              
+template<typename T>
 void Signal::bufferPut(T value)
 {
-  (static_cast<T *>(buffer))[inPosition] = value;
+	(static_cast<T*>(buffer))[inPosition] = value;
 
-  if (bufferFull)
-  {
-    outPosition = (outPosition + 1) % bufferLength;
-  }
+	if (bufferFull)
+	{
+		outPosition = (outPosition + 1) % bufferLength;
+	}
 
-  inPosition = (inPosition + 1) % bufferLength;
+	inPosition = (inPosition + 1) % bufferLength;
 
-  bufferEmpty = false;
-  bufferFull = inPosition == outPosition;
+	bufferEmpty = false;
+	bufferFull = inPosition == outPosition;
 
-  //if (bufferFull)     // 2019-04-13, de forma a gravar os sinais mesmo quando o buffer não enche
-  if (inPosition == 0)
-  {
-    if (saveSignal)
-    {
-      if (!headerWritten) writeHeader();
-	  /*
-      if (!(type == "Message")) {
-        char* ptr = (char *)buffer;
-
-        ofstream fileHandler;
-        fileHandler.open("./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app);
-
-        if (firstValueToBeSaved <= bufferLength)
-        {
-          if (!saveInAscii)
-          {
-            char *ptr = (char *)buffer;
-            ptr = ptr + (firstValueToBeSaved - 1) * sizeof(T);
-            ofstream fileHandler{ "./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app };
-            fileHandler.write(ptr, (bufferLength - (firstValueToBeSaved - 1)) * sizeof(T));
-            fileHandler.close();
-            firstValueToBeSaved = 1;
-          }
-          else
-          {
-            if (type == "Binary") {
-              //ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
-              //fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
-
-              t_binary *ptr = (t_binary *)buffer;
-              ptr = ptr + (firstValueToBeSaved - 1);
-              
-              ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
-              for (size_t i = 0; i < bufferLength; i++)
-              {
-
-                fileHandler << (*ptr);
-                fileHandler << " ";
-
-                ptr++;
-              }
-            
-              //  fileHandler.close();
-              setFirstValueToBeSaved(1);
-            }
-            else if (type == "TimeDiscreteAmplitudeDiscreteReal") {
-              //ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
-              //fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
-
-              t_real *ptr = (t_real *)buffer;
-              ptr = ptr + (firstValueToBeSaved - 1);
-              //bool stop {false};
-              ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
-
-              for (size_t i = 0; i < bufferLength; i++)
-              {
-
-                fileHandler << (*ptr);
-                fileHandler << " ";
-
-                ptr++;
-              }
-
-              //  fileHandler.close();
-              setFirstValueToBeSaved(1);
-            }
-          }
-        }
-      }
-      else
-      {
-        firstValueToBeSaved = firstValueToBeSaved - bufferLength;
-      }
-    */}
-	setFirstValueToBeSaved(1);
-  }
+	//if (bufferFull)     // 2019-04-13, de forma a gravar os sinais mesmo quando o buffer não enche
+	if (inPosition == 0)
+	{
+		if (saveSignal)
+		{
+			if (!headerWritten) writeHeader();
+			
+		}
+		setFirstValueToBeSaved(1);
+	}
 }
 template<typename T>
 void Signal::bufferGet(T* valueAddr) {
@@ -138,7 +73,8 @@ void Signal::bufferGet(T* valueAddr) {
   bufferEmpty = outPosition == inPosition;
 
   return;
-};
+}
+
 
 void Signal::bufferGet() {
 
@@ -266,14 +202,14 @@ void Signal::close() {
 //###################################################### GENERAL BLOCKS FUNCTIONS IMPLEMENTATION #########################################################
 //########################################################################################################################################################
 
-Block::Block(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig) {
+/*Block::Block(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig) {
 
   numberOfInputSignals = (int) InputSig.size();
   numberOfOutputSignals = (int) OutputSig.size();
 
   inputSignals = InputSig;
   outputSignals = OutputSig;
-}
+}*/ // DECOMENTAR
 
 Block::Block(vector<Signal*> &InputSig, vector<Signal*> &OutputSig) {
 
@@ -318,7 +254,7 @@ void Block::closeOutputSignals(void) {
 
 
 
-System::System(initializer_list<Block *> Blocks) 
+/*System::System(initializer_list<Block *> Blocks) 
 {
   SystemBlocks = Blocks;
 
@@ -348,6 +284,38 @@ void System::setSystem(initializer_list<Block *> Blocks)
   {
     SystemBlocks[i]->initializeBlock();
   }
+}*/      //DESCOMENTAR
+
+System::System(vector<Block*> Blocks)
+{
+	SystemBlocks = Blocks;
+
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++)
+	{
+		SystemBlocks[i]->initializeBlock();
+	}
+}
+
+System::System(vector<Block*> Blocks, String signalsFolderName, vector<String> list)
+{
+
+	SystemBlocks = Blocks;
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++) {
+		SystemBlocks[i]->initializeBlock();
+	}
+	setSignalsFolderName(signalsFolderName);
+	setLoadedInputParameters(list);
+}
+
+void System::setSystem(vector<Block*> Blocks)
+{
+
+	SystemBlocks = Blocks;
+
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++)
+	{
+		SystemBlocks[i]->initializeBlock();
+	}
 }
 
 bool System::run() {
@@ -482,3 +450,4 @@ void System::setSignalsFolderName(String newName)
     }
   }
 }
+

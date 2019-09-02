@@ -727,10 +727,13 @@ public:
 
 	System() {};
 	void setSystem(initializer_list<Block *> MainSystem);
+	void setSystem(vector<Block*> MainSystem);
 
 	System(initializer_list<Block *> MainSystem);
+	System(vector<Block*> MainSystem);
 
 	System(initializer_list<Block *> MainSystem, string signalsFolderName, vector<string> list);
+	System(vector<Block*> MainSystem, string signalsFolderName, vector<string> list);
 
 	bool run();
 	bool run(string signalPath);

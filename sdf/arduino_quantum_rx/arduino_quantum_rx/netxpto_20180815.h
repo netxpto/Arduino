@@ -7,25 +7,30 @@
 // #
 // ####################################################################################################
 
-# include <array>
-# include <complex>
-# include <cctype> 
-# include <ctime>
+
+
+#include <array>
+#include <complex>
+#include <cctype> 
+#include <ctime>
 //# include <filesystem>  Doesn't recognize this library
-# include <fstream>
-# include <functional>  
-# include <istream>
-# include <ostream>
-# include <locale>
-# include <map>
-# include <math.h>
-# include <random>
-# include <sstream>
-# include <vector>
-# include <strstream>
-# include <String>
-# include <list>
-# include <Arduino.h>
+#include <fstream>
+#include <functional>  
+#include <istream>
+#include <ostream>
+#include <locale>
+#include <map>
+#include <math.h>
+#include <random>
+#include <sstream>
+#include <vector>
+#include <strstream>
+#include <String>
+#include <list>
+#include <Arduino.h>
+#include <initializer_list>
+
+
 
 
 // ####################################################################################################
@@ -124,14 +129,14 @@ public:
   t_integer ready();                    // Returns the number of samples in the buffer ready to be processed
   t_integer space();                    // Returns the signal buffer space without originating signal overlap
   template<typename T> void bufferPut(T value);     // Puts a value in the buffer (at the end)
-  void bufferPut(t_message value);        // to be reviewed (2019/03/26)
+  //void bufferPut(t_message value);        // to be reviewed (2019/03/26)
   template<typename T> void bufferGet(T* valueAddr);    // Returns a value from the buffer (from the begining)  
-  void bufferGet(t_message * valueAddr);        // to be reviewed (2019/03/26)
+  //void bufferGet(t_message * valueAddr);        // to be reviewed (2019/03/26)
   void bufferGet();
 
   // File manipulation
   void writeHeader();               // Opens the signal file in the default signals directory, \signals, and writes the signal header
-  void writeHeader(string signalPath);      // Opens the signal file in the signalPath directory, and writes the signal header
+  //void writeHeader(string signalPath);      // Opens the signal file in the signalPath directory, and writes the signal header
 
   // Buffer and File manipulation
   void close();                 // Empty the signal buffer and close the signal file
@@ -333,7 +338,7 @@ public:
   /* Methods */
   Block(){};
   Block(vector<Signal*> &InputSig, vector<Signal*> &OutputSig);
-  Block(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig);
+  //Block(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig); Descomentar
 
 
   //void initializeBlock(vector<Signal*> InputSig, vector<Signal*> OutputSig);
@@ -367,13 +372,17 @@ class System {
 public:
 
   //######################################################################################################
+	
+  //System() {};
+  //void setSystem(initializer_list<Block *> MainSystem); // Descomentar
+  void setSystem(vector<Block*> MainSystem); // Apagar
 
-  System() {};
-  void setSystem(initializer_list<Block *> MainSystem);
+  //System(initializer_list<Block *> MainSystem); // Descomentar
+  System(vector<Block*> MainSystem); // Apagar
 
-  System(initializer_list<Block *> MainSystem);
+  //System(initializer_list<Block *> MainSystem, String signalsFolderName, vector<String> list); // Descomentar
+  System(vector<Block*> MainSystem, String signalsFolderName, vector<String> list); // Apagar
 
-  System(initializer_list<Block *> MainSystem, String signalsFolderName, vector<String> list);
 
   bool run();
   bool run(String signalPath);
@@ -394,7 +403,7 @@ public:
   void setSignalsFolderName(String newName);
   String getSignalsFolderName() { return signalsFolder; };
 
-  void setSaveSignals(bool sSignals);
+  //void setSaveSignals(bool sSignals);
   bool const getSaveSignals(void) { return saveSignals; };
 
 
