@@ -82,6 +82,18 @@ The outputs to the console have to be made through the arduino serial monitor us
 
 The implementation of a non-specialized template methods must be visible to a translation unit that uses it. The compiler must be able to see the implementation in order to generate code for all specializations in your code. This can be achieved in two ways: either by moving the implementation, the cpp file, inside the header or if you want to keep it separate, move it into a different header which you include in your original header.
 
+Arduino does not recognize objects of type std::initializer\_list<T>, which are a lightweight proxy object that provides access to an array of objects of type const T, so instead we have to use vector containers in order to initialize the constructors attributes.
+
+
+\subsection{Arduino Implementation - System Montage}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/montageDiagram.pdf}
+	\caption{Arduino implementation.}
+	\label{montage}
+\end{figure}
+
+
 
 \subsection{Open Issues}
 

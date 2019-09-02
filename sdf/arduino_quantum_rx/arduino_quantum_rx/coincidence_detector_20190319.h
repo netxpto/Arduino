@@ -26,7 +26,8 @@ class CoincidenceDetector : public Block {
 public:
 
   CoincidenceDetector() {};
-  CoincidenceDetector(initializer_list<Signal *> inputSignals, initializer_list<Signal *> outputSignals) :Block(inputSignals, outputSignals) {};
+  //CoincidenceDetector(initializer_list<Signal *> inputSignals, initializer_list<Signal *> outputSignals) :Block(inputSignals, outputSignals) {}; // Descomentar
+  CoincidenceDetector(vector<Signal*> inputSignals, vector<Signal*> outputSignals) :Block(inputSignals, outputSignals) {};
   ~CoincidenceDetector();
 
   void initialize(void);

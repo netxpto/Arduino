@@ -1275,6 +1275,40 @@ void System::setSystem(initializer_list<Block *> Blocks)
 	}
 }
 
+//########################################## APAGAR ####################################################
+System::System(vector<Block*> Blocks)
+{
+	SystemBlocks = Blocks;
+
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++)
+	{
+		SystemBlocks[i]->initializeBlock();
+	}
+}
+
+System::System(vector<Block*> Blocks, string signalsFolderName, vector<string> list)
+{
+
+	SystemBlocks = Blocks;
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++) {
+		SystemBlocks[i]->initializeBlock();
+	}
+	setSignalsFolderName(signalsFolderName);
+	setLoadedInputParameters(list);
+}
+
+void System::setSystem(vector<Block*> Blocks)
+{
+
+	SystemBlocks = Blocks;
+
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++)
+	{
+		SystemBlocks[i]->initializeBlock();
+	}
+}
+//######################################################################################################
+
 bool System::run() {
 	return run(signalsFolder);
 }

@@ -202,14 +202,14 @@ void Signal::close() {
 //###################################################### GENERAL BLOCKS FUNCTIONS IMPLEMENTATION #########################################################
 //########################################################################################################################################################
 
-Block::Block(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig) {
+/*Block::Block(initializer_list<Signal*> InputSig, initializer_list<Signal*> OutputSig) {
 
   numberOfInputSignals = (int) InputSig.size();
   numberOfOutputSignals = (int) OutputSig.size();
 
   inputSignals = InputSig;
   outputSignals = OutputSig;
-}
+}*/ // DECOMENTAR
 
 Block::Block(vector<Signal*> &InputSig, vector<Signal*> &OutputSig) {
 
@@ -254,7 +254,7 @@ void Block::closeOutputSignals(void) {
 
 
 
-System::System(initializer_list<Block *> Blocks) 
+/*System::System(initializer_list<Block *> Blocks) 
 {
   SystemBlocks = Blocks;
 
@@ -284,6 +284,38 @@ void System::setSystem(initializer_list<Block *> Blocks)
   {
     SystemBlocks[i]->initializeBlock();
   }
+}*/      //DESCOMENTAR
+
+System::System(vector<Block*> Blocks)
+{
+	SystemBlocks = Blocks;
+
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++)
+	{
+		SystemBlocks[i]->initializeBlock();
+	}
+}
+
+System::System(vector<Block*> Blocks, String signalsFolderName, vector<String> list)
+{
+
+	SystemBlocks = Blocks;
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++) {
+		SystemBlocks[i]->initializeBlock();
+	}
+	setSignalsFolderName(signalsFolderName);
+	setLoadedInputParameters(list);
+}
+
+void System::setSystem(vector<Block*> Blocks)
+{
+
+	SystemBlocks = Blocks;
+
+	for (int unsigned i = 0; i < SystemBlocks.size(); i++)
+	{
+		SystemBlocks[i]->initializeBlock();
+	}
 }
 
 bool System::run() {
@@ -418,3 +450,4 @@ void System::setSignalsFolderName(String newName)
     }
   }
 }
+
