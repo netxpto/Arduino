@@ -1,0 +1,15 @@
+Bolsa termina: 15/12/2019
+
+Tasks:
+	1) implementação o modulo de receção do QKD em Arduine (Clock In, 2 Clock Out, DataIn0, DataIn1, {0, 1, 2, 3} => QBER)
+
+
+2019-09-02
+
+	- instalar Visual Studio 2019
+	- instalar a extensão do Arduino para VS2019
+	- correr o software em Windows
+	- começar a fazer a migração para o Arduino
+	- documentando as alterações que forem sendo necessárias
+
+next meeting: 9/9, 9h
