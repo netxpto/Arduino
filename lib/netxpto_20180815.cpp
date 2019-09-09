@@ -346,7 +346,7 @@ void Signal::close() {
 		}
 		else if (type == "Message") {
 			auto fValueToBeSaved = getFirstValueToBeSaved();
-			int bLength = getBufferLength();
+			//int bLength = getBufferLength();
 
 			if (fValueToBeSaved < (inPosition + 1)) {
 				t_message *ptr = (t_message *)buffer;
@@ -524,6 +524,7 @@ bool SuperBlock::runBlock(string signalPath) {
 			{
 				logFileSP << "-----------------------------------------------------------------\n";
 				logFileSP << "Elapsed time: " << (float)(clock() - start) << " milliseconds" << endl;
+				logFileSP << "Block Alive: "; if (aux) { logFileSP << "TRUE" << endl; } else { logFileSP << "FALSE" << endl; };
 				logFileSP << "-----------------------------------------------------------------\n";
 				// Prints line for each input signal in the current block being executed
 				logFileSP << "Input Signals: " << endl;
@@ -1250,6 +1251,7 @@ bool System::run(string signalPath) {
 			{
 				logFile << "-----------------------------------------------------------------\n";
 				logFile << "Elapsed time: " << (float)(clock() - start) << " milliseconds" << endl;
+				logFile << "Block Alive: "; if (aux) { logFile << "TRUE" << endl; }	else { logFile << "FALSE" << endl; };
 				logFile << "-----------------------------------------------------------------\n";
 				// Prints line for each input signal in the current block being executed
 				logFile << "Input Signals: " << endl;
@@ -2038,7 +2040,7 @@ void FourierTransform::convolve(const vector<complex<double> > &xvec, const vect
 		outvec[i] = xv[i] / static_cast<double>(n);
 }
 
-
+/*
 static size_t reverseBits(size_t x, int n)
 {
 	size_t result = 0;
@@ -2046,7 +2048,7 @@ static size_t reverseBits(size_t x, int n)
 		result = (result << 1) | (x & 1U);
 	return result;
 }
-
+*/
 
 
 vector<complex<double>> FourierTransform::fft(vector<complex<double> > &vec, int sign)

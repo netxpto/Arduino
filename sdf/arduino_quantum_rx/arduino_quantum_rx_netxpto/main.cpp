@@ -4,9 +4,9 @@
 # include "..\include\qber_20190418.h"
 # include "..\include\sink_20180815.h"
 
-string s = "10101";
-string s1 = "01100";
-string s2 = "11111";
+string s = "0";
+string s1 = "1";
+
 
 int main()
 {
@@ -40,7 +40,7 @@ int main()
 
 
 	BinarySource BinarySource2_{ {},{ &Alice_out} };
-	BinarySource2_.setBitStream(s2);
+	BinarySource2_.setBitStream(s1);
 	BinarySource2_.setNumberOfBits(10000);
 	BinarySource2_.setMode(BinarySourceMode::DeterministicCyclic);
 	CoincidenceDetector CoincidenceDetector_{ {&SPD0_out, &SPD1_out},{&CD_out} };

@@ -84,7 +84,7 @@ Input Signals:
 Sink|QBER_out|ready=512
 Output Signals: 
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 2 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Sink|QBER_out|ready=0
@@ -128,7 +128,7 @@ CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 13 milliseconds
+Elapsed time: 7 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -388,7 +388,7 @@ Input Signals:
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 16 milliseconds
+Elapsed time: 4 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -696,7 +696,7 @@ Input Signals:
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 12 milliseconds
+Elapsed time: 5 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1140,7 +1140,7 @@ CoincidenceDetector|SPD1_out|ready=512
 Output Signals: 
 CoincidenceDetector|CD_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 18 milliseconds
+Elapsed time: 6 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=0
@@ -1340,7 +1340,7 @@ Input Signals:
 Output Signals: 
 BinarySource|Alice_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 11 milliseconds
+Elapsed time: 4 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1386,7 +1386,7 @@ Input Signals:
 Output Signals: 
 BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 16 milliseconds
+Elapsed time: 5 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
