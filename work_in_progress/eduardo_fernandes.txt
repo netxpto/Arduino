@@ -1,4 +1,4 @@
-Bolsa termina: 14/9/2019
+Bolsa termina: 14/9/201
 
 Tasks:
 	1) implementação o modulo de receção do QKD em Arduine (Coincidence Detector, QBER, Source, Sink)
