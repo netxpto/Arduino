@@ -38,7 +38,7 @@ int main()
   BinarySource0_.setNumberOfBits(10000);
   BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
 
-  BinarySource BinarySource1_{ {},{ &SPD1_out} };
+  /*BinarySource BinarySource1_{ {},{ &SPD1_out} };
   BinarySource1_.setBitStream(spd1);
   BinarySource1_.setNumberOfBits(10000);
   BinarySource1_.setMode(BinarySourceMode::DeterministicCyclic);
