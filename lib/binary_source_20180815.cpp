@@ -80,8 +80,8 @@ void BinarySource::runPseudoRandom(long int process)
 
 	for (int k = 0; k < process; k++) {
 		t_binary aux = (t_binary)ac[len];
-		for (auto k = 0; k != numberOfOutputSignals; ++k) {
-			outputSignals[k]->bufferPut((t_binary)aux);
+		for (auto m = 0; m != numberOfOutputSignals; ++m) {
+			outputSignals[m]->bufferPut((t_binary)aux);
 		}
 		numberOfBits--;
 
@@ -207,8 +207,8 @@ void BinarySource::runRandom(long int process) {
 		else {
 			aux = 1;
 		};
-		for (auto k = 0; k < numberOfOutputSignals; k++) {
-			outputSignals[k]->bufferPut((t_binary)aux);
+		for (auto m = 0; m < numberOfOutputSignals; m++) {
+			outputSignals[m]->bufferPut((t_binary)aux);
 		}
 		numberOfBits--;
 	}
@@ -220,8 +220,8 @@ void BinarySource::runDeterministicCyclic(long int process) {
 	int valuesSize = (int)values.size();
 	for (int k = 0; k < process; k++) {
 		t_binary aux = (t_binary)(values[posBitStream++] - '0');
-		for (auto k = 0; k != numberOfOutputSignals; k++) {
-			outputSignals[k]->bufferPut((t_binary)aux);
+		for (auto m = 0; m != numberOfOutputSignals; m++) {
+			outputSignals[m]->bufferPut((t_binary)aux);
 		}
 		numberOfBits--;
 		posBitStream = posBitStream % valuesSize;
@@ -240,8 +240,8 @@ void BinarySource::runDeterministicAppendZeros(long int process) {
 		else {
 			aux = (t_binary)(values[posBitStream++] - '0');
 		}
-		for (auto k = 0; k != numberOfOutputSignals; k++) {
-			outputSignals[k]->bufferPut((t_binary)aux);
+		for (auto m = 0; m != numberOfOutputSignals; m++) {
+			outputSignals[m]->bufferPut((t_binary)aux);
 		}
 		numberOfBits--;
 	}

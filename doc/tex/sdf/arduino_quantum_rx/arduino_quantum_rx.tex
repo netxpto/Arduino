@@ -84,6 +84,8 @@ The implementation of a non-specialized template methods must be visible to a tr
 
 Arduino does not recognize objects of type std::initializer\_list<T>, which are a lightweight proxy object that provides access to an array of objects of type const T, so instead we have to use vector containers in order to initialize the constructors attributes.
 
+In order to include self made libraries in the arduino sketches they must all be present in the same directory of the main file.
+
 
 \subsection{Arduino Implementation - System Montage}
 \begin{figure}[H]
@@ -93,6 +95,12 @@ Arduino does not recognize objects of type std::initializer\_list<T>, which are 
 	\label{montage}
 \end{figure}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/clockSignal.pdf}
+	\caption{Arduino implementation.}
+	\label{montage}
+\end{figure}
 
 
 \subsection{Open Issues}
