@@ -1,3 +1,5 @@
+#include <HID.h>
+#include <SPI.h>
 #include "netxpto_20180815.h"
 #include "qber_20190418.h"
 #include "binary_source_20180815.h"
@@ -15,7 +17,9 @@ void setup() {
 }
 
 int main()
-{
+{	
+	
+
   /* Signals Declaration */
   Binary SPD0_out{ "SPD0_out.sgn"};
   SPD0_out.setSaveSignal(false);
@@ -33,7 +37,7 @@ int main()
   QBER_out.setSaveSignal(false);
 
   /* Blocks Decalration */
-  /*BinarySource BinarySource0_{ {},{SPD0_out} };
+  BinarySource BinarySource0_{ {},{SPD0_out} };
   BinarySource0_.setBitStream(spd0);
   BinarySource0_.setNumberOfBits(10000);
   BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
@@ -46,28 +50,28 @@ int main()
   BinarySource BinarySource2_{ {},{ &Alice_out} };
   BinarySource2_.setBitStream(spd0);
   BinarySource2_.setNumberOfBits(10000);
-  BinarySource2_.setMode(BinarySourceMode::DeterministicCyclic);*/
+  BinarySource2_.setMode(BinarySourceMode::DeterministicCyclic);
 
-  //CoincidenceDetector CoincidenceDetector_{ {&SPD0_out, &SPD1_out},{&CD_out} };
+  CoincidenceDetector CoincidenceDetector_{ {&SPD0_out, &SPD1_out},{&CD_out} };
 
-  /*Qber QBER_{ {&Alice_out, &CD_out}, {&QBER_out} };
+  Qber QBER_{ {&Alice_out, &CD_out}, {&QBER_out} };
 
 
   Sink Sink_QBER_{ { &QBER_out },{} };
-  Sink_QBER_.setDisplayNumberOfSamples(true);*/
+  Sink_QBER_.setDisplayNumberOfSamples(true);
 
 
-  //System MainSystem{
+  System MainSystem{
     // BLOCKS
-    //&BinarySource0_
+    &BinarySource0_
 
-  //};
+  };
 
-  /*MainSystem.run();
+  MainSystem.run();
   MainSystem.terminate();
   
 
-  system("pause");*/
+  system("pause");
 
   return 0;
 }

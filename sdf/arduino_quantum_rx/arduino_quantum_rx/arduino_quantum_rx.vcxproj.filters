@@ -53,5 +53,8 @@
     <ClCompile Include="sink_20180815.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bufferPut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
