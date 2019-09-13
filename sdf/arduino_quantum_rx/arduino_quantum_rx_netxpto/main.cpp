@@ -1,8 +1,15 @@
 # include "..\include\binary_source_20180815.h"
 # include "..\include\coincidence_detector_20190319.h"
 # include "..\include\netxpto_20180815.h"
-# include "..\include\qber_20190418.h"
 # include "..\include\sink_20180815.h"
+# include "..\include\clock_20171219.h"
+# include "..\..\ip_tunnel_ms_windows\include\ip_tunnel_ms_windows_20180815.h"
+
+// #####################################################################################################
+// ################################### System Input Parameters #########################################
+// #####################################################################################################
+
+int numberOfBits{ 10000 };
 
 string s = "0";
 string s1 = "1";
@@ -17,53 +24,55 @@ int main()
 	Binary SPD1_out{ "SPD1_out.sgn"};
 	SPD1_out.setSaveInAscii(true);
 
-	TimeDiscreteAmplitudeDiscreteReal CD_out{ "CD_out.sgn"};
-	CD_out.setSaveInAscii(true);
+	Binary BobData_In{ "BobData_In.sgn"};
+	BobData_In.setSaveInAscii(true);
 
-	Binary Alice_out{ "Alice_out.sgn"};
-	Alice_out.setSaveInAscii(true);
+	TimeDiscreteAmplitudeDiscreteReal clock_out{ "clock_out.sgn"};
+	clock_out.setSaveInAscii(true);
 
-	Binary QBER_out{ "QBER_out.sgn"};
-	QBER_out.setSaveInAscii(true);
+	Binary IPTunnel_Out{ "IPTunnel_Out.sgn" };
 
 	/* Blocks Decalration */
 	BinarySource BinarySource0_{ {},{ &SPD0_out} };
 	BinarySource0_.setBitStream(s);
-	BinarySource0_.setNumberOfBits(10000);
-	BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
+	//BinarySource0_.setNumberOfBits(numberOfBits);
+	//BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
+	BinarySource0_.setBitPeriod(1e-6);
 
 
 	BinarySource BinarySource1_{ {},{ &SPD1_out} };
 	BinarySource1_.setBitStream(s1);
-	BinarySource1_.setNumberOfBits(10000);
-	BinarySource1_.setMode(BinarySourceMode::DeterministicCyclic);
+	//BinarySource1_.setNumberOfBits(numberOfBits);
+	//BinarySource1_.setMode(BinarySourceMode::DeterministicCyclic);
+	BinarySource1_.setBitPeriod(1e-6);
 
+	Clock Clock{ {},{&clock_out} };
+	Clock.setClockPeriod(1); // If the period is defined in seconds it gives us a clock frequency of 1 KHz
+	Clock.setSamplingPeriod(0.1);
 
-	BinarySource BinarySource2_{ {},{ &Alice_out} };
-	BinarySource2_.setBitStream(s1);
-	BinarySource2_.setNumberOfBits(10000);
-	BinarySource2_.setMode(BinarySourceMode::DeterministicCyclic);
-	CoincidenceDetector CoincidenceDetector_{ {&SPD0_out, &SPD1_out},{&CD_out} };
-
-	Qber QBER_{ {&Alice_out, &CD_out}, {&QBER_out} };
+	CoincidenceDetector CoincidenceDetector_{ {&SPD0_out, &SPD1_out, &clock_out},{&BobData_In} };
 	
+	IPTunnel IpTunnel_{ {&BobData_In},{&IPTunnel_Out} };
 
-	Sink Sink_QBER_{ { &QBER_out },{} };
-	Sink_QBER_.setDisplayNumberOfSamples(true);
-	
+	Sink Sink_IPTunnel_{ { &IPTunnel_Out },{} };
+	Sink_IPTunnel_.setDisplayNumberOfSamples(true);
+
 
 
 	System MainSystem{
 		// BLOCKS
+		&Clock,
 		&BinarySource0_,
 		&BinarySource1_,
 		&CoincidenceDetector_,
-		&BinarySource2_,
-		&QBER_,
-		&Sink_QBER_
+		&IpTunnel_,
+		&Sink_IPTunnel_
 
 
 	};
+
+	MainSystem.setLogValue(true);
+	MainSystem.setSaveSignals(true);
 
 	MainSystem.run();
 	MainSystem.terminate();

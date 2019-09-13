@@ -30,10 +30,16 @@
     <ClInclude Include="netxpto_20180815.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="qber_20190418.h">
+    <ClInclude Include="sink_20180815.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sink_20180815.h">
+    <ClInclude Include="clock_20171219.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ip_tunnel_ms_windows_20180815.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="message_processor_common_20190410.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,13 +53,16 @@
     <ClCompile Include="netxpto_20180815.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="qber_20190418.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="sink_20180815.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bufferPut.cpp">
+    <ClCompile Include="clock_20171219.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ip_tunnel_ms_windows_20180815.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="message_processor_common_20190410.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

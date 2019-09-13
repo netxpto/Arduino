@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C6B2712C-1185-451A-80AB-E22A7B5688B8}</ProjectGuid>
     <RootNamespace>arduinoquantumrx</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -116,7 +120,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\lib\binary_source_20180815.cpp" />
+    <ClCompile Include="..\..\lib\clock_20171219.cpp" />
     <ClCompile Include="..\..\lib\coincidence_detector_20190319.cpp" />
+    <ClCompile Include="..\..\lib\ip_tunnel_ms_windows_20180815.cpp" />
+    <ClCompile Include="..\..\lib\message_processor_common_20190410.cpp" />
     <ClCompile Include="..\..\lib\netxpto_20180815.cpp" />
     <ClCompile Include="..\..\lib\qber_20190418.cpp" />
     <ClCompile Include="..\..\lib\sink_20180815.cpp" />
@@ -124,7 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\binary_source_20180815.h" />
+    <ClInclude Include="..\..\include\clock_20171219.h" />
     <ClInclude Include="..\..\include\coincidence_detector_20190319.h" />
+    <ClInclude Include="..\..\include\ip_tunnel_ms_windows_20180815.h" />
+    <ClInclude Include="..\..\include\message_processor_common_20190410.h" />
     <ClInclude Include="..\..\include\netxpto_20180815.h" />
     <ClInclude Include="..\..\include\qber_20190418.h" />
     <ClInclude Include="..\..\include\sink_20180815.h" />
