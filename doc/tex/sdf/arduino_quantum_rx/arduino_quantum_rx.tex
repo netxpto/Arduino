@@ -5,14 +5,15 @@
 
 \begin{tcolorbox}	
 \begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
-\textbf{Student Name}  &:&  Eduardo Fernandes (2019/06/15 - 2019/09/14)\\
+\textbf{Student Name}  		&:&  Jo\~ao Fraz\~ao (2019/09/02 - )\\
+							&:&  Eduardo Fernandes (2019/06/15 - 2019/09/14)\\
 \textbf{Goal}          &:& Implement the QKD reception module in an Arduino (Coincidence Detector, QBER, Source and Sink blocks).\\
 \textbf{Directory}              &:& sdf/arduino\_quantum\_rx
 \end{tabular}
 \end{tcolorbox}
 
 
-\subsection{Simulation Analysis - QKD reception module}
+\subsection{Project Definition}
 
 \begin{figure}[H]
 	\centering
@@ -21,7 +22,7 @@
 	\label{fig:arduino}
 \end{figure}
 
-This system emulates the QKD reception module of a quantum communication system. It is comprised by three main blocks. The first is the coincidence detector  which contains three inputs: the signals provenient from the single-photon detectors 0 and 1 and a clock signal used to keep all blocks synchronized, as it provides the sampling frequency. In addition, this block outputs a signal containing a state corresponding to the input values. That signal will be the input of the next block, the QBER, this block compares two input binary signals, one provenient from the coincidence detector and one other coming directly from Alice's side, and outputs a binary signal with a zero if both input bits are equal and a one if they differ. Additionally, this block does statistical analysis on the QBER and outputs a file with the results of this analysis. Finally, the output signal of the QBER block enters a Sink block, not generating any output. 
+This system emulates the QKD reception module of a quantum communication system. It is comprised by three main blocks. The first is the coincidence detector  which is implemented using Arduino technology and contains three inputs: the signals provenient from the single-photon detectors 0 and 1 and a clock signal used to keep all blocks synchronized, as it provides the sampling frequency. In addition, this block outputs a signal (BobData\_In) containing a state corresponding to the input values. That signal will be the input of the next block, the IP Tunnel, this block is responsible for the comumunications between the Arduino board and the PC server. It uses a TCP/IP protocol to communicate over Ethernet and allows the sharing of information between these two entities. When the information reaches the server side the QBER block compares two input binary signals, one provenient from the coincidence detector and one other coming directly from Alice's side, and outputs a binary signal with a zero if both input bits are equal and a one if they differ. Additionally, this block does statistical analysis on the QBER.  
 
 \subsection{Emulation in NetXPTO Simulator}
 
@@ -34,7 +35,7 @@ This system emulates the QKD reception module of a quantum communication system.
 	\label{fig:netxpto}
 \end{figure}
 
-Here are presented and described the implementation of the 6 modules needed. The first two are the BinarySource0\_ and the BinarySource1\_ which emulate the received signals provenient from the single-photon detectors 0 and 1, respectively. These signals are the inputs of the CoincidenceDetector\_ block, which in its turn, outputs a real signal that has five possible values: 5 if it is a control qubit (which should be discarded by the upper layer), 3 if no-click has been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. Next, we have the BinarySource2\_ block which has a binary output signal representing the measured value that arrives from the quantum channel from Alice side. Another existent block is the QBER\_ which is responsible for some of the post processing tasks, more specifically, the QBER estimation and outputs a real signal with the quantum channel QBER. Finally there is the Sink\_QBER\_ blocks, which, accpets one binary input signal provenient from the QBER\_ block and does not produce any output signals, it simply takes samples out of the circular buffer until it is empty.\\ \\
+Here are presented and described the implementation of the 6 modules needed. The first two are the BinarySource0\_ and the BinarySource1\_ which emulate the received signals provenient from the single-photon detectors 0 and 1, respectively, which are synchronized by the Clock\_ block. These signals are the inputs of the CoincidenceDetector\_ block, which in its turn, outputs a real signal that has five possible values: 4 wich are the null values of the buffer when the clock is in the low state, 3 if no-click has been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. Next, we have the IPTunnel\_ block which takes as input the signal from the CoincidenceDetector\_ block and sends it through a TCP/IP protocol to the server implemented in a PC, where the QBER estimations are performed. Finally there is the Sink\_IPTunnel\_ block, which, accpets one binary input signal provenient from the IPTunnel\_ block and does not produce any output signals, it simply takes samples out of the circular buffer until it is empty.\\ \\
 
 The following input parameters were defined for the blocks listed in figure \ref{fig:netxpto}:
 
@@ -42,32 +43,30 @@ The following input parameters were defined for the blocks listed in figure \ref
 	\item BinarySource0\_:
 	\begin{itemize}
 		\item setMode(BinarySourceMode::DeterministicCyclic)
-		\item setBitPeriod(1e-11)
 		\item setBitStream("1")
-		\item setNumberOfBits(10000);
 	\end{itemize}
 	\clearpage
 	\item BinarySource1\_:
 	\begin{itemize}
 		\item setMode(BinarySourceMode::DeterministicCyclic)
-		\item setBitPeriod(1e-11)
 		\item setBitStream("0")
-		\item setNumberOfBits(10000);
 	\end{itemize}
 	
-	\item BinarySource2\_:
+	\item Clock\_:
 	\begin{itemize}
-		\item setMode(BinarySourceMode::DeterministicCyclic)
-		\item setBitPeriod(1e-11)
-		\item setBitStream("1")
-		\item setNumberOfBits(10000);
+		\item setClockPeriod(1e-6)
+		\item setSamplingPeriod(1e-7)
 	\end{itemize}
 	
 	\item CoincidenceDetector\_;
 	
-	\item QBER\_;
+	\item IPTunnel\_;
 	
-	\item QBER\_Sink\_.
+	\item QBER\_IPTunnel\_
+	\begin{itemize}
+		\item setDisplayNumberOfSamples(true);
+	
+	\end{itemize}
 \end{itemize}
 
 
@@ -76,18 +75,25 @@ The following input parameters were defined for the blocks listed in figure \ref
 
 \subsection{Simulation Analysis - Arduino Implementation}
 
-In order to utilize the same project running over NetXPTO simulator using Arduino some changes in the source code had to be made once this technology uses C/C++ language features while relying on special rules of code structuring.
+In order to utilize the same project running over NetXPTO simulator using Arduino technology some changes in the source code had to be made once this technology uses C/C++ language features while relying on special rules of code structuring. Acoording to Arduino official manufactures this language is merely a set of C/C++ functions that can be called from your code. Your sketch undergoes minor changes (e.g. automatic generation of function prototypes) and then is passed directly to a C/C++ compiler (avr-g++). \par However, there's currently no support for libstdc++, the standard support library needed for a complete C++ implementation. This imposes a number of restrictions on the C++ programs that can be compiled. Among them are: 
 
-The outputs to the console have to be made through the arduino serial monitor using the function Serial.print() instead of making use of cout, cin or cerr; 
+\begin{itemize}
+	\item Some of the C++ related standard functions, classes, and template classes are available.
+	\item The operators new and delete are not implemented, attempting to use them will cause the linker to complain about undefined external references.
+	\item Some of the supplied include files are not C++ safe.
+	\item Exceptions are not supported.
+	\item When programming C++ in microcontrollers, extra care should be taken to avoid unwanted side effects of the C++ calling conventions like implied copy constructors that could be called upon function invocation etc.
+	\item The outputs to the console have to be made through the arduino serial monitor using the function Serial.print() instead of making use of cout, cin or cerr classes.
+	\item  The implementation of a non-specialized template methods must be visible to a translation unit that uses it. The compiler must be able to see the implementation in order to generate code for all specializations in your code. This can be achieved in two ways: either by moving the implementation, the cpp file, inside the header or if you want to keep it separate, move it into a different header which you include in your original header.
+	\item Arduino does not recognize objects of type std::initializer\_list<T>, which are a lightweight proxy object that provides access to an array of objects of type const T, so instead we have to use vector containers in order to initialize the constructors attributes.
+	\item In order to include self made libraries in the arduino sketches they must all be present in the same directory of the main file.
+	
+\end{itemize}
 
-The implementation of a non-specialized template methods must be visible to a translation unit that uses it. The compiler must be able to see the implementation in order to generate code for all specializations in your code. This can be achieved in two ways: either by moving the implementation, the cpp file, inside the header or if you want to keep it separate, move it into a different header which you include in your original header.
-
-Arduino does not recognize objects of type std::initializer\_list<T>, which are a lightweight proxy object that provides access to an array of objects of type const T, so instead we have to use vector containers in order to initialize the constructors attributes.
-
-In order to include self made libraries in the arduino sketches they must all be present in the same directory of the main file.
 
 
-\subsection{Arduino Implementation - System Montage}
+
+\subsection{Arduino Implementation - System Montage and signal acquisition}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/montageDiagram.pdf}
@@ -95,10 +101,18 @@ In order to include self made libraries in the arduino sketches they must all be
 	\label{montage}
 \end{figure}
 
+\subsubsection{SPD0 and SPD1 signals}
+
+In order to measure these signals a voltage divider was used to convert the output 5V TTL signal into a 3.3V signal, the limit imposed by the Arduino Due digital I/O pins. 
+
+\subsubsection{Clock signal}
+
+With purpose of processing the clock signal, it must be read by the analog I/O pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/clockSignal.pdf}
-	\caption{Arduino implementation.}
+	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/clockRead.pdf}
+	\caption{Clock signal read.}
 	\label{montage}
 \end{figure}
 

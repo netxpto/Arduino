@@ -1,12 +1,13 @@
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-06-05 21:41:38
+Block start time: 2019-09-12 14:19:56
 Input Signals: 
 Output Signals: 
 IPTunnel|S2_BinarySourceOut_0|space=512
 -----------------------------------------------------------------
-Elapsed time: 2970 milliseconds
+Elapsed time: 3491 milliseconds
+Block Alive: TRUE
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -15,12 +16,13 @@ IPTunnel|S2_BinarySourceOut_0|space=0
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-06-05 21:41:41
+Block start time: 2019-09-12 14:20:00
 Input Signals: 
 Sink|S2_BinarySourceOut_0|ready=512
 Output Signals: 
 -----------------------------------------------------------------
 Elapsed time: 1 milliseconds
+Block Alive: TRUE
 -----------------------------------------------------------------
 Input Signals: 
 Sink|S2_BinarySourceOut_0|ready=0
@@ -29,26 +31,28 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-06-05 21:41:41
+Block start time: 2019-09-12 14:20:00
 Input Signals: 
 Output Signals: 
 IPTunnel|S2_BinarySourceOut_0|space=512
 -----------------------------------------------------------------
-Elapsed time: 14 milliseconds
+Elapsed time: 434 milliseconds
+Block Alive: TRUE
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
-IPTunnel|S2_BinarySourceOut_0|space=24
+IPTunnel|S2_BinarySourceOut_0|space=0
 
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-06-05 21:41:41
+Block start time: 2019-09-12 14:20:00
 Input Signals: 
-Sink|S2_BinarySourceOut_0|ready=488
+Sink|S2_BinarySourceOut_0|ready=512
 Output Signals: 
 -----------------------------------------------------------------
 Elapsed time: 1 milliseconds
+Block Alive: TRUE
 -----------------------------------------------------------------
 Input Signals: 
 Sink|S2_BinarySourceOut_0|ready=0
@@ -57,12 +61,283 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-06-05 21:41:41
+Block start time: 2019-09-12 14:20:00
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 484 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:01
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:01
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 455 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:01
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:01
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 519 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:02
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:02
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 545 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:02
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:02
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 613 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:03
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:03
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 482 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:03
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:03
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 500 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:04
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:04
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 498 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:04
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:04
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+Elapsed time: 13019 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S2_BinarySourceOut_0|space=0
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-09-12 14:20:17
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=512
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 6 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_BinarySourceOut_0|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-09-12 14:20:17
 Input Signals: 
 Output Signals: 
 IPTunnel|S2_BinarySourceOut_0|space=512
 -----------------------------------------------------------------
 Elapsed time: 2 milliseconds
+Block Alive: FALSE
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -71,12 +346,13 @@ IPTunnel|S2_BinarySourceOut_0|space=512
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-06-05 21:41:41
+Block start time: 2019-09-12 14:20:17
 Input Signals: 
 Sink|S2_BinarySourceOut_0|ready=0
 Output Signals: 
 -----------------------------------------------------------------
 Elapsed time: 0 milliseconds
+Block Alive: FALSE
 -----------------------------------------------------------------
 Input Signals: 
 Sink|S2_BinarySourceOut_0|ready=0

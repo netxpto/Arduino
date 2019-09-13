@@ -192,12 +192,12 @@ void BinarySource::runPseudoRandom(long int process)
 
 void BinarySource::runRandom(long int process) {
 
-	/*
+	
 	std::default_random_engine generator;
 	std::uniform_real_distribution<double> distribution(0.0, 1.0);
 	unsigned int seed = (unsigned int)chrono::system_clock::now().time_since_epoch().count();
 	generator.seed(seed);
-	*/
+	
 
 	for (int k = 0; k < process; k++) {
 		t_binary aux;
