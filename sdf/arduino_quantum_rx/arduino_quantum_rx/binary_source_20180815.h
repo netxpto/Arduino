@@ -42,7 +42,7 @@ public:
   //##############################################################################################################
 
   //BinarySource(initializer_list<Signal *> InputSig, initializer_list<Signal *> OutputSig) : Block(InputSig, OutputSig) {}; // Descomentar 
-  BinarySource(vector<Signal*> InputSig, vector<Signal*> OutputSig) : Block(InputSig, OutputSig) {}; // Apagar
+  BinarySource(vector<Signal*> InputSig, vector<Signal*> OutputSig) : Block(InputSig, OutputSig) {}; 
 
   void initialize(void);
   bool runBlock(void);

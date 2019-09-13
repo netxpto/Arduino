@@ -35,28 +35,40 @@ bool CoincidenceDetector::runBlock(void) {
 
 	if (process <= 0) return false;
 
+
 	for (auto k = 0; k < process; k++) {
-		t_binary value0;
-		inputSignals[0]->bufferGet(&value0);
 
-		t_binary value1;
-		inputSignals[1]->bufferGet(&value1);
+		t_real clock{ 0 };
+		inputSignals[2]->bufferGet(&clock);
 
-		bitsAlice++;
+		if (clock == 1)
+		{
+			t_binary value0;
+			inputSignals[0]->bufferGet(&value0);
 
-		if ((value0 == 1) && (value1 == 0)) {
-			outputSignals[0]->bufferPut((t_real)0.0);
+			t_binary value1;
+			inputSignals[1]->bufferGet(&value1);
+
+			bitsAlice++;
+
+			if ((value0 == 1) && (value1 == 0)) {
+				outputSignals[0]->bufferPut((t_binary)0); // Must output an integer value instead of a double variable type because of the IP Tunnel
+			}
+			else if ((value0 == 0) && (value1 == 1)) {
+				outputSignals[0]->bufferPut((t_binary)1);
+			}
+			else if ((value0 == 1) && (value1 == 1)) {
+				outputSignals[0]->bufferPut((t_binary)2);
+				bitsDoubl++;
+			}
+			else {
+				outputSignals[0]->bufferPut((t_binary)3);
+				bitsAtten++;
+			}
 		}
-		else if ((value0 == 0) && (value1 == 1)) {
-			outputSignals[0]->bufferPut((t_real)1.0);
-		}
-		else if ((value0 == 1) && (value1 == 1)) {
-			outputSignals[0]->bufferPut((t_real)2.0);
-			bitsDoubl++;
-		}
-		else {
-			outputSignals[0]->bufferPut((t_real)3.0);
-			bitsAtten++;
+		else
+		{ 
+			outputSignals[0]->bufferPut((t_binary)4); // 4 stands for an invalid clock read 
 		}
 		
 	}
