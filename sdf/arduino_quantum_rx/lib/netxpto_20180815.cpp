@@ -1,18 +1,3 @@
-/*
-# include <complex>
-# include <fstream>
-# include <iostream>
-# include <cmath>
-# include <iostream>
-# include <string>
-# include <strstream>
-# include <algorithm>
-# include <ctime>
-#include  <filesystem>
-#include  <functional>  
-#include  <cctype> 
-#include  <locale> 
-*/
 # include "../include/netxpto_20180815.h"
 
 
@@ -414,7 +399,7 @@ void Signal::close() {
 
 				t_real *ptr = (t_real *)buffer;
 				ptr = ptr + (firstValueToBeSaved - 1);
-				//bool stop {false};
+				
 				ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
 
 				for (size_t i = 0; i < inPosition; i++)

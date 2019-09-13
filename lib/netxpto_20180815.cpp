@@ -75,12 +75,33 @@ void Signal::bufferPut(T value)
 
 			if (firstValueToBeSaved <= bufferLength)
 			{
-				char *ptr = (char *)buffer;
+				/*char *ptr = (char *)buffer;
 				ptr = ptr + (firstValueToBeSaved - 1) * sizeof(T);
 				ofstream fileHandler{ "./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app };
 				fileHandler.write(ptr, (bufferLength - (firstValueToBeSaved - 1)) * sizeof(T));
 				fileHandler.close();
-				firstValueToBeSaved = 1;
+				firstValueToBeSaved = 1;*/
+
+				if (type == "Binary") {
+					//ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
+					//fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
+
+					t_binary* ptr = (t_binary*)buffer;
+					ptr = ptr + (firstValueToBeSaved - 1);
+					//bool stop {false};
+					ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
+					for (size_t i = 0; i < bufferLength; i++)
+					{
+
+						fileHandler << (*ptr);
+						fileHandler << " ";
+
+						ptr++;
+					}
+
+					//	fileHandler.close();
+					setFirstValueToBeSaved(1);
+				}
 			}
 			else
 			{
@@ -329,9 +350,27 @@ void Signal::close() {
 			ofstream fileHandler;
 			fileHandler.open("./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app);
 
-			if (type == "Binary") {
+			/*if (type == "Binary") {
 				ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
 				fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
+			}*/
+			if (type == "Binary") {
+				//ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
+				//fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
+
+				t_binary* ptr = (t_binary*)buffer;
+				ptr = ptr + (firstValueToBeSaved - 1);
+				//bool stop {false};
+				ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
+				for (size_t i = 0; i < bufferLength; i++)
+				{
+
+					fileHandler << (*ptr);
+					fileHandler << " ";
+
+					ptr++;
+				}
+				setFirstValueToBeSaved(1);
 			}
 			else if (type == "TimeContinuousAmplitudeContinuousComplex" || type == "BandpassSignal") {
 				ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_complex);
