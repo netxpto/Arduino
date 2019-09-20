@@ -1,0 +1,37 @@
+﻿Bolsa termina: 15/12/2019 !
+
+Tasks:
+	1) implementação o modulo de receção do QKD em Arduine (Clock In, 2 Clock Out, DataIn0, DataIn1, {0, 1, 2, 3} => QBER)
+
+
+2019-09-09
+
+	- melhorar a documentação
+		- Definição do projeto
+
+
+	- ir ao laboratório verificar como é que os sinais SPD0, SPD1 e clock podem ser adquiridos pelo Arduinio
+		- Documentar
+
+
+	- implementar no Arduino os blocos
+		- CoincidenceDetector
+		- IP_Tunnel
+
+
+	- o que é que é dito no site oficial do Arduino sobre a compatibildiade com o C++
+		- https://github.com/arduino/Arduino/wiki/Build-Process
+
+		- documentar detalhadamente as compatibilidades / incompatibilidades
+
+next meeting: 13/9, 9h
+
+2019-09-02
+
+	- instalar Visual Studio 2019
+	- instalar a extensão do Arduino para VS2019
+	- correr o software em Windows
+	- começar a fazer a migração para o Arduino
+	- documentando as alterações que forem sendo necessárias
+
+next meeting: 9/9, 9h

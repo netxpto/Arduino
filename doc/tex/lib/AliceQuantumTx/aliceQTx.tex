@@ -2,20 +2,54 @@
 
 \section{AliceQuantumTx}
 
-\maketitle
-This block is the quantum channel Alice's transmitter. This block accepts binary signals, which comprises the values for basis and bits to be used to encode single photons, as well as another binary value with enable that selects the operation mode that Alice must operate. It produces PhotonStreamXY signal which comprises the encoded single photons.
+\begin{tcolorbox}	
+\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
+\textbf{Header File}   &:& AliceQTx.h \\
+\textbf{Source File}   &:& AliceQTx.cpp \\
+\textbf{Version}       &:& 20190404
+\end{tabular}
+\end{tcolorbox}
 
+\maketitle
+This block is the quantum channel Alice's transmitter. This block accepts binary signals, which comprises the values for basis and bits to be used to encode single photons, as well as another binary value with modeSelection that selects the operation mode that Alice must operate.
+\begin{itemize}
+  \item inputSignal[0] $\rightarrow$ AliceQTxBasis (Binary)
+  \item inputSignal[1] $\rightarrow$ AliceQTxBits (Binary)
+  \item inputSignal[2] $\rightarrow$ ModeSelection (Binary)
+\end{itemize}
+It produces PhotonStreamXY signal which comprises the encoded single photons.
+\begin{itemize}
+  \item outputSignal[0] $\rightarrow$ AliceQTx\_Out (PhotonStreamXY)
+\end{itemize}
+It also accepts four input parameters listed below.
 
 \subsection*{Input Parameters}
 
 	\begin{itemize}
-		\item double RateOfPhotons\{1e3\}
+        \item string controlBasis - This string is the sequence of basis used to control qubits. Its default value is "0".
+
+        \item string controlBits - This string is the sequence of bits used to control qubits. Its default value is "0".
+
+		\item double numberOfPhotonsControl - Average number of photons contained in a control coherent pulse. Its default value is 80.
 	
-		\item int StringPhotonsLength\{ 12 \}
+		\item double numberOfPhotonsData - Average number of photons contained in a data coherent pulse. Its default value is 1.
+
+        \item int incrementControl - Increment to use in monitoring mode, i.e. for example if incrementControl is 100, Alice will transmit 1 control qubit in each 100 transmitted qubits. Its default value is 100;
 	\end{itemize}
 
 \subsection*{Methods}
+\begin{itemize}
+        \item void setControlBasisSequence(string bSeq) - This method allows to set the control basis sequence accepting a string value.
 
+        \item void setControlBitsSequence(string bits) - This method allows to set the control bits sequence accepting a string value.
+
+		\item void setNumberOfPhotonsData(double nData) - This method allows to set the average number of photons contained in data coherent pulses.
+	
+		\item void setNumberOfPhotonsControl(double nControl) - This method allows to set the average number of photons contained in control coherent pulses.
+
+        \item void setIncrementControl(int inc) - This method allows to set the increment to use in monitoring mode.
+
+\end{itemize}
 
 \subsection*{Functional description}
 
@@ -25,9 +59,18 @@ This block is the quantum channel Alice's transmitter. This block accepts binary
 	\caption{Schematic of Alice Quantum Transmitter}\label{aliceQuantumTxDiagram}
 \end{figure}
 
-This block receives 3 input binary signals. One is the "ModeSelection" signal that will give to AliceQTx the information about operation mode, and so that she will know if she should send control or data qubits. The second and third input signals are also binary signals and they will have the information about basis ("AliceQTxBasis") and bits ("AliceQTxBits", respectively. These two binary signals will be responsible for data qubits encoding.
+This block receives 3 input binary signals.
 
-The mode selection signal allows to select the operation mode, and so that if ModeSelection has the value "0" the monitoring mode is selected, and the output of this multiplexer will be a pre-defined sequence that should be "0" when data qubits are sent and "1" when control qubits are sent. This choice is made based on a sequence which should be deterministically made. Otherwise, if ModeSelection has the value "1", the actuation mode is selected and all qubits sent are control qubits.
+\begin{itemize}
+        \item "ModeSelection" is a binary signal which gives to AliceQTx the information about operation mode, and so that she will know if she should send control or data qubits. If "ModeSelection" has the value "0" the monitoring mode is selected, and the output of this multiplexer will be a pre-defined sequence that should be "0" when data qubits are sent and "1" when control qubits are sent. This choice is made based on a sequence which should be deterministically made. Otherwise, if ModeSelection has the value "1", the actuation mode is selected and all qubits sent are control qubits.
+
+        \item "AliceQTxBasis" is a binary signal which provides information about the basis to use to encode single-photons.
+
+		\item "AliceQTxBits" is a binary signal which provides information about the bits to use to encode single-photons.
+	
+	\end{itemize}
+
+"AliceQTxBasis" and "AliceQTxBits" will be responsible for data qubits encoding.
 
 The operationMode signal will feed the other multiplex with an enable signal that should put on the output of the multiplexer, the input $s_2$ if this signal has the value "0" (control qubits), and the input $s_1$ if this signal has the value "1"(data qubits).
 

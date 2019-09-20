@@ -1,0 +1,112 @@
+\clearpage
+\graphicspath{{./lib/basis_reconciliation/figures/}}
+\section{Basis Reconciliation}
+
+\begin{tcolorbox}	
+	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
+		\textbf{Header File}   &:& basis\_reconciliation\_*.h \\
+		\textbf{Source File}   &:& basis\_reconciliation\_*.cpp \\
+        \textbf{Version}       &:& 20190410 (Andoni Santos)
+	\end{tabular}
+\end{tcolorbox}
+
+\maketitle
+This block is used to reconcile information between two parties in Quantum Key
+Distribution, Alice and Bob, by exchanging information about the basis used to
+measure the data or the failure to properly measure the qubit.
+
+\subsection*{Signals}
+
+\begin{table}[h]
+	%\centering
+	\begin{tabular}{|c|l|}
+		\hline
+		\textbf{Number of Input Signals} & 3 \\ \hline
+        \textbf{Type of Input Signals} & TimeContinuousAmplitudeDiscreteReal,
+		 \\
+		& Binary and TimeDiscreteAmplitudeContinuousReal \\ \hline
+    	\textbf{Number of Output Signals} & 3 \\ \hline
+        \textbf{Type of Output Signals} & Binary, Binary and TimeDiscreteAmplitudeContinuousReal \\ \hline
+	\end{tabular}
+	\caption{Binary source signals}
+	\label{table:basis_recon_signals}
+\end{table}
+
+\subsection*{Input Parameters}
+
+%	\begin{itemize}
+%		\item mode\{PseudoRandom\}\linebreak
+%		(Random, PseudoRandom, DeterministicCyclic, DeterministicAppendZeros)
+%		\item probabilityOfZero\{0.5\}\linebreak
+%		(real $\in$ [0,1])
+%		\item patternLength\{7\} \linebreak
+%		(integer $\in$ [1,32])
+%		\item bitStream\{"0100011101010101"\} \linebreak
+%		(string of 0's and 1's)
+%		\item numberOfBits\{-1\} \linebreak
+%		(long int)
+%		\item bitPeriod\{1.0/100e9\} \linebreak
+%		(double)
+%	\end{itemize}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|p{40mm}|c|ccp{60mm}}
+		\cline{1-4}
+		\textbf{Parameter} & \textbf{Type} & \textbf{Values} &   \textbf{Default}& \\ \cline{1-4}
+		basisReconciliationRole & basis\_reconciliation\_role & Alice, Bob, Undefined &  Undefined \\ \cline{1-4}
+		doubleClickNumber & int & any & 2 \\ \cline{1-4}
+		noClickNumber & int &  any & 3 \\ \cline{1-4}
+	\end{tabular}
+	\caption{Basis reconciliation input parameters}
+	\label{table:basis_recon_in_par}
+\end{table}
+
+\subsection*{Methods}
+
+\indent BasisReconciliation(initializer\_list<Signal *> InputSig, initializer\_list<Signal *> OutputSig);
+\bigbreak	
+void initialize(void);
+\bigbreak	
+bool runBlock(void);
+\bigbreak
+void setBasisReconciliationRole(basis\_reconciliation\_role role);
+\bigbreak
+void setDoubleClickNumber(t\_integer dcn);
+\bigbreak
+void setNoClickNumber(t\_integer ncn);
+\bigbreak
+long int getReceivedQubits(void);
+\bigbreak
+long int getReconciledBits(void);
+
+\subsection*{Functional description}
+
+This block has two different behaviors: one for Alice (the transmitter), and
+another for Bob (the receiver).
+Initially, after Alice encodes the data with the chosen basis and sends it to
+Bob, she waits until Bob decides to start the process.
+
+Bob, after successfully receiving data from the quantum channel, sends a message
+to Alice with the information required to reconcile the data. This message
+contains the either the basis that Bob used to measure the incoming qubits, or,
+in case it happens, a code indicating that either the detectors both clicked, or
+none of them clicked. After sending the message, Bob stores the data until he
+gets a response from Alice.
+
+When Alice receives the message, she compares the basis with the ones she used,
+and prepares a response. If the basis were equal, she writes a 1 in the message and outputs that
+bit; otherwise, she writes 0 in the message and discards that bit.
+
+Bob then receives the message and, according to the results for each bit, he
+either outputs it or discards it. He then waits until he has more data so that
+this process can begin again.
+
+\subsection*{Suggestions for future improvement}
+
+Figure out if a minimum number of values should be implemented, in order to
+avoid wasting time communicating to reconcile a small number of bits. Typically,
+communication using TCP on the classical channel should be minimized, as each
+transmission requires an acknowledgement.,The time needed for a round trip is
+not negligible, particularly if done frequently.
+

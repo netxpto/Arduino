@@ -75,12 +75,33 @@ void Signal::bufferPut(T value)
 
 			if (firstValueToBeSaved <= bufferLength)
 			{
-				char *ptr = (char *)buffer;
+				/*char *ptr = (char *)buffer;
 				ptr = ptr + (firstValueToBeSaved - 1) * sizeof(T);
 				ofstream fileHandler{ "./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app };
 				fileHandler.write(ptr, (bufferLength - (firstValueToBeSaved - 1)) * sizeof(T));
 				fileHandler.close();
-				firstValueToBeSaved = 1;
+				firstValueToBeSaved = 1;*/
+
+				if (type == "Binary") {
+					//ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
+					//fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
+
+					t_binary* ptr = (t_binary*)buffer;
+					ptr = ptr + (firstValueToBeSaved - 1);
+					//bool stop {false};
+					ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
+					for (size_t i = 0; i < bufferLength; i++)
+					{
+
+						fileHandler << (*ptr);
+						fileHandler << " ";
+
+						ptr++;
+					}
+
+					//	fileHandler.close();
+					setFirstValueToBeSaved(1);
+				}
 			}
 			else
 			{
@@ -329,9 +350,27 @@ void Signal::close() {
 			ofstream fileHandler;
 			fileHandler.open("./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app);
 
-			if (type == "Binary") {
+			/*if (type == "Binary") {
 				ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
 				fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
+			}*/
+			if (type == "Binary") {
+				//ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
+				//fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
+
+				t_binary* ptr = (t_binary*)buffer;
+				ptr = ptr + (firstValueToBeSaved - 1);
+				//bool stop {false};
+				ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
+				for (size_t i = 0; i < bufferLength; i++)
+				{
+
+					fileHandler << (*ptr);
+					fileHandler << " ";
+
+					ptr++;
+				}
+				setFirstValueToBeSaved(1);
 			}
 			else if (type == "TimeContinuousAmplitudeContinuousComplex" || type == "BandpassSignal") {
 				ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_complex);
@@ -346,7 +385,7 @@ void Signal::close() {
 		}
 		else if (type == "Message") {
 			auto fValueToBeSaved = getFirstValueToBeSaved();
-			int bLength = getBufferLength();
+			//int bLength = getBufferLength();
 
 			if (fValueToBeSaved < (inPosition + 1)) {
 				t_message *ptr = (t_message *)buffer;
@@ -524,6 +563,7 @@ bool SuperBlock::runBlock(string signalPath) {
 			{
 				logFileSP << "-----------------------------------------------------------------\n";
 				logFileSP << "Elapsed time: " << (float)(clock() - start) << " milliseconds" << endl;
+				logFileSP << "Block Alive: "; if (aux) { logFileSP << "TRUE" << endl; } else { logFileSP << "FALSE" << endl; };
 				logFileSP << "-----------------------------------------------------------------\n";
 				// Prints line for each input signal in the current block being executed
 				logFileSP << "Input Signals: " << endl;
@@ -1250,6 +1290,7 @@ bool System::run(string signalPath) {
 			{
 				logFile << "-----------------------------------------------------------------\n";
 				logFile << "Elapsed time: " << (float)(clock() - start) << " milliseconds" << endl;
+				logFile << "Block Alive: "; if (aux) { logFile << "TRUE" << endl; }	else { logFile << "FALSE" << endl; };
 				logFile << "-----------------------------------------------------------------\n";
 				// Prints line for each input signal in the current block being executed
 				logFile << "Input Signals: " << endl;
@@ -2038,7 +2079,7 @@ void FourierTransform::convolve(const vector<complex<double> > &xvec, const vect
 		outvec[i] = xv[i] / static_cast<double>(n);
 }
 
-
+/*
 static size_t reverseBits(size_t x, int n)
 {
 	size_t result = 0;
@@ -2046,7 +2087,7 @@ static size_t reverseBits(size_t x, int n)
 		result = (result << 1) | (x & 1U);
 	return result;
 }
-
+*/
 
 
 vector<complex<double>> FourierTransform::fft(vector<complex<double> > &vec, int sign)

@@ -16,8 +16,12 @@
 \ifdefined\dsp          	\input{./sdf/dsp_laser_phase_compensation/dsp_laser_phase_compensation} \fi
 \ifdefined\quantumRNG   	\input{./sdf/quantum_random_number_generator/quantum_random_number_generator} \fi
 \ifdefined\bb           	\input{./sdf/bb84_with_discrete_variables/bb84_with_discrete_variables} \fi
+\ifdefined\bbst         	\input{./sdf/bb84_with_channel_emulator/bb84_with_channel_emulator} \fi
+\ifdefined\cvQpskQkd        \input{./sdf/cv_qpsk_qkd/cv_qpsk_qkd} \fi
+\ifdefined\cvMQAMSystem     \input{./sdf/cv_m_qam_system/cv_m_qam_system} \fi
 \ifdefined\qokd         	\input{./sdf/qokd_with_discrete_variables/qokd_with_discrete_variables} \fi
 \ifdefined\dv               \input{./sdf/dv_polarization_encoding_system/dv_polarization_encoding_system} \fi
+\ifdefined\dvtxrx           \input{./sdf/DvQuantumTxRx/dv_quantum_tx_rx}\fi
 \ifdefined\bob              \input{./sdf/dv_polarization_encoding_system_bob_processor/dv_polarization_encoding_system_bob_processor}\fi
 \ifdefined\quantumA     	\input{./sdf/quantum_noise/quantum_noise} \fi
 \ifdefined\cvQuantum        \input{./sdf/cv_system/cv_system} \fi
@@ -26,4 +30,5 @@
 \ifdefined\classicalMpc     \input{./sdf/classical_mpc/classical_mpc} \fi
 \ifdefined\quantumMpc       \input{./sdf/quantum_mpc/quantum_mpc} \fi
 \ifdefined\secureMPC        \input{./sdf/secure_multiparty_computation/secure_multiparty_computation} \fi
-\ifdefined\secureMPC        \input{./sdf/tiny_garble/tiny_garble} \fi
+%\ifdefined\secureMPC        \input{./sdf/tiny_garble/tiny_garble} \fi
+\ifdefined\arduinoQuantumRx  \input{./sdf/arduino_quantum_rx/arduino_quantum_rx} \fi 
