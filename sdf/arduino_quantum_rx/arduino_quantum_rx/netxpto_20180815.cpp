@@ -112,6 +112,7 @@ void Signal::writeHeader(){
 
 void Signal::close() {
 
+<<<<<<< HEAD
 	if (saveSignal && (inPosition >= firstValueToBeSaved)) {
 
 		/*if (!headerWritten) writeHeader();
@@ -197,6 +198,93 @@ void Signal::close() {
 	}
 	setFirstValueToBeSaved(1);
 };
+=======
+  if (saveSignal && (inPosition >= firstValueToBeSaved)) {
+
+    /*if (!headerWritten) writeHeader();
+
+    if (!(type == "Message")) {
+      char* ptr = (char *)buffer;
+
+      ofstream fileHandler;
+      fileHandler.open("./" + folderName + "/" + fileName, ios::out | ios::binary | ios::app);
+
+      if (type == "Binary") {
+        //ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
+        //fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
+        t_binary *ptr = (t_binary *)buffer;
+        ptr = ptr + (firstValueToBeSaved - 1);
+        //bool stop {false};
+        ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
+
+        for (size_t i = 0; i < inPosition; i++)
+        {
+
+          fileHandler << (*ptr);
+          fileHandler << " ";
+
+          ptr++;
+        }
+
+        //  fileHandler.close();
+        setFirstValueToBeSaved(1);
+      }
+      else if (type == "TimeContinuousAmplitudeContinuousComplex" || type == "BandpassSignal") {
+        ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_complex);
+        fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_complex));
+      }
+      else if (type == "TimeDiscreteAmplitudeDiscreteReal") {
+        //ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_binary);
+        //fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_binary));
+
+        t_real *ptr = (t_real *)buffer;
+        ptr = ptr + (firstValueToBeSaved - 1);
+        //bool stop {false};
+        ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
+
+        for (size_t i = 0; i < inPosition; i++)
+        {
+
+          fileHandler << (*ptr);
+          fileHandler << " ";
+
+          ptr++;
+        }
+
+        //  fileHandler.close();
+        setFirstValueToBeSaved(1);
+      }
+      else {
+        ptr = ptr + (firstValueToBeSaved - 1) * sizeof(t_real);
+        fileHandler.write((char *)ptr, (inPosition - (firstValueToBeSaved - 1)) * sizeof(t_real));
+      }
+      inPosition = 0;
+      fileHandler.close();
+    }
+    else if (type == "Message") {
+      auto fValueToBeSaved = getFirstValueToBeSaved();
+      int bLength = getBufferLength();
+
+      if (fValueToBeSaved < (inPosition + 1)) {
+        t_message *ptr = (t_message *)buffer;
+        ptr = ptr + (fValueToBeSaved - 1);
+
+        ofstream fileHandler("./" + folderName + "/" + fileName, ios::out | ios::app);
+
+        for (auto msg = fValueToBeSaved; msg < (inPosition + 1); msg++) {
+          for (auto fld = 0; fld < (*ptr).size(); fld++) {
+            fileHandler << ptr->messageType + "\t" + ptr->messageDataLength + "\t" + ptr->messageData + "\n";
+          }
+          ptr++;
+        }
+        fileHandler.close();
+        setFirstValueToBeSaved(1);
+      }
+    }*/
+  }
+  setFirstValueToBeSaved(1);
+}
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
 
 //########################################################################################################################################################
 //###################################################### GENERAL BLOCKS FUNCTIONS IMPLEMENTATION #########################################################

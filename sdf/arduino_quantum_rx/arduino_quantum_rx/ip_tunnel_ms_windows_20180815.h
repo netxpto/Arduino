@@ -2,7 +2,11 @@
 # define MS_WINDOWS_IP_TUNNEL_H_
 
 # include "netxpto_20180815.h"
+<<<<<<< HEAD
 //#include "WS2tcpip.h" //official windows header with some functions needed
+=======
+#include "WS2tcpip.h" //official windows header with some functions needed
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
 
 class IPTunnel : public Block {
 

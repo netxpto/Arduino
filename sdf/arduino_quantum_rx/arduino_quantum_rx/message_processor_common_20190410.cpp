@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 //#include "..\include\message_processor_common_20190410.h"
 #include "message_processor_common_20190410.h"
+=======
+#include "..\include\message_processor_common_20190410.h"
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
 
 namespace MessageProcessors {
 

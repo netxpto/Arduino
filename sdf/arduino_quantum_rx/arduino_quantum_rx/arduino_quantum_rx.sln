@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arduino_quantum_rx", "arduino_quantum_rx.vcxproj", "{D6B47CD0-14DA-4D99-8D0F-54C85E36C08C}"
 EndProject
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "..\..\..\..\Documents\Arduino\test\test.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eyy", "C:\Users\joaor\OneDrive\Documentos\Arduino\eyy\eyy.vcxproj", "{0D8BC560-0DA3-4CE6-B4AD-720CCB728D10}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "..\..\..\..\..\..\Documents\Arduino\test\test.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +27,13 @@ Global
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+<<<<<<< HEAD
 		{0D8BC560-0DA3-4CE6-B4AD-720CCB728D10}.Debug|x86.ActiveCfg = Debug|Win32
 		{0D8BC560-0DA3-4CE6-B4AD-720CCB728D10}.Debug|x86.Build.0 = Debug|Win32
 		{0D8BC560-0DA3-4CE6-B4AD-720CCB728D10}.Release|x86.ActiveCfg = Release|Win32
 		{0D8BC560-0DA3-4CE6-B4AD-720CCB728D10}.Release|x86.Build.0 = Release|Win32
+=======
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

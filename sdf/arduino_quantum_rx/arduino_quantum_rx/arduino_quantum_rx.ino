@@ -7,10 +7,13 @@
 #include "clock_20171219.h"
 #include "ip_tunnel_ms_windows_20180815.h"
 #include "message_processor_common_20190410.h"
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
     
 //########### Just for tests ############
 String spd0 = "1";
@@ -43,7 +46,11 @@ int main()
 
 
 	/* Blocks Decalration */
+<<<<<<< HEAD
 	BinarySource BinarySource0_{{}, { &SPD0_out }};
+=======
+	BinarySource BinarySource0_{{}, { SPD0_out }};
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
   BinarySource0_.setBitStream(spd0);
   BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
   /*
