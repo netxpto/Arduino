@@ -1,5 +1,12 @@
+<<<<<<< HEAD
+# include "ip_tunnel_ms_windows_20180815.h" 
+# include "message_processor_common_20190410.h"
+//# include "..\..\ip_tunnel_ms_windows\include\ip_tunnel_ms_windows_20180815.h" 
+//# include "..\..\ip_tunnel_ms_windows\include\message_processor_common_20190410.h"
+=======
 # include "..\..\ip_tunnel_ms_windows\include\ip_tunnel_ms_windows_20180815.h" 
 # include "..\..\ip_tunnel_ms_windows\include\message_processor_common_20190410.h"
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
 
 
 SOCKET clientSocket;
@@ -46,6 +53,10 @@ bool IPTunnel::runBlock(void)
 			//alive = false;
 			if (displayNumberOfSamples) {
 				cout << "Samples received through IP Tunnel: " << process << "\n";
+<<<<<<< HEAD
+				
+=======
+>>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
 			}
 			return false;
 		}
