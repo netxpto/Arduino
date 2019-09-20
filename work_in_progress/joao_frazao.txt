@@ -4,6 +4,15 @@ Tasks:
 	1) implementação o modulo de receção do QKD em Arduine (Clock In, 2 Clock Out, DataIn0, DataIn1, {0, 1, 2, 3} => QBER)
 
 
+2019-09-20
+
+	- melhorar a documentação
+		- objetivos (concluir)
+		- implementação no netxpto (concluir)
+		- implementação no arduino (especificar o tipo de sinais/interfae)
+
+next meeting: 2/10, 14h (com a Prof. Helena)
+
 2019-09-09
 
 	- melhorar a documentação
