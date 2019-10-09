@@ -78,7 +78,7 @@
 	
 	\subsection{Simulation Analysis - Arduino Implementation}
 	
-	In order to utilize the same project running over NetXPTO simulator using Arduino technology some changes in the source code had to be made once this technology uses C/C++ language features while relying on special rules of code structuring. Acoording to Arduino official manufactures this language is merely a set of C/C++ functions that can be called from your code. Your sketch undergoes minor changes (e.g. automatic generation of function prototypes) and then is passed directly to a C/C++ compiler (avr-g++). \par However, there's currently no support for libstdc++, the standard support library needed for a complete C++ implementation. This imposes a number of restrictions on the C++ programs that can be compiled. Among them are: 
+	In order to utilize the same project running over NetXPTO simulator using Arduino technology some changes in the source code had to be made once this technology uses C/C++ language features while relying on special rules of code structuring. Acoording to Arduino official manufactures this language is merely a set of C/C++ functions that can be called from your code. Your sketch undergoes minor changes (e.g. automatic generation of function prototypes) and then is passed directly to a C/C++ compiler (avr-g++). \par However, there's currently no support for libstdc++, the standard support library needed for a complete C++ implementation. This imposes a number of restrictions on the C++ programs that can be compiled. Among them are:
 	
 	\begin{itemize}
 		\item Some of the C++ related standard functions, classes, and template classes are available.
@@ -106,11 +106,11 @@
 	
 	\subsubsection{SPD0 and SPD1 signals}
 	
-	In order to measure these signals a voltage divider was used to convert the output 5V TTL signal into a 3.3V signal, the limit imposed by the Arduino Due digital I/O pins. 
+	In order to measure these signals a voltage divider was used to convert the output 5V TTL signal into a 3.3V signal, the limit imposed by the Arduino Due digital I/O pins.
 	
 	\subsubsection{Clock signal}
 	
-	With purpose of processing the clock signal, it must be read by the analog I/O pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino. Then the arduino sends the clock signal to the quantum detectors to synchronize the reading of SPD0 and SPD1. 
+	With purpose of processing the clock signal, it must be read by the analog I/O pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino. Then the arduino sends the clock signal to the quantum detectors to synchronize the reading of SPD0 and SPD1.
 	
 	\begin{figure}[H]
 		\centering
@@ -139,7 +139,7 @@
 	
 	\subsubsection{Step 2}
 	
-	Execute the installer file, which you can use to customize your installation by selecting the feature sets or workloads, individual components, language packs and installation locations, as demonstrated in figure \ref{vstudioWorkloads}. 
+	Execute the installer file, which you can use to customize your installation by selecting the feature sets or workloads, individual components, language packs and installation locations, as demonstrated in figure \ref{vstudioWorkloads}.
 	
 	
 	
@@ -184,7 +184,7 @@
 	\end{figure}
 	
 	\subsection{Visual Micro - Installation and Setup guide}
-	Visual Micro is a plugin for Microsoft Visual Studio that helps you creating Arduino compatible cross-platform programs for hundreds of different Arduino compatible micro-controllers. Visual Micro supports projects that contain one or more .ino code files and standard c++ cource code files, just like the Arduino IDE. 
+	Visual Micro is a plugin for Microsoft Visual Studio that helps you creating Arduino compatible cross-platform programs for hundreds of different Arduino compatible micro-controllers. Visual Micro supports projects that contain one or more .ino code files and standard c++ cource code files, just like the Arduino IDE.
 	
 	
 	\subsubsection{Step 1}
@@ -247,15 +247,6 @@
 	% bibliographic references for the section ----------------------------
 	\clearpage
 	\printbibliography[heading=subbibliography]
-\end{refsection}
-\addcontentsline{toc}{subsection}{Bibliography}
-\cleardoublepage
-% ---------------------------------------------------------------------
-
-
-% bibliographic references for the section ----------------------------
-\clearpage
-\printbibliography[heading=subbibliography]
 \end{refsection}
 \addcontentsline{toc}{subsection}{Bibliography}
 \cleardoublepage
