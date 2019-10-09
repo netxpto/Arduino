@@ -42,12 +42,9 @@
     <ClInclude Include="message_processor_common_20190410.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
     <ClInclude Include="qber_20190418.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-=======
->>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="binary_source_20180815.cpp">
@@ -71,14 +68,11 @@
     <ClCompile Include="message_processor_common_20190410.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD
     <ClCompile Include="bufferPut.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="qber_20190418.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-=======
->>>>>>> 37855f1d0b3eba88c8f5b3ee3e0c9155928dbe15
   </ItemGroup>
 </Project>
