@@ -22,7 +22,11 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C6B2712C-1185-451A-80AB-E22A7B5688B8}</ProjectGuid>
     <RootNamespace>arduinoquantumrx</RootNamespace>
+<<<<<<< HEAD
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+=======
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+>>>>>>> a2e1ef33de563e6e62c9d2982074ae3e5bf49638
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -41,7 +45,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
+<<<<<<< HEAD
     <PlatformToolset>v140</PlatformToolset>
+=======
+    <PlatformToolset>v141</PlatformToolset>
+>>>>>>> a2e1ef33de563e6e62c9d2982074ae3e5bf49638
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
