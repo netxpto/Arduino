@@ -4,6 +4,28 @@ Tasks:
 	1) implementação o modulo de receção do QKD em Arduine (Clock In, 2 Clock Out, DataIn0, DataIn1, {0, 1, 2, 3} => QBER)
 
 
+<<<<<<< HEAD
+=======
+2019-10-16
+
+	- implementar no netxpto
+		- o folder include e lib tem que ir para dentro do folder arduino_quantum_rx_netxpto
+		- o fiheiro main tem que se chamar arduino_quantum_rx_netxpto_sdf.cpp
+		- incluir um sinal de trigger nas fontes
+		- documentar e incluir na simulação os resultados no netxpto
+
+	- implementação no arduino
+		- ler o clock
+		- consigo abrir as gates dos detetores
+		- ler dos detetores dos detetores de fotões
+		- documentar
+
+	- modulação da polarização
+		- documentar
+
+next meeting: 	22/10, 16h
+		30/10, 15h
+>>>>>>> 01f5276048abe2801905ede4092e59d494f86b46
 
 2019-10-09
 
