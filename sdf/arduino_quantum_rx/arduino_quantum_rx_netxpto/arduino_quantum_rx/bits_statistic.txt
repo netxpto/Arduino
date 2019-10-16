@@ -1,0 +1,4 @@
+Number of Bits sent by Alice: 6291
+Number of Bits received by Bob: 5661
+Number of Bits double click: 315 
+Number of Bits that suffered attenuation: 315 

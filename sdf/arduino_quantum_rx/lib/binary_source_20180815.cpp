@@ -12,37 +12,36 @@ void BinarySource::initialize(void) {
 
 bool BinarySource::runBlock(void) {
 
+			long space = outputSignals[0]->space();
+			for (auto k : outputSignals) {
+				long int aux = k->space();
+				space = std::min(space, aux);
+			}
 
-	long space = outputSignals[0]->space();
-	for (auto k : outputSignals) {
-		long int aux = k->space();
-		space = std::min(space, aux);
-	}
+			long int process{ 0 };
+			if (numberOfBits >= 0) {
+				process = std::min(space, numberOfBits);
+			}
+			else {
+				process = space;
+			}
 
-	long int process{ 0 };
-	if (numberOfBits >= 0) {
-		process = std::min(space, numberOfBits);
-	}
-	else {
-		process = space;
-	}
+			if (process <= 0) return false;
 
-	if (process <= 0) return false;
-
-	switch (mode) {
-		case BinarySourceMode::PseudoRandom: 
-			runPseudoRandom(process);
-			break;
-		case BinarySourceMode::Random:
-			runRandom(process);
-			break;
-		case BinarySourceMode::DeterministicCyclic:
-			runDeterministicCyclic(process);
-			break;
-		case BinarySourceMode::DeterministicAppendZeros:
-			runDeterministicAppendZeros(process);
-			break;
-	}
+			switch (mode) {
+			case BinarySourceMode::PseudoRandom:
+				runPseudoRandom(process);
+				break;
+			case BinarySourceMode::Random:
+				runRandom(process);
+				break;
+			case BinarySourceMode::DeterministicCyclic:
+				runDeterministicCyclic(process);
+				break;
+			case BinarySourceMode::DeterministicAppendZeros:
+				runDeterministicAppendZeros(process);
+				break;
+			}
 
 	return true;
 }
