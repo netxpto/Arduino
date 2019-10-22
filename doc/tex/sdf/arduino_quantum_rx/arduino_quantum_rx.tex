@@ -66,9 +66,7 @@
 		
 		\item IPTunnel\_;
 		
-		\item Sink\_IPTunnel\_
-		\begin{itemize}
-			\item setDisplayNumberOfSamples(true);
+
 			
 		\end{itemize}
 	\end{itemize}
@@ -81,7 +79,7 @@
 
 \begin{itemize}
 	
-	\vspace{50px}
+	
 	\item SPD0\_out:
 	\begin{figure}[H]
 		\centering
@@ -89,19 +87,20 @@
 		\caption{Signal generated from BinarySource0.}
 		\label{fig:arduino}
 	\end{figure}
-	\newpage
+
 	\item SPD1\_out:
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.9\linewidth]{./sdf/arduino_quantum_rx/figures/SPD1.JPG}
+		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/SPD1.JPG}
 		\caption{Signal generated from BinarySource1.}
 		\label{fig:arduino}
 	\end{figure}
+
 	
 	\item Clock\_out:
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.9\linewidth]{./sdf/arduino_quantum_rx/figures/Clock.JPG}
+		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/Clock.JPG}
 		\caption{Signal generated from Clock.}
 		\label{fig:arduino}
 	\end{figure}
@@ -109,18 +108,26 @@
 	\item BobData\_In;
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.9\linewidth]{./sdf/arduino_quantum_rx/figures/BobdataIn.JPG}
+		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/BobdataIn.JPG}
 		\caption{Signal generated from CoincidenceDetector.}
 		\label{fig:arduino}
 	\end{figure}
-	
-	\item IPTunnel\_Out;
+	\clearpage
+		\item IPTunnel\_Out;
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{./sdf/arduino_quantum_rx/figures/Iptunnel.JPG}
+		\includegraphics[width=0.8\linewidth]{./sdf/arduino_quantum_rx/figures/Iptunnel.JPG}
 		\caption{Signal the client is sending through the IPTunnel block and what the server is receiving.}
 		\label{fig:arduino}
 	\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{./sdf/arduino_quantum_rx/figures/tunel2.PNG}
+	\caption{Signal the client is sending through the IPTunnel block and what the server is receiving.}
+	\label{fig:arduino}
+\end{figure}
 
 
 
@@ -148,22 +155,39 @@
 	\end{itemize}
 	
 	
-	
-	
 	\subsection{Arduino Implementation - System Montage and signal acquisition}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeralArduino.pdf}
+		\caption{Block diagram of a arduino imlementation.}
+		\label{fig:netxpto}
+	\end{figure}
 	
 
 	\subsubsection{SPD0 and SPD1 signals}
 	
 	In order to measure these signals a voltage divider was used to convert the output 5V TTL signal into a 3.3V signal, the limit imposed by the Arduino Due digital I/O pins.
 	
+	\vspace{15px}
 	\subsubsection{Clock signal}
 	
 	With purpose of processing the clock signal, it must be read by the analog I/O pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino. Then the arduino sends the clock signal to the quantum detectors to synchronize the reading of SPD0 and SPD1.
 	
+	\vspace{15px}
+	
+	This signal was read with the arduino, which has a 12 bit adc, and we obtain the following result in figure 5.12 . Alot of values have the exact same time which explain why the graphic has this form.
+	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/clockRead.pdf}
+		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/Clockard.pdf}
+		\caption{Clock signal.}
+		\label{fig:netxpto}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/clockRead.pdf}
 		\caption{Clock signal read.}
 		\label{montage}
 	\end{figure}

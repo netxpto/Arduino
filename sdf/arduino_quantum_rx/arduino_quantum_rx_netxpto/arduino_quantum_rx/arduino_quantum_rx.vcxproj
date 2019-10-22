@@ -22,15 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C6B2712C-1185-451A-80AB-E22A7B5688B8}</ProjectGuid>
     <RootNamespace>arduinoquantumrx</RootNamespace>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-=======
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
->>>>>>> a2e1ef33de563e6e62c9d2982074ae3e5bf49638
-=======
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
->>>>>>> 01f5276048abe2801905ede4092e59d494f86b46
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -49,15 +41,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <PlatformToolset>v140</PlatformToolset>
-=======
-    <PlatformToolset>v141</PlatformToolset>
->>>>>>> a2e1ef33de563e6e62c9d2982074ae3e5bf49638
-=======
-    <PlatformToolset>v141</PlatformToolset>
->>>>>>> 01f5276048abe2801905ede4092e59d494f86b46
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -85,7 +69,11 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\Arduino\sdf\arduino_quantum_rx\arduino_quantum_rx_netxpto\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Arduino\sdf\arduino_quantum_rx\arduino_quantum_rx_netxpto\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>D:\Arduino\sdf\arduino_quantum_rx\arduino_quantum_rx_netxpto\include;$(SourcePath)</SourcePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -105,6 +93,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\Arduino\sdf\arduino_quantum_rx\arduino_quantum_rx_netxpto\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -147,7 +136,7 @@
     <ClCompile Include="..\..\lib\netxpto_20180815.cpp" />
     <ClCompile Include="..\..\lib\qber_20190418.cpp" />
     <ClCompile Include="..\..\lib\sink_20180815.cpp" />
-    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto_sdf.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\binary_source_20180815.h" />

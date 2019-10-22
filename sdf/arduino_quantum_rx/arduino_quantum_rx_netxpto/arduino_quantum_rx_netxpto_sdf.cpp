@@ -1,8 +1,8 @@
-# include "..\include\binary_source_20180815.h"
-# include "..\include\coincidence_detector_20190319.h"
-# include "..\include\netxpto_20180815.h"
-# include "..\include\sink_20180815.h"
-# include "..\include\clock_20171219.h"
+# include "..\arduino_quantum_rx_netxpto\include\binary_source_20180815.h"
+# include "..\arduino_quantum_rx_netxpto\include\coincidence_detector_20190319.h"
+# include "..\arduino_quantum_rx_netxpto\include\netxpto_20180815.h"
+# include "..\arduino_quantum_rx_netxpto\include\sink_20180815.h"
+# include "..\arduino_quantum_rx_netxpto\include\clock_20171219.h"
 # include "..\..\ip_tunnel_ms_windows\include\ip_tunnel_ms_windows_20180815.h"
 
 // #####################################################################################################
@@ -17,18 +17,17 @@ string s1 = "1";
 
 int main()
 {
-
 	/* Signals Declaration */
-	Binary SPD0_out{ "SPD0_out.sgn" };
-	SPD0_out.setSaveInAscii(true); 
+	Binary SPD0_out{ "SPD0_out.sgn"};
+	SPD0_out.setSaveInAscii(true);
 
-	Binary SPD1_out{ "SPD1_out.sgn" };
+	Binary SPD1_out{ "SPD1_out.sgn"};
 	SPD1_out.setSaveInAscii(true);
 
-	Binary BobData_In{ "BobData_In.sgn" };
+	Binary BobData_In{ "BobData_In.sgn"};
 	BobData_In.setSaveInAscii(true);
 
-	TimeDiscreteAmplitudeDiscreteReal clock_out{ "clock_out.sgn" };
+	TimeDiscreteAmplitudeDiscreteReal clock_out{ "clock_out.sgn"};
 	clock_out.setSaveInAscii(true);
 
 	Binary IPTunnel_Out{ "IPTunnel_Out.sgn" };
@@ -55,9 +54,8 @@ int main()
 	
 	IPTunnel IpTunnel_{ {&BobData_In},{&IPTunnel_Out} };
 
-	//Sink Sink_IPTunnel_{ { &IPTunnel_Out },{} };
-	//Sink_IPTunnel_.setDisplayNumberOfSamples(true);
-
+	Sink Sink_IPTunnel_{ { &IPTunnel_Out },{} };
+	Sink_IPTunnel_.setDisplayNumberOfSamples(true);
 
 
 
@@ -68,7 +66,7 @@ int main()
 		&BinarySource1_,
 		&CoincidenceDetector_,
 		&IpTunnel_,
-		//&Sink_IPTunnel_
+		&Sink_IPTunnel_
 
 
 	};

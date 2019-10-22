@@ -1,12 +1,12 @@
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## Clock ##########
-Block start time: 2019-10-15 17:23:33
+Block start time: 2019-10-22 11:24:22
 Input Signals: 
 Output Signals: 
 Clock|clock_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 1259 milliseconds
+Elapsed time: 8 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -15,12 +15,12 @@ Clock|clock_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:34
+Block start time: 2019-10-22 11:24:22
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 33 milliseconds
+Elapsed time: 15 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -29,12 +29,12 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:35
+Block start time: 2019-10-22 11:24:22
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 8 milliseconds
+Elapsed time: 171 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -43,7 +43,7 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:35
+Block start time: 2019-10-22 11:24:22
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
@@ -51,40 +51,54 @@ CoincidenceDetector|clock_out|ready=512
 Output Signals: 
 CoincidenceDetector|BobData_In|space=512
 -----------------------------------------------------------------
-Elapsed time: 0 milliseconds
+Elapsed time: 14 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=460
 CoincidenceDetector|SPD1_out|ready=460
 CoincidenceDetector|clock_out|ready=0
 Output Signals: 
-CoincidenceDetector|BobData_In|space=460
+CoincidenceDetector|BobData_In|space=0
 
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:35
+Block start time: 2019-10-22 11:24:22
 Input Signals: 
-IPTunnel|BobData_In|ready=52
+IPTunnel|BobData_In|ready=512
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
 -----------------------------------------------------------------
-Elapsed time: 47 milliseconds
+Elapsed time: 633 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-IPTunnel|BobData_In|ready=460
+IPTunnel|BobData_In|ready=0
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-10-22 11:24:23
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
 
 
 -----------------------------------------------------------------
 ########## Clock ##########
-Block start time: 2019-10-15 17:23:35
+Block start time: 2019-10-22 11:24:23
 Input Signals: 
 Output Signals: 
 Clock|clock_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 6 milliseconds
+Elapsed time: 5 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -93,7 +107,7 @@ Clock|clock_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:35
+Block start time: 2019-10-22 11:24:23
 Input Signals: 
 Output Signals: 
 BinarySource|SPD0_out|space=52
@@ -107,7 +121,7 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:35
+Block start time: 2019-10-22 11:24:23
 Input Signals: 
 Output Signals: 
 BinarySource|SPD1_out|space=52
@@ -121,592 +135,60 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:35
+Block start time: 2019-10-22 11:24:23
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 CoincidenceDetector|clock_out|ready=512
 Output Signals: 
-CoincidenceDetector|BobData_In|space=52
+CoincidenceDetector|BobData_In|space=512
 -----------------------------------------------------------------
-Elapsed time: 0 milliseconds
+Elapsed time: 231 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-CoincidenceDetector|SPD0_out|ready=507
-CoincidenceDetector|SPD1_out|ready=507
-CoincidenceDetector|clock_out|ready=460
+CoincidenceDetector|SPD0_out|ready=461
+CoincidenceDetector|SPD1_out|ready=461
+CoincidenceDetector|clock_out|ready=0
 Output Signals: 
-CoincidenceDetector|BobData_In|space=47
+CoincidenceDetector|BobData_In|space=0
 
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:35
+Block start time: 2019-10-22 11:24:23
 Input Signals: 
-IPTunnel|BobData_In|ready=465
+IPTunnel|BobData_In|ready=512
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
 -----------------------------------------------------------------
-Elapsed time: 854 milliseconds
+Elapsed time: 575 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-IPTunnel|BobData_In|ready=47
+IPTunnel|BobData_In|ready=0
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-10-22 11:24:24
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
 
 
 -----------------------------------------------------------------
 ########## Clock ##########
-Block start time: 2019-10-15 17:23:36
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
 Output Signals: 
-Clock|clock_out|space=52
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=5
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=5
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=465
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=466
-CoincidenceDetector|SPD1_out|ready=466
-CoincidenceDetector|clock_out|ready=47
-Output Signals: 
-CoincidenceDetector|BobData_In|space=419
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-IPTunnel|BobData_In|ready=93
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 182 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=419
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=465
------------------------------------------------------------------
-Elapsed time: 57 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=46
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=46
------------------------------------------------------------------
-Elapsed time: 1 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=93
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=502
-CoincidenceDetector|SPD1_out|ready=502
-CoincidenceDetector|clock_out|ready=419
-Output Signals: 
-CoincidenceDetector|BobData_In|space=83
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-IPTunnel|BobData_In|ready=429
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 687 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=83
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=93
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=10
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=10
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=429
------------------------------------------------------------------
-Elapsed time: 1 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=469
-CoincidenceDetector|SPD1_out|ready=469
-CoincidenceDetector|clock_out|ready=83
-Output Signals: 
-CoincidenceDetector|BobData_In|space=386
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:36
-Input Signals: 
-IPTunnel|BobData_In|ready=126
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 180 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=386
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=429
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=43
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=43
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=126
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=500
-CoincidenceDetector|SPD1_out|ready=500
-CoincidenceDetector|clock_out|ready=386
-Output Signals: 
-CoincidenceDetector|BobData_In|space=114
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-IPTunnel|BobData_In|ready=398
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 296 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=114
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=126
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=12
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=12
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=398
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=472
-CoincidenceDetector|SPD1_out|ready=472
-CoincidenceDetector|clock_out|ready=114
-Output Signals: 
-CoincidenceDetector|BobData_In|space=358
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-IPTunnel|BobData_In|ready=154
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 218 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=358
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=398
------------------------------------------------------------------
-Elapsed time: 15 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=40
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=40
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=154
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=497
-CoincidenceDetector|SPD1_out|ready=497
-CoincidenceDetector|clock_out|ready=358
-Output Signals: 
-CoincidenceDetector|BobData_In|space=139
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:37
-Input Signals: 
-IPTunnel|BobData_In|ready=373
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 504 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=139
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=154
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=15
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=15
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=373
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=474
-CoincidenceDetector|SPD1_out|ready=474
-CoincidenceDetector|clock_out|ready=139
-Output Signals: 
-CoincidenceDetector|BobData_In|space=335
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-IPTunnel|BobData_In|ready=177
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 278 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=335
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=373
+Clock|clock_out|space=512
 -----------------------------------------------------------------
 Elapsed time: 6 milliseconds
 -----------------------------------------------------------------
@@ -717,10 +199,10 @@ Clock|clock_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:38
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
 Output Signals: 
-BinarySource|SPD0_out|space=38
+BinarySource|SPD0_out|space=51
 -----------------------------------------------------------------
 Elapsed time: 0 milliseconds
 -----------------------------------------------------------------
@@ -731,10 +213,10 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:38
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
 Output Signals: 
-BinarySource|SPD1_out|space=38
+BinarySource|SPD1_out|space=51
 -----------------------------------------------------------------
 Elapsed time: 1 milliseconds
 -----------------------------------------------------------------
@@ -745,48 +227,62 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:38
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 CoincidenceDetector|clock_out|ready=512
 Output Signals: 
-CoincidenceDetector|BobData_In|space=177
+CoincidenceDetector|BobData_In|space=512
 -----------------------------------------------------------------
-Elapsed time: 0 milliseconds
+Elapsed time: 44 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-CoincidenceDetector|SPD0_out|ready=495
-CoincidenceDetector|SPD1_out|ready=495
-CoincidenceDetector|clock_out|ready=335
+CoincidenceDetector|SPD0_out|ready=461
+CoincidenceDetector|SPD1_out|ready=461
+CoincidenceDetector|clock_out|ready=0
 Output Signals: 
-CoincidenceDetector|BobData_In|space=160
+CoincidenceDetector|BobData_In|space=0
 
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:38
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
-IPTunnel|BobData_In|ready=352
+IPTunnel|BobData_In|ready=512
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
 -----------------------------------------------------------------
-Elapsed time: 121 milliseconds
+Elapsed time: 552 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-IPTunnel|BobData_In|ready=160
+IPTunnel|BobData_In|ready=0
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-10-22 11:24:24
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
 
 
 -----------------------------------------------------------------
 ########## Clock ##########
-Block start time: 2019-10-15 17:23:38
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
 Output Signals: 
-Clock|clock_out|space=177
+Clock|clock_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 0 milliseconds
+Elapsed time: 6 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -795,466 +291,90 @@ Clock|clock_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:38
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
 Output Signals: 
-BinarySource|SPD0_out|space=17
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=17
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=352
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=476
-CoincidenceDetector|SPD1_out|ready=476
-CoincidenceDetector|clock_out|ready=160
-Output Signals: 
-CoincidenceDetector|BobData_In|space=316
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-IPTunnel|BobData_In|ready=196
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 67 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=316
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=352
------------------------------------------------------------------
-Elapsed time: 46 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=36
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=36
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=196
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=493
-CoincidenceDetector|SPD1_out|ready=493
-CoincidenceDetector|clock_out|ready=316
-Output Signals: 
-CoincidenceDetector|BobData_In|space=177
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:38
-Input Signals: 
-IPTunnel|BobData_In|ready=335
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 353 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=177
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=196
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=19
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=19
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=335
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=478
-CoincidenceDetector|SPD1_out|ready=478
-CoincidenceDetector|clock_out|ready=177
-Output Signals: 
-CoincidenceDetector|BobData_In|space=301
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-IPTunnel|BobData_In|ready=211
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 252 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=301
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=335
------------------------------------------------------------------
-Elapsed time: 15 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=34
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=34
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=211
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=491
-CoincidenceDetector|SPD1_out|ready=491
-CoincidenceDetector|clock_out|ready=301
-Output Signals: 
-CoincidenceDetector|BobData_In|space=190
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-IPTunnel|BobData_In|ready=322
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 398 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=190
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=211
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=21
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=21
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=322
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=480
-CoincidenceDetector|SPD1_out|ready=480
-CoincidenceDetector|clock_out|ready=190
-Output Signals: 
-CoincidenceDetector|BobData_In|space=290
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:39
-Input Signals: 
-IPTunnel|BobData_In|ready=222
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 286 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=290
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=322
------------------------------------------------------------------
-Elapsed time: 21 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=32
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=32
+BinarySource|SPD0_out|space=51
 -----------------------------------------------------------------
 Elapsed time: 1 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
+BinarySource|SPD0_out|space=0
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-10-22 11:24:24
+Input Signals: 
+Output Signals: 
+BinarySource|SPD1_out|space=51
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
 BinarySource|SPD1_out|space=0
 
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:40
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 CoincidenceDetector|clock_out|ready=512
 Output Signals: 
-CoincidenceDetector|BobData_In|space=222
+CoincidenceDetector|BobData_In|space=512
 -----------------------------------------------------------------
-Elapsed time: 0 milliseconds
+Elapsed time: 10 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-CoincidenceDetector|SPD0_out|ready=490
-CoincidenceDetector|SPD1_out|ready=490
-CoincidenceDetector|clock_out|ready=290
+CoincidenceDetector|SPD0_out|ready=461
+CoincidenceDetector|SPD1_out|ready=461
+CoincidenceDetector|clock_out|ready=0
 Output Signals: 
-CoincidenceDetector|BobData_In|space=200
+CoincidenceDetector|BobData_In|space=0
 
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:40
+Block start time: 2019-10-22 11:24:24
 Input Signals: 
-IPTunnel|BobData_In|ready=312
+IPTunnel|BobData_In|ready=512
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
 -----------------------------------------------------------------
-Elapsed time: 337 milliseconds
+Elapsed time: 166 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-IPTunnel|BobData_In|ready=200
+IPTunnel|BobData_In|ready=0
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-10-22 11:24:25
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
 
 
 -----------------------------------------------------------------
 ########## Clock ##########
-Block start time: 2019-10-15 17:23:40
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
 Output Signals: 
-Clock|clock_out|space=222
+Clock|clock_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 70 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1263,10 +383,10 @@ Clock|clock_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:40
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
 Output Signals: 
-BinarySource|SPD0_out|space=22
+BinarySource|SPD0_out|space=51
 -----------------------------------------------------------------
 Elapsed time: 0 milliseconds
 -----------------------------------------------------------------
@@ -1277,10 +397,10 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:40
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
 Output Signals: 
-BinarySource|SPD1_out|space=22
+BinarySource|SPD1_out|space=51
 -----------------------------------------------------------------
 Elapsed time: 0 milliseconds
 -----------------------------------------------------------------
@@ -1291,282 +411,62 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:40
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 CoincidenceDetector|clock_out|ready=512
 Output Signals: 
-CoincidenceDetector|BobData_In|space=312
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=481
-CoincidenceDetector|SPD1_out|ready=481
-CoincidenceDetector|clock_out|ready=200
-Output Signals: 
-CoincidenceDetector|BobData_In|space=281
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-IPTunnel|BobData_In|ready=231
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 301 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=281
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=312
------------------------------------------------------------------
-Elapsed time: 52 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=31
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=31
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=231
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=489
-CoincidenceDetector|SPD1_out|ready=489
-CoincidenceDetector|clock_out|ready=281
-Output Signals: 
-CoincidenceDetector|BobData_In|space=208
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:40
-Input Signals: 
-IPTunnel|BobData_In|ready=304
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 352 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=208
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=231
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=23
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=23
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=304
------------------------------------------------------------------
-Elapsed time: 14 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=481
-CoincidenceDetector|SPD1_out|ready=481
-CoincidenceDetector|clock_out|ready=208
-Output Signals: 
-CoincidenceDetector|BobData_In|space=273
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-IPTunnel|BobData_In|ready=239
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 316 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=273
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=304
------------------------------------------------------------------
-Elapsed time: 18 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=31
+CoincidenceDetector|BobData_In|space=512
 -----------------------------------------------------------------
 Elapsed time: 11 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
+CoincidenceDetector|SPD0_out|ready=461
+CoincidenceDetector|SPD1_out|ready=461
+CoincidenceDetector|clock_out|ready=0
 Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=31
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:41
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=239
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=488
-CoincidenceDetector|SPD1_out|ready=488
-CoincidenceDetector|clock_out|ready=273
-Output Signals: 
-CoincidenceDetector|BobData_In|space=215
+CoincidenceDetector|BobData_In|space=0
 
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:41
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
-IPTunnel|BobData_In|ready=297
+IPTunnel|BobData_In|ready=512
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
 -----------------------------------------------------------------
-Elapsed time: 336 milliseconds
+Elapsed time: 566 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-IPTunnel|BobData_In|ready=215
+IPTunnel|BobData_In|ready=0
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-10-22 11:24:25
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
 
 
 -----------------------------------------------------------------
 ########## Clock ##########
-Block start time: 2019-10-15 17:23:41
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
 Output Signals: 
-Clock|clock_out|space=239
+Clock|clock_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 5 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1575,10 +475,10 @@ Clock|clock_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:41
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
 Output Signals: 
-BinarySource|SPD0_out|space=24
+BinarySource|SPD0_out|space=51
 -----------------------------------------------------------------
 Elapsed time: 0 milliseconds
 -----------------------------------------------------------------
@@ -1589,10 +489,10 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:41
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
 Output Signals: 
-BinarySource|SPD1_out|space=24
+BinarySource|SPD1_out|space=51
 -----------------------------------------------------------------
 Elapsed time: 0 milliseconds
 -----------------------------------------------------------------
@@ -1603,48 +503,62 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:41
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 CoincidenceDetector|clock_out|ready=512
 Output Signals: 
-CoincidenceDetector|BobData_In|space=297
+CoincidenceDetector|BobData_In|space=512
 -----------------------------------------------------------------
-Elapsed time: 0 milliseconds
+Elapsed time: 11 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-CoincidenceDetector|SPD0_out|ready=483
-CoincidenceDetector|SPD1_out|ready=483
-CoincidenceDetector|clock_out|ready=215
+CoincidenceDetector|SPD0_out|ready=460
+CoincidenceDetector|SPD1_out|ready=460
+CoincidenceDetector|clock_out|ready=0
 Output Signals: 
-CoincidenceDetector|BobData_In|space=268
+CoincidenceDetector|BobData_In|space=0
 
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:41
+Block start time: 2019-10-22 11:24:25
 Input Signals: 
-IPTunnel|BobData_In|ready=244
+IPTunnel|BobData_In|ready=512
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
 -----------------------------------------------------------------
-Elapsed time: 291 milliseconds
+Elapsed time: 1043 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-IPTunnel|BobData_In|ready=268
+IPTunnel|BobData_In|ready=0
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-10-22 11:24:26
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sink|IPTunnel_Out|ready=0
+Output Signals: 
 
 
 -----------------------------------------------------------------
 ########## Clock ##########
-Block start time: 2019-10-15 17:23:42
+Block start time: 2019-10-22 11:24:26
 Input Signals: 
 Output Signals: 
-Clock|clock_out|space=297
+Clock|clock_out|space=512
 -----------------------------------------------------------------
-Elapsed time: 28 milliseconds
+Elapsed time: 16 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1653,166 +567,10 @@ Clock|clock_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:42
+Block start time: 2019-10-22 11:24:26
 Input Signals: 
 Output Signals: 
-BinarySource|SPD0_out|space=29
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=29
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=244
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=487
-CoincidenceDetector|SPD1_out|ready=487
-CoincidenceDetector|clock_out|ready=268
-Output Signals: 
-CoincidenceDetector|BobData_In|space=219
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-IPTunnel|BobData_In|ready=293
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 329 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=219
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=244
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=25
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=25
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=293
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=483
-CoincidenceDetector|SPD1_out|ready=483
-CoincidenceDetector|clock_out|ready=219
-Output Signals: 
-CoincidenceDetector|BobData_In|space=264
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-IPTunnel|BobData_In|ready=248
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 300 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=264
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=293
------------------------------------------------------------------
-Elapsed time: 19 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:42
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=29
+BinarySource|SPD0_out|space=52
 -----------------------------------------------------------------
 Elapsed time: 1 milliseconds
 -----------------------------------------------------------------
@@ -1823,10 +581,10 @@ BinarySource|SPD0_out|space=0
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-10-15 17:23:42
+Block start time: 2019-10-22 11:24:26
 Input Signals: 
 Output Signals: 
-BinarySource|SPD1_out|space=29
+BinarySource|SPD1_out|space=52
 -----------------------------------------------------------------
 Elapsed time: 0 milliseconds
 -----------------------------------------------------------------
@@ -1837,496 +595,28 @@ BinarySource|SPD1_out|space=0
 
 -----------------------------------------------------------------
 ########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:42
+Block start time: 2019-10-22 11:24:26
 Input Signals: 
 CoincidenceDetector|SPD0_out|ready=512
 CoincidenceDetector|SPD1_out|ready=512
 CoincidenceDetector|clock_out|ready=512
 Output Signals: 
-CoincidenceDetector|BobData_In|space=248
+CoincidenceDetector|BobData_In|space=512
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 11 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
-CoincidenceDetector|SPD0_out|ready=487
-CoincidenceDetector|SPD1_out|ready=487
-CoincidenceDetector|clock_out|ready=264
+CoincidenceDetector|SPD0_out|ready=461
+CoincidenceDetector|SPD1_out|ready=461
+CoincidenceDetector|clock_out|ready=0
 Output Signals: 
-CoincidenceDetector|BobData_In|space=223
+CoincidenceDetector|BobData_In|space=0
 
 
 -----------------------------------------------------------------
 ########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:42
+Block start time: 2019-10-22 11:24:26
 Input Signals: 
-IPTunnel|BobData_In|ready=289
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 356 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=223
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=248
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=25
------------------------------------------------------------------
-Elapsed time: 1 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=25
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=289
------------------------------------------------------------------
-Elapsed time: 1 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=483
-CoincidenceDetector|SPD1_out|ready=483
-CoincidenceDetector|clock_out|ready=223
-Output Signals: 
-CoincidenceDetector|BobData_In|space=260
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-IPTunnel|BobData_In|ready=252
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 294 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=260
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=289
------------------------------------------------------------------
-Elapsed time: 17 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=29
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=29
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=252
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=487
-CoincidenceDetector|SPD1_out|ready=487
-CoincidenceDetector|clock_out|ready=260
-Output Signals: 
-CoincidenceDetector|BobData_In|space=227
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:43
-Input Signals: 
-IPTunnel|BobData_In|ready=285
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 1293 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=227
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:44
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=252
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:44
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=25
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:44
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=25
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:44
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=285
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=483
-CoincidenceDetector|SPD1_out|ready=483
-CoincidenceDetector|clock_out|ready=227
-Output Signals: 
-CoincidenceDetector|BobData_In|space=256
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:44
-Input Signals: 
-IPTunnel|BobData_In|ready=256
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 301 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=256
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=285
------------------------------------------------------------------
-Elapsed time: 18 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=29
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=29
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=256
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=487
-CoincidenceDetector|SPD1_out|ready=487
-CoincidenceDetector|clock_out|ready=256
-Output Signals: 
-CoincidenceDetector|BobData_In|space=231
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-IPTunnel|BobData_In|ready=281
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 307 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=231
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=256
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=25
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=25
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=281
------------------------------------------------------------------
-Elapsed time: 1 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=484
-CoincidenceDetector|SPD1_out|ready=484
-CoincidenceDetector|clock_out|ready=231
-Output Signals: 
-CoincidenceDetector|BobData_In|space=253
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-IPTunnel|BobData_In|ready=259
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
------------------------------------------------------------------
-Elapsed time: 139 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IPTunnel|BobData_In|ready=253
-Output Signals: 
-IPTunnel|IPTunnel_Out|space=512
-
-
------------------------------------------------------------------
-########## Clock ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=281
------------------------------------------------------------------
-Elapsed time: 18 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Clock|clock_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=28
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD0_out|space=0
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=28
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|SPD1_out|space=0
-
-
------------------------------------------------------------------
-########## CoincidenceDetector ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=512
-CoincidenceDetector|SPD1_out|ready=512
-CoincidenceDetector|clock_out|ready=512
-Output Signals: 
-CoincidenceDetector|BobData_In|space=259
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-CoincidenceDetector|SPD0_out|ready=486
-CoincidenceDetector|SPD1_out|ready=486
-CoincidenceDetector|clock_out|ready=253
-Output Signals: 
-CoincidenceDetector|BobData_In|space=233
-
-
------------------------------------------------------------------
-########## IPTunnel ##########
-Block start time: 2019-10-15 17:23:45
-Input Signals: 
-IPTunnel|BobData_In|ready=279
+IPTunnel|BobData_In|ready=512
 Output Signals: 
 IPTunnel|IPTunnel_Out|space=512
