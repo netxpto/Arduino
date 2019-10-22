@@ -30,9 +30,6 @@
     <ClCompile Include="..\..\lib\sink_20180815.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\lib\clock_20171219.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -40,6 +37,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\lib\message_processor_common_20190410.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\arduino_quantum_rx_netxpto_sdf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

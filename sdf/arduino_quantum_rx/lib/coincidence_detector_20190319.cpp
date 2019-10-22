@@ -68,7 +68,7 @@ bool CoincidenceDetector::runBlock(void) {
 		}
 		else
 		{ 
-			outputSignals[0]->bufferPut((t_binary)4); // 4 stands for an invalid clock read 
+			//outputSignals[0]->bufferPut((t_binary)4); // 4 stands for an invalid clock read 
 		}
 		
 	}
