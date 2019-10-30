@@ -11,8 +11,10 @@
 
 int numberOfBits{ 10000 };
 
-string s = "0";
-string s1 = "1";
+
+
+string s =  "011010";
+string s1 = "110010";
 
 
 int main()
@@ -27,6 +29,7 @@ int main()
 	Binary BobData_In{ "BobData_In.sgn"};
 	BobData_In.setSaveInAscii(true);
 
+
 	TimeDiscreteAmplitudeDiscreteReal clock_out{ "clock_out.sgn"};
 	clock_out.setSaveInAscii(true);
 
@@ -35,16 +38,16 @@ int main()
 	/* Blocks Decalration */
 	BinarySource BinarySource0_{ {},{ &SPD0_out} };
 	BinarySource0_.setBitStream(s);
-	//BinarySource0_.setNumberOfBits(numberOfBits);
-	//BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
-	BinarySource0_.setBitPeriod(1e-6);
+	BinarySource0_.setNumberOfBits(numberOfBits);
+	BinarySource0_.setMode(BinarySourceMode::DeterministicCyclic);
+	//BinarySource0_.setBitPeriod(1e-6);
 
 
 	BinarySource BinarySource1_{ {},{ &SPD1_out} };
 	BinarySource1_.setBitStream(s1);
-	//BinarySource1_.setNumberOfBits(numberOfBits);
-	//BinarySource1_.setMode(BinarySourceMode::DeterministicCyclic);
-	BinarySource1_.setBitPeriod(1e-6);
+    BinarySource1_.setNumberOfBits(numberOfBits);
+	BinarySource1_.setMode(BinarySourceMode::DeterministicCyclic);
+	//BinarySource1_.setBitPeriod(1e-6);
 
 	Clock Clock{ {},{&clock_out} };
 	Clock.setClockPeriod(1); // If the period is defined in seconds it gives us a clock frequency of 1 KHz
@@ -61,9 +64,9 @@ int main()
 
 	System MainSystem{
 		// BLOCKS
-		&Clock,
 		&BinarySource0_,
 		&BinarySource1_,
+		&Clock,
 		&CoincidenceDetector_,
 		&IpTunnel_,
 		&Sink_IPTunnel_

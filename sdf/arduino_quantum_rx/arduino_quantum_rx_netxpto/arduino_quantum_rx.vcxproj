@@ -92,7 +92,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>D:\Arduino\sdf\arduino_quantum_rx\arduino_quantum_rx_netxpto\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -128,25 +128,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\lib\binary_source_20180815.cpp" />
-    <ClCompile Include="..\lib\clock_20171219.cpp" />
-    <ClCompile Include="..\lib\coincidence_detector_20190319.cpp" />
-    <ClCompile Include="..\lib\ip_tunnel_ms_windows_20180815.cpp" />
-    <ClCompile Include="..\lib\message_processor_common_20190410.cpp" />
-    <ClCompile Include="..\lib\netxpto_20180815.cpp" />
-    <ClCompile Include="..\lib\qber_20190418.cpp" />
-    <ClCompile Include="..\lib\sink_20180815.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto\lib\binary_source_20180815.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto\lib\clock_20171219.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto\lib\coincidence_detector_20190319.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto\lib\ip_tunnel_ms_windows_20180815.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto\lib\message_processor_common_20190410.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto\lib\netxpto_20180815.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto\lib\qber_20190418.cpp" />
+    <ClCompile Include="..\arduino_quantum_rx_netxpto\lib\sink_20180815.cpp" />
     <ClCompile Include="arduino_quantum_rx_netxpto_sdf.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\binary_source_20180815.h" />
-    <ClInclude Include="..\include\clock_20171219.h" />
-    <ClInclude Include="..\include\coincidence_detector_20190319.h" />
-    <ClInclude Include="..\include\ip_tunnel_ms_windows_20180815.h" />
-    <ClInclude Include="..\include\message_processor_common_20190410.h" />
-    <ClInclude Include="..\include\netxpto_20180815.h" />
-    <ClInclude Include="..\include\qber_20190418.h" />
-    <ClInclude Include="..\include\sink_20180815.h" />
+    <ClInclude Include="..\arduino_quantum_rx_netxpto\include\binary_source_20180815.h" />
+    <ClInclude Include="..\arduino_quantum_rx_netxpto\include\clock_20171219.h" />
+    <ClInclude Include="..\arduino_quantum_rx_netxpto\include\coincidence_detector_20190319.h" />
+    <ClInclude Include="..\arduino_quantum_rx_netxpto\include\ip_tunnel_ms_windows_20180815.h" />
+    <ClInclude Include="..\arduino_quantum_rx_netxpto\include\message_processor_common_20190410.h" />
+    <ClInclude Include="..\arduino_quantum_rx_netxpto\include\netxpto_20180815.h" />
+    <ClInclude Include="..\arduino_quantum_rx_netxpto\include\qber_20190418.h" />
+    <ClInclude Include="..\arduino_quantum_rx_netxpto\include\sink_20180815.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
