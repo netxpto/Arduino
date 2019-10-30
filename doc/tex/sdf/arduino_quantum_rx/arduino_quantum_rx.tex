@@ -34,7 +34,14 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{./sdf/arduino_quantum_rx/figures/NetXPTO_implementation.pdf}
-		\caption{Block diagram of a quantum receiver system emulated in NetXPTO.}
+		\caption{Block diagram of a quantum receiver system emulated in NetXPTO (Client side).}
+		\label{fig:netxpto}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{./sdf/arduino_quantum_rx/figures/NetXPTO_2.pdf}
+		\caption{Block diagram of a quantum receiver system emulated in NetXPTO (Server side).}
 		\label{fig:netxpto}
 	\end{figure}
 	
@@ -49,7 +56,7 @@
 			\item setMode(BinarySourceMode::DeterministicCyclic)
 			\item setBitStream("1")
 		\end{itemize}
-		\clearpage
+	
 		\item BinarySource1\_:
 		\begin{itemize}
 			\item setMode(BinarySourceMode::DeterministicCyclic)
@@ -79,19 +86,19 @@
 
 \begin{itemize}
 	
-	
 	\item SPD0\_out:
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/SPD0.png}
+		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/spd0.png}
 		\caption{Signal generated from BinarySource0.}
 		\label{fig:arduino}
 	\end{figure}
 
+	\vspace{50px}
 	\item SPD1\_out:
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/SPD1.JPG}
+		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/spd1.png}
 		\caption{Signal generated from BinarySource1.}
 		\label{fig:arduino}
 	\end{figure}
@@ -104,19 +111,20 @@
 		\caption{Signal generated from Clock.}
 		\label{fig:arduino}
 	\end{figure}
+	\clearpage
 	
 	\item BobData\_In;
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/BobdataIn.JPG}
+		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/Bobdatain.PNG}
 		\caption{Signal generated from CoincidenceDetector.}
 		\label{fig:arduino}
 	\end{figure}
-	\clearpage
+
 		\item IPTunnel\_Out;
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.8\linewidth]{./sdf/arduino_quantum_rx/figures/Iptunnel.JPG}
+		\includegraphics[width=0.6\linewidth]{./sdf/arduino_quantum_rx/figures/Iptunnel.JPG}
 		\caption{Signal the client is sending through the IPTunnel block and what the server is receiving.}
 		\label{fig:arduino}
 	\end{figure}
@@ -124,7 +132,7 @@
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{./sdf/arduino_quantum_rx/figures/tunel2.PNG}
+	\includegraphics[width=0.6\linewidth]{./sdf/arduino_quantum_rx/figures/tunel2.PNG}
 	\caption{Signal the client is sending through the IPTunnel block and what the server is receiving.}
 	\label{fig:arduino}
 \end{figure}
@@ -156,7 +164,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.8\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeralArduino.pdf}
+		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeralard.pdf}
 		\caption{Block diagram of a arduino imlementation.}
 		\label{fig:netxpto}
 	\end{figure}
@@ -175,12 +183,6 @@
 	
 	This signal was read with the arduino, which has a 12 bit adc, and we obtain the following result in figure 5.12 . Alot of values have the exact same time which explain why the graphic has this form.
 	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/Clockard.pdf}
-		\caption{Clock signal.}
-		\label{fig:netxpto}
-	\end{figure}
 	
 	\begin{figure}[H]
 		\centering
