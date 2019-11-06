@@ -29,7 +29,7 @@
 		
 	\subsection{Emulation in NetXPTO Simulator}
 	
-	\vspace{11pt}
+	For the emulation in the NetXPTO Simulator, we have to run two seperate codes. The first one corresponds to the client side of the simulation which can be found in the arduino\_quantum\_rx\_netxpto project. The second one is the server side and can be found in the ip\_tunnel\_ms\_windows - Server project. In order to have the emulation working it is needed both programs running simultaneously.
 	
 	\begin{figure}[H]
 		\centering
@@ -45,7 +45,7 @@
 		\label{fig:netxpto}
 	\end{figure}
 	
-	For the emulation in the NetXPTO Simulator we have to implement the following 6 modules . The first two are the BinarySource0\_ and the BinarySource1\_ which emulates the received signals provenient from the single-photon detectors 0 and 1, respectively, and are synchronized by the Clock\_ block. These signals are the inputs of the CoincidenceDetector\_ block, that in its turn, outputs a real signal that has five possible values: 4 correspondes to the null values of the buffer when the clock is in the low state, 3 if no-click has been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. Finally, we have the IPTunnel\_ block that is responsible for the comumunications between the client and the PC server. It uses a TCP/IP protocol to communicate, which takes the output of the signal from the CoincidenceDetector\_ block and sends it to the server implemented in a PC, where the QBER estimations are performed. \\ \\
+	For the client side in NetXPTO Simulator we have to implement the following 5 modules . The first two are the BinarySource0\_ and the BinarySource1\_ which emulates the received signals provenient from the single-photon detectors 0 and 1, respectively, and are synchronized by the Clock\_ block. These signals are the inputs of the CoincidenceDetector\_ block, that in its turn, outputs a real signal that has five possible values: 4 correspondes to the null values of the buffer when the clock is in the low state, 3 if no-click has been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. Finally, we have the IPTunnel\_Client\_ block that is responsible for the comumunications between the client and the PC server. It uses a TCP/IP protocol to communicate with the IPTunnel\_Server , which takes the output of the signal from the CoincidenceDetector\_ block and sends it to the server implemented in a PC, where the QBER estimations are performed. \\ \\
 
 	
 	The following input parameters were defined for the blocks listed in figure \ref{fig:netxpto}:
@@ -124,18 +124,11 @@
 		\item IPTunnel\_Out;
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{./sdf/arduino_quantum_rx/figures/Iptunnel.JPG}
+		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/Iptunnel.PNG}
 		\caption{Signal the client is sending through the IPTunnel block and what the server is receiving.}
 		\label{fig:arduino}
 	\end{figure}
 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\linewidth]{./sdf/arduino_quantum_rx/figures/tunel2.PNG}
-	\caption{Signal the client is sending through the IPTunnel block and what the server is receiving.}
-	\label{fig:arduino}
-\end{figure}
 \end{itemize}
 	
 	
@@ -164,7 +157,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeralard.pdf}
+		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeralArduino.pdf}
 		\caption{Block diagram of a arduino imlementation.}
 		\label{fig:netxpto}
 	\end{figure}
@@ -172,7 +165,7 @@
 
 	\subsubsection{SPD0 and SPD1 signals}
 	
-	In order to measure these signals a voltage divider was used to convert the output 5V TTL signal into a 3.3V signal, the limit imposed by the Arduino Due digital I/O pins.
+	Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins.
 	
 	\vspace{15px}
 	\subsubsection{Clock signal}
@@ -181,8 +174,7 @@
 	
 	\vspace{15px}
 	
-	This signal was read with the arduino, which has a 12 bit adc, and we obtain the following result in figure 5.12 . Alot of values have the exact same time which explain why the graphic has this form.
-	
+	This signal was read with the arduino, which has a 12 bit adc, and we obtain the following result in figure 5.12 . 
 	
 	\begin{figure}[H]
 		\centering
