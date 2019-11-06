@@ -41,10 +41,11 @@ bool CoincidenceDetector::runBlock(void) {
 
 	for (auto i = 0; i <300; i++){
 
+		inputSignals[2]->bufferGet(&clock);
 
 		for (auto k = 0; k < process; k++) {
 
-			inputSignals[2]->bufferGet(&clock);
+			
 			t_binary value0;
 			inputSignals[0]->bufferGet(&value0);
 
