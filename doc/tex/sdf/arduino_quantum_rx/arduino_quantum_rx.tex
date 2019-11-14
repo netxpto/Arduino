@@ -162,26 +162,26 @@
 		\label{fig:netxpto}
 	\end{figure}
 	
-
-	\subsubsection{SPD0 and SPD1 signals}
-	
-	Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins.
 	
 	\vspace{15px}
 	\subsubsection{Clock signal}
 	
-	With purpose of processing the clock signal, it must be read by the analog I/O pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino. Then the arduino sends the clock signal to the quantum detectors to synchronize the reading of SPD0 and SPD1.
+	With purpose of processing the clock signal, it must be read by the digital Input pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino.The only note that is important to know is that max voltage the arduino due can take in the digital pins is 3.3V. When the arduino reads a "1" from the clock, it generates two separate 1kHz squares waves, they need to be sychronized with each other, which will be the trigger signal to the detectors.
 	
 	\vspace{15px}
 	
-	This signal was read with the arduino, which has a 12 bit adc, and we obtain the following result in figure 5.12 . 
+   The clock signal can be seen in the next figure:
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/clockRead.pdf}
+		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/clockSignal2.pdf}
 		\caption{Clock signal read.}
 		\label{montage}
 	\end{figure}
+
+\subsubsection{SPD0 and SPD1 signals}
+
+Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins. This signals are sychronized with the trigger signal that comes from the arduino. (Not yet implemented)
 	
 	
 	\subsection{Open Issues}
