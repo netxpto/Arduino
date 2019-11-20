@@ -166,8 +166,7 @@
 	\vspace{15px}
 	\subsubsection{Clock signal}
 	
-	With purpose of processing the clock signal, it must be read by the digital Input pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino.The only note that is important to know is that max voltage the arduino due can take in the digital pins is 3.3V. When the arduino reads a "1" from the clock, it generates two separate 1kHz squares waves, they need to be sychronized with each other, which will be the trigger signal to the detectors.
-	
+	With purpose of processing the clock signal, it must be read by the digital Input pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino.The only note that is important to know is that max voltage the arduino due can take in the digital pins is 3.3V. When clock trigger reaches the the detectors and the digital pin, the arduino must do an interrupt function and read the signal that comes from the detectors.
 	\vspace{15px}
 	
    The clock signal can be seen in the next figure:
@@ -181,7 +180,7 @@
 
 \subsubsection{SPD0 and SPD1 signals}
 
-Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins. This signals are sychronized with the trigger signal that comes from the arduino. (Not yet implemented)
+Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins. This signals are sychronized with the trigger signal that comes from the arduino. (Not yet implemented).
 	
 	
 	\subsection{Open Issues}
