@@ -16,11 +16,11 @@
 	\subsection{Project Definition}
 	
 		The purpose of this project is to implement the QKD reception module of a quantum communication system, into an arduino board. To achieve this goal we need to know what the arduino is going to receive and what's going to output.
-		There are two classical signals, that are going to be read by two single photon detectors. These signals are the clock, which are going to synchronize the quantum detectors. The next block of implementation in the arduino is the coincidence detector and it contains the signals provenient from the single-photon dectectors which can be 0 or 1. In addition, this block outputs a signal containing a state corresponding to the input values:3 if no-click has been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. The last block that needs to be implemented is the IPtunnel which corresponds to the communication protocol. This block is responsible for the trasnmission of the coincidence detector output in the arduino (client side) to a pc (server side) through a ehthernet connection.
+		There are three classical signals, two of them are going to be read by two single photon detectors and the last one is going to be an input in the arduino. These signals are the clock, which are going to synchronize the quantum detectors and the arduino. The next block of implementation in the arduino is the coincidence detector and it contains the signals provenient from the single-photon dectectors which can be 0 or 1. In addition, this block outputs a signal containing a state corresponding to the input values:3 if no-click has been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. The last block that needs to be implemented is the communication protocol between the pc server and the arduino. This block is responsible for the trasnmission of the coincidence detector output in the arduino (client side) to a pc (server side) through a ehthernet connection.
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeral.pdf}
+		\includegraphics[width=0.9\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeral.pdf}
 		\caption{General block diagram of QKD a quantum receiver module.}
 		\label{fig:arduino}
 	\end{figure}
@@ -166,7 +166,7 @@
 	\vspace{15px}
 	\subsubsection{Clock signal}
 	
-	With purpose of processing the clock signal, it must be read by the digital Input pins of the arduino Due board. This type of reading doesnt require any signal conditioning witch means we can take direct measures from the clock into the arduino.The only note that is important to know is that max voltage the arduino due can take in the digital pins is 3.3V. When clock trigger reaches the the detectors and the digital pin, the arduino must do an interrupt function and read the signal that comes from the detectors.
+	With purpose of processing the clock signal, it must be read by the digital Input pins of the arduino Due board. This type of reading doesnt require any signal conditioning which means we can take direct measures from the clock into the arduino.The only note that is important to know is that max voltage the arduino due can take in the digital pins is 3.3V. When the clock trigger reaches the the detectors and the digital pin, the arduino must read the signal that comes from the detector's gate's.
 	\vspace{15px}
 	
    The clock signal can be seen in the next figure:
@@ -180,8 +180,23 @@
 
 \subsubsection{SPD0 and SPD1 signals}
 
-Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins. This signals are sychronized with the trigger signal that comes from the arduino. (Not yet implemented).
-	
+Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins. When the clock trigger opens the gates and the detectors send a signal pulse, the arduino does an interrupt function in order to catch the rising edge and count the number of pulses that it detected. 
+A few tests were made with an arbitrary function generator to see if the arduino due could catch pulses with a width of 100 ns and a frequency of 8kHz. When the arduino detects the rising edge, it generates the interrupt and calls a function handler that increments a counter each time a pulse is detected. Futhermore, the program also counts the time between 10000 measures to check the frequency.
+
+Results:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/Teste2.pdf}
+	\caption{Rising edges counts.}
+	\label{montage}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/Teste1.pdf}
+	\caption{Time for each 10000 rising edges.}
+	\label{montage}
+\end{figure}
 	
 	\subsection{Open Issues}
 	
