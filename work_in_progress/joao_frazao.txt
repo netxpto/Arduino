@@ -3,6 +3,18 @@
 Tasks:
 	1) implementação o modulo de receção do QKD em Arduine (Clock In, 2 Clock Out, DataIn0, DataIn1, {0, 1, 2, 3} => QBER)
 
+2019-11-27
+
+	- documentar a nova implementação
+		- placa de coincidence detection
+		- as funções do arduino <recebe o clock><lê as entradas><escreve numa porta 0,1,2,3><espera pelo clock>
+		- definir em que porta é que ele vai escrever <-> PC
+		
+	- ler dos detetores dos detetores de fotões (iluminar os detetores, abri-los com o arduino, e ver no osciloscópio, e depois ver no arduino)
+	
+next meeting: 6/12, 9h
+
+
 
 2019-11-20
 
