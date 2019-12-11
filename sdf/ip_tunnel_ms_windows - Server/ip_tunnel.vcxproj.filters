@@ -33,6 +33,12 @@
     <ClCompile Include="lib\message_processor_common_20190410.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lib\load_ascii_20190613.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\arduino_quantum_rx\arduino_quantum_rx_netxpto\lib\qber_20190418.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\binary_source_20180815.h">
@@ -48,6 +54,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\message_processor_common_20190410.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\load_ascii_20190613.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\arduino_quantum_rx\arduino_quantum_rx_netxpto\include\qber_20190418.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

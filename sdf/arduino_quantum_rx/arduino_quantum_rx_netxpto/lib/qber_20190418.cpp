@@ -72,7 +72,7 @@ bool Qber::runBlock(void) {
 
 
 	for (auto k = 0; k < process; k++) { // process all demands contained in the buffer
-		t_real dataBob{ 0.0 };
+		t_binary dataBob{ 0 };
 		inputSignals[1]->bufferGet(&dataBob); // data from CoincidenceDetector_
 
 		if (window > 0) {  // window represents the number of bits used to calculate the QBER

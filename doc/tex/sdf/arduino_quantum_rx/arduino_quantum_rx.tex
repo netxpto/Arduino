@@ -166,7 +166,7 @@
 	\vspace{15px}
 	\subsubsection{Clock signal}
 	
-	With purpose of processing the clock signal, it must be read by the digital Input pins of the arduino Due board. This type of reading doesnt require any signal conditioning which means we can take direct measures from the clock into the arduino.The only note that is important to know is that max voltage the arduino due can take in the digital pins is 3.3V. When the clock trigger reaches the the detectors and the digital pin, the arduino must read the signal that comes from the detector's gate's.
+	With purpose of processing the clock signal, it must be read by the digital Input pins of the arduino Due board. This type of reading doesnt require any signal conditioning which means we can take direct measures from the clock into the arduino.The only note that is important to know is that max voltage the arduino due can take in the digital pins is 3.3V. When the clock trigger reaches the the detectors and the digital pin, the arduino must read the signal that comes from the detector's gate's. In order to detect the clock signal, the arduino does a interruption when it catches the rising edge of the clock and puts a boolean to true.
 	\vspace{15px}
 	
    The clock signal can be seen in the next figure:
@@ -180,7 +180,7 @@
 
 \subsubsection{SPD0 and SPD1 signals}
 
-Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins. When the clock trigger opens the gates and the detectors send a signal pulse, the arduino does an interrupt function in order to catch the rising edge and count the number of pulses that it detected. 
+Since it is possible to control the TTL signal voltage that comes from the single photon detectors, we can measure them directly into the arduino board through the digital input pins. When the clock reaches the detectors, they send a signal pulse and the arduino does an interrupt function in order to catch the rising edge and put's a boolean to true. If the two detector's clicked and the clock is in the high state, we will have all the booleans to true, which means we have a double click on the detector's and the arduido outputs a 2. If none of the detector's clicked only the clock boolean is going to be true and the arduino is going to output a 3. Depending if one detector clicked and the other did not, one boolean of the detectors is going to be true and the other false, and then arduino is going to output a 0 or 1.
 A few tests were made with an arbitrary function generator to see if the arduino due could catch pulses with a width of 100 ns and a frequency of 8kHz. When the arduino detects the rising edge, it generates the interrupt and calls a function handler that increments a counter each time a pulse is detected. Futhermore, the program also counts the time between 10000 measures to check the frequency.
 
 Results:
@@ -197,6 +197,13 @@ Results:
 	\caption{Time for each 10000 rising edges.}
 	\label{montage}
 \end{figure}
+
+	\subsubsection{Communication with PC server}
+	After the arduino outputs the values of the coincidence block, we need to send the data to a PC in order to do the calculation of the QBER in real time. To have this implementation we have the arduino sending the data through the UART to a c++ program in the PC via USB cable. This program takes the data that the arduino is sending and puts it in a buffer. The program waits for the buffer to be full and sends it all in a one go to the QBER program. This means we have a TCP/IP connection between the program reading the arduino data and the program that does the QBER calculations. The size of the buffer is 8000 and the QBER block is reporting the results in a file each 80000 bits which corresponds to 10 seconds.
+	
+	\subsubsection{DAC}
+	
+
 	
 	\subsection{Open Issues}
 	
