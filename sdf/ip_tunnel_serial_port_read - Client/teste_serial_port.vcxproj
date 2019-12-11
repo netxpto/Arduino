@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,11 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\SerialPort.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SerialPort.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{5A8A6F72-25C4-484A-AE9B-1D218931AF38}</ProjectGuid>
-    <RootNamespace>ro20182019Armando</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{36A28294-E2C4-4DEB-9FDC-BFE4176BB2DD}</ProjectGuid>
+    <RootNamespace>testeserialport</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -41,7 +48,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -84,7 +91,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -118,25 +124,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\lib\binary_source_20180815.cpp" />
-    <ClCompile Include="..\..\lib\netxpto_20180815.cpp" />
-    <ClCompile Include="..\..\lib\sink_20180815.cpp" />
-    <ClCompile Include="..\arduino_quantum_rx\arduino_quantum_rx_netxpto\lib\qber_20190418.cpp" />
-    <ClCompile Include="lib\load_ascii_20190613.cpp" />
-    <ClCompile Include="lib\message_processor_common_20190410.cpp" />
-    <ClCompile Include="ms_windows_ip_tunnel_sdf.cpp" />
-    <ClCompile Include="lib\ip_tunnel_ms_windows_20180815.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\include\binary_source_20180815.h" />
-    <ClInclude Include="..\..\include\netxpto_20180815.h" />
-    <ClInclude Include="..\..\include\sink_20180815.h" />
-    <ClInclude Include="..\arduino_quantum_rx\arduino_quantum_rx_netxpto\include\qber_20190418.h" />
-    <ClInclude Include="include\ip_tunnel_ms_windows_20180815.h" />
-    <ClInclude Include="include\load_ascii_20190613.h" />
-    <ClInclude Include="include\message_processor_common_20190410.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
