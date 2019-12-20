@@ -1,0 +1,9 @@
+QBER = 3.6 %
+Upper and lower confidence bounds for 95% confidence level 
+Upper Bound = 4.75462 %
+Lower Bound = 2.44538 %
+Number of errors = 36
+Number of received bits to estimate QBER = 1000
+No clicks = 1251
+Double clicks = 591047
+Total Received Bits = 720000

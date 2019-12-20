@@ -8,11 +8,17 @@
 #include <stdio.h>
 #include <string.h>
 #include <chrono>
+#include <vector>
 
 
 using namespace std;
 
-char* portName = (char*)"\\\\.\\COM9";
+char* portNameRec = (char*)"\\\\.\\COM5";
+char* portNameDac = (char*)"\\\\.\\COM4";
+
+SerialPort* arduinoRec;
+SerialPort* arduinoDac;
+
 
 #define MAX_DATA_LENGTH 4000
 
@@ -27,6 +33,8 @@ int timeIntervalSeconds{ 3 };
 int burnInt = 10;
 int burnCounter = 0;
 auto start = chrono::steady_clock::now();
+
+char buffer[MAX_DATA_LENGTH];
 
 
 SOCKET clientSocket;
@@ -149,64 +157,124 @@ int ipTunnelPut(T object) {
 
 
 
-//Arduino SerialPort object
-SerialPort* arduino;
 
-//If you want to send data then define "SEND" else comment it out
-//#define SEND
+bool hasWritten;
+bool hasRead;
+int updateCounter = 0;
 
-void receiveData(void)
-{
-	int readResult = arduino->readSerialPort(incomingData, MAX_DATA_LENGTH);
-	//printf(incomingData);
-}
-
-void exampleWriteData(unsigned int delayTime)
-{
-}
 
 void autoConnect(void)
 {
 	//wait connection
-	while (!arduino->isConnected()) {
+	while (!arduinoRec->isConnected() || !arduinoDac->isConnected()) {
 		Sleep(100);
-		arduino = new SerialPort(portName);
+
+		arduinoRec = new SerialPort(portNameRec);
+		arduinoDac = new SerialPort(portNameDac);
 	}
+
 
 	//Checking if arduino is connected or not
-	if (arduino->isConnected()) {
-		std::cout << "Connection established at port " << portName << endl;
+	if (arduinoRec->isConnected() && arduinoDac->isConnected()) {
+		std::cout << "Connection established at ports " << portNameRec << " and " << portNameDac << endl;
 
-		for (int i = 0; i < burnInt; i++)
-		{
-			auto end = chrono::steady_clock::now();
-			while (bufferTime - chrono::duration_cast<chrono::milliseconds>(end - start).count() > 0) end = chrono::steady_clock::now();
-
-			receiveData();
-			printf("Burning data! -> %d\n", i);
-			start = chrono::steady_clock::now();
-		}
-
-	}
-
-	while (arduino->isConnected()) {
+		auto start = chrono::steady_clock::now();
 		auto end = chrono::steady_clock::now();
-		while (bufferTime - chrono::duration_cast<chrono::milliseconds>(end - start).count() > 0) end = chrono::steady_clock::now();
-
-		receiveData();
-		start = chrono::steady_clock::now();
+		std::cout << "Burning through data now, allow for around 10 seconds." << endl;
 
 
-		int ready = MAX_DATA_LENGTH;
-		ipTunnelSendInt(ready);
+		while (10 * 1000 - chrono::duration_cast<chrono::milliseconds>(end - start).count() > 0) { // burns through 10 seconds worth of data
+			end = chrono::steady_clock::now();
+			while (*incomingData != '0' & *incomingData != '1' & *incomingData != '2' & *incomingData != '3') hasRead = arduinoRec->readSerialPort(incomingData, 1);
+		}
+	}
 
-		for (size_t i = 0; i < ready; i++)
+	char selected;
+	char* sendString;
+	int bufferCounter = 0;
+
+	while (arduinoRec->isConnected() && arduinoDac->isConnected()) {
+		updateCounter++;
+		while (*incomingData != '0' & *incomingData != '1' & *incomingData != '2' & *incomingData != '3') hasRead = arduinoRec->readSerialPort(incomingData, 1);
+		if (hasRead) {
+			buffer[bufferCounter] = *incomingData;
+			bufferCounter++;
+		}
+		memset(incomingData, 0, sizeof(incomingData));
+
+		if (bufferCounter == MAX_DATA_LENGTH)
 		{
-			int data = incomingData[i] - '0';
-			ipTunnelPut(data);
+			bufferCounter = 0;
+			ipTunnelSendInt(MAX_DATA_LENGTH);
+			std::cout << "Sending " << MAX_DATA_LENGTH << " counts to netxpto!" << endl;
+
+			for (size_t i = 0; i < MAX_DATA_LENGTH; i++) ipTunnelPut(buffer[i] - '0');
+		}
+		
+		
+		if (updateCounter == 500)
+		{
+			updateCounter = 0;
+			selected = 'U';
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+
+
+
+
+			int aux1 = rand() % 255;
+			int aux2 = rand() % 255;
+			int aux3 = rand() % 255;
+			int aux4 = rand() % 255;
+
+			int aux5 = rand() % 255;
+			int aux6 = rand() % 255;
+			int aux7 = rand() % 255;
+			int aux8 = rand() % 255;
+
+			selected = (char)aux1;
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+			selected = (char)aux2;
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+			selected = (char)aux3;
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+			selected = (char)aux4;
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+
+			selected = (char)aux5;
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+			selected = (char)aux6;
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+			selected = (char)aux7;
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+			selected = (char)aux8;
+			sendString = &selected;
+			hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+
+
+
+
 		}
 
+		int aux = rand() % 2;
+		char selected = (char)aux;
+
+		char* sendString = &selected;
+		bool hasWritten = arduinoDac->writeSerialPort(sendString, 1);
+
+
 	}
+
+
+
+
 
 	//if the serial connection is lost
 	autoConnect();
@@ -221,7 +289,9 @@ int main()
 	}
 
 
-	arduino = new SerialPort(portName);
+	arduinoRec = new SerialPort(portNameRec);
+	arduinoDac = new SerialPort(portNameDac);
+
 
 	autoConnect();
 }

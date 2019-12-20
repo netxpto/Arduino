@@ -1,0 +1,1287 @@
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:04:50
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 11226 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:05:01
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=8000
+-----------------------------------------------------------------
+Elapsed time: 57 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:05:01
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 28 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4042
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6911
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:05:01
+Input Signals: 
+Sink|S2_QberOut|ready=1089
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:05:01
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7933 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:05:09
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3958
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:05:09
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4042
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6923
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:05:09
+Input Signals: 
+Sink|S2_QberOut|ready=1077
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:05:09
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7913 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:05:17
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3958
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:05:17
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4043
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6970
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:05:17
+Input Signals: 
+Sink|S2_QberOut|ready=1030
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:05:17
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 8066 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:05:25
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3957
+-----------------------------------------------------------------
+Elapsed time: 54 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:05:25
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4042
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6973
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:05:25
+Input Signals: 
+Sink|S2_QberOut|ready=1027
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:05:25
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7871 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:05:33
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3958
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:05:33
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 33 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4033
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6253
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:05:33
+Input Signals: 
+Sink|S2_QberOut|ready=1747
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:05:33
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 8026 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:05:41
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3967
+-----------------------------------------------------------------
+Elapsed time: 61 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:05:41
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 608 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4000
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4000
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:05:41
+Input Signals: 
+Sink|S2_QberOut|ready=4000
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:05:41
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7274 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:05:49
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=4000
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:05:49
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 599 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4000
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4000
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:05:49
+Input Signals: 
+Sink|S2_QberOut|ready=4000
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:05:49
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 8495 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:05:58
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=4000
+-----------------------------------------------------------------
+Elapsed time: 69 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:05:58
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 624 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4000
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4000
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:05:59
+Input Signals: 
+Sink|S2_QberOut|ready=4000
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:05:59
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7245 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:06:06
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=4000
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:06:06
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 462 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4008
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4609
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:06:06
+Input Signals: 
+Sink|S2_QberOut|ready=3391
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:06:06
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7751 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:06:14
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3992
+-----------------------------------------------------------------
+Elapsed time: 72 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:06:14
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4043
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6966
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:06:14
+Input Signals: 
+Sink|S2_QberOut|ready=1034
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:06:14
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7708 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:06:22
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3957
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:06:22
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4042
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6931
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:06:22
+Input Signals: 
+Sink|S2_QberOut|ready=1069
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:06:22
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 8063 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:06:30
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3958
+-----------------------------------------------------------------
+Elapsed time: 73 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:06:30
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 58 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4043
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6964
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:06:30
+Input Signals: 
+Sink|S2_QberOut|ready=1036
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:06:30
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7796 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:06:38
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3957
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:06:38
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4042
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6928
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:06:38
+Input Signals: 
+Sink|S2_QberOut|ready=1072
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:06:38
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 8168 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:06:46
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3958
+-----------------------------------------------------------------
+Elapsed time: 77 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:06:46
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4043
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=6941
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:06:46
+Input Signals: 
+Sink|S2_QberOut|ready=1059
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:06:46
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7742 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:06:54
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3957
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:06:54
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 261 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4022
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=5561
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:06:54
+Input Signals: 
+Sink|S2_QberOut|ready=2439
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:06:54
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7931 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:07:02
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=3978
+-----------------------------------------------------------------
+Elapsed time: 79 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:07:02
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 635 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4000
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4000
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:07:03
+Input Signals: 
+Sink|S2_QberOut|ready=4000
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:07:03
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7087 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:07:10
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=4000
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:07:10
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 587 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4000
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4000
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:07:10
+Input Signals: 
+Sink|S2_QberOut|ready=4000
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:07:10
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7584 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:07:18
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=4000
+-----------------------------------------------------------------
+Elapsed time: 83 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:07:18
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 642 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4000
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4000
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:07:19
+Input Signals: 
+Sink|S2_QberOut|ready=4000
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:07:19
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7096 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:07:26
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=4000
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:07:26
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 592 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4000
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4000
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:07:26
+Input Signals: 
+Sink|S2_QberOut|ready=4000
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:07:26
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 7480 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=4000
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+Block start time: 2019-12-19 18:07:34
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=4000
+-----------------------------------------------------------------
+Elapsed time: 90 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_AliceIn|space=0
+
+
+-----------------------------------------------------------------
+########## Qber ##########
+Block start time: 2019-12-19 18:07:34
+Input Signals: 
+Qber|S0_AliceIn|ready=8000
+Qber|S1_BinarySourceOut|ready=4000
+Output Signals: 
+Qber|S2_QberOut|space=8000
+-----------------------------------------------------------------
+Elapsed time: 679 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Qber|S0_AliceIn|ready=4000
+Qber|S1_BinarySourceOut|ready=0
+Output Signals: 
+Qber|S2_QberOut|space=4000
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+Block start time: 2019-12-19 18:07:35
+Input Signals: 
+Sink|S2_QberOut|ready=4000
+Output Signals: 
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+Block Alive: TRUE
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S2_QberOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## IPTunnel ##########
+Block start time: 2019-12-19 18:07:35
+Input Signals: 
+Output Signals: 
+IPTunnel|S1_BinarySourceOut|space=8000
