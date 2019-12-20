@@ -13,11 +13,6 @@ public:
 	void initialize(void);
 	bool runBlock(void);
 
-	void setWindow(int w) { window = w; }
-	int const getWindow(void) { return window; }
-
-
-
 	//##############################################################################################################
 	//###############################################################################################################
 	double alpha = 0.05;
@@ -33,10 +28,10 @@ private:
 	int n{ 0 };
 	double noClicks{ 0.0 };
 	double doubleClicks{ 0.0 };
-	int m{ 8000 }; 
+	int m{ 80000 }; 
 	int totalReceivedBits{ 0 };
 	vector <int> windowBuffer;
-	int window{ -1 };
+	int window{ 1000 };
 	int inBuffer{ 0 };
 	bool firstFull{ true };
 	double QBER{ 0.0 };

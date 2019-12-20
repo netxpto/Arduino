@@ -1,0 +1,10 @@
+### SYNCHRONIZATION LOST! ###
+QBER = 48.1 %
+Upper and lower confidence bounds for 95% confidence level 
+Upper Bound = 51.1967 %
+Lower Bound = 45.0033 %
+Number of errors = 481
+Number of received bits to estimate QBER = 1000
+No clicks = 3751
+Double clicks = 3691
+Total Received Bits = 16000

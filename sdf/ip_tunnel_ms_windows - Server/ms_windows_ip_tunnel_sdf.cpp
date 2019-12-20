@@ -38,13 +38,12 @@ int main() {
 	BinarySource load_ascii{ {},{&AliceIn} };
 	load_ascii.setBitPeriod(1.0 / 8.0e3);
 	load_ascii.setMode(BinarySourceMode::DeterministicCyclic);
-	load_ascii.setNumberOfBits(500000);
-	load_ascii.setBitStream("01");
+	load_ascii.setNumberOfBits(500000000000);
+	load_ascii.setBitStream("10");
 
 	IPTunnel ip_tunnel{ {},{&IPTunnelSourceOut} };
 	
 	Qber qber_{ {&AliceIn, &IPTunnelSourceOut},{&qberOut} };
-	qber_.setWindow(8000);
 
 	Sink Sink_0{ {&qberOut},{} };
 
