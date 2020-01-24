@@ -1,0 +1,1788 @@
+PWD d:\netxpto\Arduino\doc\tex
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\main_netxpto.log
+INPUT style\phdthesis.cls
+INPUT style\phdthesis.cls
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\epsfig.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\epsfig.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+OUTPUT d:\netxpto\Arduino\doc\tex\.\style\my_definitions.aux
+INPUT style\my_definitions.tex
+INPUT style\my_definitions.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\.\style\my_packages.aux
+INPUT style\my_packages.tex
+INPUT style\my_packages.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ansinew.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ansinew.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\acronym\acronym.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\acronym\acronym.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\palatino.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\palatino.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placeins.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placeins.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\here\here.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\here\here.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1095.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epigraph\epigraph.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epigraph\epigraph.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hopatch.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hopatch.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\makeidx.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\makeidx.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xfor\xfor.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xfor\xfor.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\substr\substr.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\substr\substr.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-307.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-307.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tabulary\tabulary.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tabulary\tabulary.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\braket\braket.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\braket\braket.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\import\import.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\import\import.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\changepage\changepage.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\changepage\changepage.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscore.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsstackedplots.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.scaling.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.markers.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsticks.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.paths.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\.\style\my_bib_files.aux
+INPUT style\my_bib_files.tex
+INPUT style\my_bib_files.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\.\style\my_commands.aux
+INPUT style\my_commands.tex
+INPUT style\my_commands.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\.\style\my_figures.aux
+INPUT style\my_figures.tex
+INPUT style\my_figures.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\main_netxpto.idx
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.aux
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\introduction.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\introduction.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\simulator_structure\simulator_structure.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\simulator_structure\simulator_structure.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\development_cycle.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\development_cycle.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\visualizer.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\visualizer.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\case_studies.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\case_studies.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\library.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\library.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\mtools.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\mtools.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\algorithms.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\algorithms.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\code_development_guidelines.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\code_development_guidelines.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\msbuild.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\msbuild.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\git\git_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\git\git_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\beamer\beamer_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\beamer\beamer_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\ghdl.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\ghdl.aux
+OUTPUT d:\netxpto\Arduino\doc\tex\main_netxpto.aux
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+OUTPUT d:\netxpto\Arduino\doc\tex\main_netxpto.bcf
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.bbl
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.bbl
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.bbl
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+OUTPUT d:\netxpto\Arduino\doc\tex\main_netxpto.pdf
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+OUTPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.toc
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.toc
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplro8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplro8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplro8r.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8t.tfm
+OUTPUT d:\netxpto\Arduino\doc\tex\main_netxpto.toc
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplri8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\introduction.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\introduction.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\introduction.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\simulator_structure\simulator_structure.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\simulator_structure\simulator_structure.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\simulator_structure\simulator_structure.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1ppl.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1ppl.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8c.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8c.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\mathpazo\fplmr.tfm
+INPUT chapter\simulator_structure\figures\log_file_example.png
+INPUT .\chapter\simulator_structure\figures\log_file_example.png
+INPUT .\chapter\simulator_structure\figures\log_file_example.png
+INPUT .\chapter\simulator_structure\figures\log_file_example.png
+INPUT .\chapter\simulator_structure\figures\log_file_example.png
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT chapter\simulator_structure\figures\output_file.png
+INPUT .\chapter\simulator_structure\figures\output_file.png
+INPUT .\chapter\simulator_structure\figures\output_file.png
+INPUT .\chapter\simulator_structure\figures\output_file.png
+INPUT .\chapter\simulator_structure\figures\output_file.png
+INPUT chapter\simulator_structure\figures\homodyne_signals.png
+INPUT .\chapter\simulator_structure\figures\homodyne_signals.png
+INPUT .\chapter\simulator_structure\figures\homodyne_signals.png
+INPUT .\chapter\simulator_structure\figures\homodyne_signals.png
+INPUT .\chapter\simulator_structure\figures\homodyne_signals.png
+INPUT chapter\simulator_structure\figures\logfile_input_parameters_changed.png
+INPUT .\chapter\simulator_structure\figures\logfile_input_parameters_changed.png
+INPUT .\chapter\simulator_structure\figures\logfile_input_parameters_changed.png
+INPUT .\chapter\simulator_structure\figures\logfile_input_parameters_changed.png
+INPUT .\chapter\simulator_structure\figures\logfile_input_parameters_changed.png
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT chapter\simulator_structure\figures\ips_input_file.png
+INPUT .\chapter\simulator_structure\figures\ips_input_file.png
+INPUT .\chapter\simulator_structure\figures\ips_input_file.png
+INPUT .\chapter\simulator_structure\figures\ips_input_file.png
+INPUT .\chapter\simulator_structure\figures\ips_input_file.png
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplrc8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8r.tfm
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\development_cycle.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\development_cycle.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\development_cycle.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\visualizer.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\visualizer.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\visualizer.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\case_studies.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\case_studies.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\case_studies.tex
+INPUT sdf\arduino_quantum_rx\arduino_quantum_rx.tex
+INPUT sdf\arduino_quantum_rx\arduino_quantum_rx.tex
+INPUT sdf\arduino_quantum_rx\figures\DiagramaGeral.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\DiagramaGeral.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\DiagramaGeral.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\DiagramaGeral.pdf
+INPUT sdf\arduino_quantum_rx\figures\NetXPTO_implementation.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\NetXPTO_implementation.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\NetXPTO_implementation.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\NetXPTO_implementation.pdf
+INPUT sdf\arduino_quantum_rx\figures\NetXPTO_2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\NetXPTO_2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\NetXPTO_2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\NetXPTO_2.pdf
+INPUT sdf\arduino_quantum_rx\figures\spd0.png
+INPUT .\sdf\arduino_quantum_rx\figures\spd0.png
+INPUT .\sdf\arduino_quantum_rx\figures\spd0.png
+INPUT .\sdf\arduino_quantum_rx\figures\spd0.png
+INPUT .\sdf\arduino_quantum_rx\figures\spd0.png
+INPUT sdf\arduino_quantum_rx\figures\spd1.png
+INPUT .\sdf\arduino_quantum_rx\figures\spd1.png
+INPUT .\sdf\arduino_quantum_rx\figures\spd1.png
+INPUT .\sdf\arduino_quantum_rx\figures\spd1.png
+INPUT .\sdf\arduino_quantum_rx\figures\spd1.png
+INPUT sdf\arduino_quantum_rx\figures\Clock.JPG
+INPUT .\sdf\arduino_quantum_rx\figures\Clock.JPG
+INPUT .\sdf\arduino_quantum_rx\figures\Clock.JPG
+INPUT .\sdf\arduino_quantum_rx\figures\Clock.JPG
+INPUT .\sdf\arduino_quantum_rx\figures\Clock.JPG
+INPUT sdf\arduino_quantum_rx\figures\Bobdatain.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\Bobdatain.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\Bobdatain.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\Bobdatain.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\Bobdatain.PNG
+INPUT sdf\arduino_quantum_rx\figures\Iptunnel.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\Iptunnel.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\Iptunnel.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\Iptunnel.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\Iptunnel.PNG
+INPUT sdf\arduino_quantum_rx\figures\DiagramaGeralArduino.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\DiagramaGeralArduino.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\DiagramaGeralArduino.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\DiagramaGeralArduino.pdf
+INPUT sdf\arduino_quantum_rx\figures\clockSignal2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\clockSignal2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\clockSignal2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\clockSignal2.pdf
+INPUT sdf\arduino_quantum_rx\figures\arduinoTest.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoTest.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoTest.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoTest.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoTest.PNG
+INPUT sdf\arduino_quantum_rx\figures\Teste2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Teste2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Teste2.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Teste2.pdf
+INPUT sdf\arduino_quantum_rx\figures\Teste1.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Teste1.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Teste1.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Teste1.pdf
+INPUT sdf\arduino_quantum_rx\figures\PC.png
+INPUT .\sdf\arduino_quantum_rx\figures\PC.png
+INPUT .\sdf\arduino_quantum_rx\figures\PC.png
+INPUT .\sdf\arduino_quantum_rx\figures\PC.png
+INPUT .\sdf\arduino_quantum_rx\figures\PC.png
+INPUT sdf\arduino_quantum_rx\figures\arduinoComPC.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoComPC.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoComPC.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoComPC.PNG
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoComPC.PNG
+INPUT sdf\arduino_quantum_rx\figures\Ard.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Ard.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Ard.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\Ard.pdf
+INPUT sdf\arduino_quantum_rx\figures\DAC.png
+INPUT .\sdf\arduino_quantum_rx\figures\DAC.png
+INPUT .\sdf\arduino_quantum_rx\figures\DAC.png
+INPUT .\sdf\arduino_quantum_rx\figures\DAC.png
+INPUT .\sdf\arduino_quantum_rx\figures\DAC.png
+INPUT sdf\arduino_quantum_rx\figures\vsDownload.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\vsDownload.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\vsDownload.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\vsDownload.pdf
+INPUT sdf\arduino_quantum_rx\figures\VSworkloads.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\VSworkloads.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\VSworkloads.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\VSworkloads.pdf
+INPUT sdf\arduino_quantum_rx\figures\arduinoDownload.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoDownload.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoDownload.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoDownload.pdf
+INPUT sdf\arduino_quantum_rx\figures\arduinoBoards.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoBoards.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoBoards.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\arduinoBoards.pdf
+INPUT sdf\arduino_quantum_rx\figures\configureIDE.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\configureIDE.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\configureIDE.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\configureIDE.pdf
+INPUT sdf\arduino_quantum_rx\figures\multipleIDEversions.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\multipleIDEversions.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\multipleIDEversions.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\multipleIDEversions.pdf
+INPUT sdf\arduino_quantum_rx\figures\boardSelect.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\boardSelect.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\boardSelect.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\boardSelect.pdf
+INPUT sdf\arduino_quantum_rx\figures\selectSerial.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\selectSerial.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\selectSerial.pdf
+INPUT .\sdf\arduino_quantum_rx\figures\selectSerial.pdf
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\library.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\library.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\library.tex
+INPUT lib\adc\adc.tex
+INPUT lib\adc\adc.tex
+INPUT lib\add\add.tex
+INPUT lib\add\add.tex
+INPUT lib\arithmetic_encoder\arithmetic_encoder.tex
+INPUT lib\arithmetic_encoder\arithmetic_encoder.tex
+INPUT lib\arithmetic_decoder\arithmetic_decoder.tex
+INPUT lib\arithmetic_decoder\arithmetic_decoder.tex
+INPUT lib\alice_qkd\alice_qkd.tex
+INPUT lib\alice_qkd\alice_qkd.tex
+INPUT lib\alice_qkd2\alice_qkd.tex
+INPUT lib\alice_qkd2\alice_qkd.tex
+INPUT lib\alice_qkd2\figures\AliceQKD_blockDiagram.pdf
+INPUT .\lib\alice_qkd2\figures\AliceQKD_blockDiagram.pdf
+INPUT .\lib\alice_qkd2\figures\AliceQKD_blockDiagram.pdf
+INPUT .\lib\alice_qkd2\figures\AliceQKD_blockDiagram.pdf
+INPUT lib\AliceQuantumTx\aliceQTx.tex
+INPUT lib\AliceQuantumTx\aliceQTx.tex
+INPUT lib\AliceQuantumTx\figures\AliceQTx_diagram.pdf
+INPUT .\lib\AliceQuantumTx\figures\AliceQTx_diagram.pdf
+INPUT .\lib\AliceQuantumTx\figures\AliceQTx_diagram.pdf
+INPUT .\lib\AliceQuantumTx\figures\AliceQTx_diagram.pdf
+INPUT lib\AliceQuantumTx\figures\constellation.pdf
+INPUT .\lib\AliceQuantumTx\figures\constellation.pdf
+INPUT .\lib\AliceQuantumTx\figures\constellation.pdf
+INPUT .\lib\AliceQuantumTx\figures\constellation.pdf
+INPUT lib\ascii_source\ascii_source.tex
+INPUT lib\ascii_source\ascii_source.tex
+INPUT lib\ascii_to_binary\ascii_to_binary.tex
+INPUT lib\ascii_to_binary\ascii_to_binary.tex
+INPUT lib\ascii_to_binary\figures\ascii_signal.png
+INPUT .\lib\ascii_to_binary\figures\ascii_signal.png
+INPUT .\lib\ascii_to_binary\figures\ascii_signal.png
+INPUT .\lib\ascii_to_binary\figures\ascii_signal.png
+INPUT .\lib\ascii_to_binary\figures\ascii_signal.png
+INPUT lib\ascii_to_binary\figures\binary_signal.png
+INPUT .\lib\ascii_to_binary\figures\binary_signal.png
+INPUT .\lib\ascii_to_binary\figures\binary_signal.png
+INPUT .\lib\ascii_to_binary\figures\binary_signal.png
+INPUT .\lib\ascii_to_binary\figures\binary_signal.png
+INPUT lib\balanced_beam_splitter\balanced_beam_splitter.tex
+INPUT lib\balanced_beam_splitter\balanced_beam_splitter.tex
+INPUT lib\bit_error_rate\bit_error_rate.tex
+INPUT lib\bit_error_rate\bit_error_rate.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT lib\binary_source\binary_source.tex
+INPUT lib\binary_source\binary_source.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplri8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT lib\binary_source\figures\BinarySequenceN3.pdf
+INPUT .\lib\binary_source\figures\BinarySequenceN3.pdf
+INPUT .\lib\binary_source\figures\BinarySequenceN3.pdf
+INPUT .\lib\binary_source\figures\BinarySequenceN3.pdf
+INPUT lib\binary_source\figures\BinarySource_output.pdf
+INPUT .\lib\binary_source\figures\BinarySource_output.pdf
+INPUT .\lib\binary_source\figures\BinarySource_output.pdf
+INPUT .\lib\binary_source\figures\BinarySource_output.pdf
+INPUT lib\binary_to_ascii\binary_to_ascii.tex
+INPUT lib\binary_to_ascii\binary_to_ascii.tex
+INPUT lib\ascii_to_binary\figures\binary_signal.png
+INPUT .\lib\ascii_to_binary\figures\binary_signal.png
+INPUT lib\ascii_to_binary\figures\ascii_signal.png
+INPUT .\lib\ascii_to_binary\figures\ascii_signal.png
+INPUT lib\bob_qkd\bob_qkd.tex
+INPUT lib\bob_qkd\bob_qkd.tex
+INPUT lib\BobQuantumRx\bobQRx.tex
+INPUT lib\BobQuantumRx\bobQRx.tex
+INPUT lib\BobQuantumRx\figures\BobQRx_diagram.pdf
+INPUT .\lib\BobQuantumRx\figures\BobQRx_diagram.pdf
+INPUT .\lib\BobQuantumRx\figures\BobQRx_diagram.pdf
+INPUT .\lib\BobQuantumRx\figures\BobQRx_diagram.pdf
+INPUT lib\decider\decider.tex
+INPUT lib\decider\decider.tex
+INPUT lib\clock\clock.tex
+INPUT lib\clock\clock.tex
+INPUT lib\clock_20171219\clock_20171219.tex
+INPUT lib\clock_20171219\clock_20171219.tex
+INPUT lib\clock_20171219\figures\clock_withoutpha.png
+INPUT .\lib\clock_20171219\figures\clock_withoutpha.png
+INPUT .\lib\clock_20171219\figures\clock_withoutpha.png
+INPUT .\lib\clock_20171219\figures\clock_withoutpha.png
+INPUT .\lib\clock_20171219\figures\clock_withoutpha.png
+INPUT lib\clock_20171219\figures\clockPhased.png
+INPUT .\lib\clock_20171219\figures\clockPhased.png
+INPUT .\lib\clock_20171219\figures\clockPhased.png
+INPUT .\lib\clock_20171219\figures\clockPhased.png
+INPUT .\lib\clock_20171219\figures\clockPhased.png
+INPUT lib\complex_to_real\complex_to_real.tex
+INPUT lib\complex_to_real\complex_to_real.tex
+INPUT lib\coupler_2_by_2\coupler_2_by_2.tex
+INPUT lib\coupler_2_by_2\coupler_2_by_2.tex
+INPUT lib\coupler_2_by_2\figures\coupler_2_by_2.pdf
+INPUT .\lib\coupler_2_by_2\figures\coupler_2_by_2.pdf
+INPUT .\lib\coupler_2_by_2\figures\coupler_2_by_2.pdf
+INPUT .\lib\coupler_2_by_2\figures\coupler_2_by_2.pdf
+INPUT lib\carrier_phase_estimation\carrier_phase_estimation.tex
+INPUT lib\carrier_phase_estimation\carrier_phase_estimation.tex
+INPUT lib\carrier_phase_estimation\figures\VV_phaseEstimation.pdf
+INPUT .\lib\carrier_phase_estimation\figures\VV_phaseEstimation.pdf
+INPUT .\lib\carrier_phase_estimation\figures\VV_phaseEstimation.pdf
+INPUT .\lib\carrier_phase_estimation\figures\VV_phaseEstimation.pdf
+INPUT lib\carrier_phase_estimation\figures\bps_diagram.pdf
+INPUT .\lib\carrier_phase_estimation\figures\bps_diagram.pdf
+INPUT .\lib\carrier_phase_estimation\figures\bps_diagram.pdf
+INPUT .\lib\carrier_phase_estimation\figures\bps_diagram.pdf
+INPUT lib\decision_circuit\decision_circuit.tex
+INPUT lib\decision_circuit\decision_circuit.tex
+INPUT lib\decoder\decoder.tex
+INPUT lib\decoder\decoder.tex
+INPUT lib\decoder\figures\MQAM_decoder_output.pdf
+INPUT .\lib\decoder\figures\MQAM_decoder_output.pdf
+INPUT .\lib\decoder\figures\MQAM_decoder_output.pdf
+INPUT .\lib\decoder\figures\MQAM_decoder_output.pdf
+INPUT lib\discrete_to_continuous_time\discrete_to_continuous_time.tex
+INPUT lib\discrete_to_continuous_time\discrete_to_continuous_time.tex
+INPUT lib\discrete_to_continuous_time\figures\MQAM_discrete_to_continuous_time_output.pdf
+INPUT .\lib\discrete_to_continuous_time\figures\MQAM_discrete_to_continuous_time_output.pdf
+INPUT .\lib\discrete_to_continuous_time\figures\MQAM_discrete_to_continuous_time_output.pdf
+INPUT .\lib\discrete_to_continuous_time\figures\MQAM_discrete_to_continuous_time_output.pdf
+INPUT lib\down_sampling\down_sampling.tex
+INPUT lib\down_sampling\down_sampling.tex
+INPUT lib\dsp\dsp.tex
+INPUT lib\dsp\dsp.tex
+INPUT lib\edfa\edfa.tex
+INPUT lib\edfa\edfa.tex
+INPUT lib\edfa\figures\edfa_simple.pdf
+INPUT .\lib\edfa\figures\edfa_simple.pdf
+INPUT .\lib\edfa\figures\edfa_simple.pdf
+INPUT .\lib\edfa\figures\edfa_simple.pdf
+INPUT lib\edfa\figures\edfa_blocks.pdf
+INPUT .\lib\edfa\figures\edfa_blocks.pdf
+INPUT .\lib\edfa\figures\edfa_blocks.pdf
+INPUT .\lib\edfa\figures\edfa_blocks.pdf
+INPUT lib\electrical_signal_generator\electrical_signal_generator.tex
+INPUT lib\electrical_signal_generator\electrical_signal_generator.tex
+INPUT lib\entropy_estimator\entropy_estimator.tex
+INPUT lib\entropy_estimator\entropy_estimator.tex
+INPUT lib\entropy_estimator\figures\BinEntropyResults.png
+INPUT .\lib\entropy_estimator\figures\BinEntropyResults.png
+INPUT .\lib\entropy_estimator\figures\BinEntropyResults.png
+INPUT .\lib\entropy_estimator\figures\BinEntropyResults.png
+INPUT .\lib\entropy_estimator\figures\BinEntropyResults.png
+INPUT lib\fork\fork.tex
+INPUT lib\fork\fork.tex
+INPUT lib\fork\figures\fork.pdf
+INPUT .\lib\fork\figures\fork.pdf
+INPUT .\lib\fork\figures\fork.pdf
+INPUT .\lib\fork\figures\fork.pdf
+INPUT lib\gaussian_source\gaussian_source.tex
+INPUT lib\gaussian_source\gaussian_source.tex
+INPUT lib\hamming_decoder\hamming_decoder.tex
+INPUT lib\hamming_decoder\hamming_decoder.tex
+INPUT lib\hamming_encoder\hamming_encoder.tex
+INPUT lib\hamming_encoder\hamming_encoder.tex
+INPUT lib\homodyne_receiver\homodyne_receiver.tex
+INPUT lib\homodyne_receiver\homodyne_receiver.tex
+INPUT lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_simple.png
+INPUT .\lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_simple.png
+INPUT .\lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_simple.png
+INPUT .\lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_simple.png
+INPUT .\lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_simple.png
+INPUT lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_20180206.png
+INPUT .\lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_20180206.png
+INPUT .\lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_20180206.png
+INPUT .\lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_20180206.png
+INPUT .\lib\homodyne_receiver\figures\MQAM_receiver_block_diagram_20180206.png
+INPUT lib\huffman_decoder\huffman_decoder.tex
+INPUT lib\huffman_decoder\huffman_decoder.tex
+INPUT lib\huffman_encoder\huffman_encoder.tex
+INPUT lib\huffman_encoder\huffman_encoder.tex
+INPUT lib\ideal_amplifier\ideal_amplifier.tex
+INPUT lib\ideal_amplifier\ideal_amplifier.tex
+INPUT lib\iq_modulator\iq_modulator.tex
+INPUT lib\iq_modulator\iq_modulator.tex
+INPUT lib\iq_modulator\figures\MQAM_iq_modulator_output.pdf
+INPUT .\lib\iq_modulator\figures\MQAM_iq_modulator_output.pdf
+INPUT .\lib\iq_modulator\figures\MQAM_iq_modulator_output.pdf
+INPUT .\lib\iq_modulator\figures\MQAM_iq_modulator_output.pdf
+INPUT lib\iq_modulator\figures\IQ_modulator_block.pdf
+INPUT .\lib\iq_modulator\figures\IQ_modulator_block.pdf
+INPUT .\lib\iq_modulator\figures\IQ_modulator_block.pdf
+INPUT .\lib\iq_modulator\figures\IQ_modulator_block.pdf
+INPUT lib\iq_modulator\figures\PM.pdf
+INPUT .\lib\iq_modulator\figures\PM.pdf
+INPUT .\lib\iq_modulator\figures\PM.pdf
+INPUT .\lib\iq_modulator\figures\PM.pdf
+INPUT lib\iq_modulator\figures\MZM.pdf
+INPUT .\lib\iq_modulator\figures\MZM.pdf
+INPUT .\lib\iq_modulator\figures\MZM.pdf
+INPUT .\lib\iq_modulator\figures\MZM.pdf
+INPUT lib\iq_modulator\figures\IQ_MZM.pdf
+INPUT .\lib\iq_modulator\figures\IQ_MZM.pdf
+INPUT .\lib\iq_modulator\figures\IQ_MZM.pdf
+INPUT .\lib\iq_modulator\figures\IQ_MZM.pdf
+INPUT lib\iq_modulator\figures\Black_Box.pdf
+INPUT .\lib\iq_modulator\figures\Black_Box.pdf
+INPUT .\lib\iq_modulator\figures\Black_Box.pdf
+INPUT .\lib\iq_modulator\figures\Black_Box.pdf
+INPUT lib\iir_filter\iir_filter.tex
+INPUT lib\iir_filter\iir_filter.tex
+INPUT lib\ip_tunnel_ms_windows\ip_tunnel_ms_windows.tex
+INPUT lib\ip_tunnel_ms_windows\ip_tunnel_ms_windows.tex
+INPUT lib\ip_tunnel_ms_windows\figures\StructureTCPIP4.pdf
+INPUT .\lib\ip_tunnel_ms_windows\figures\StructureTCPIP4.pdf
+INPUT .\lib\ip_tunnel_ms_windows\figures\StructureTCPIP4.pdf
+INPUT .\lib\ip_tunnel_ms_windows\figures\StructureTCPIP4.pdf
+INPUT lib\ip_tunnel_ms_windows\figures\FluxogramIPTunnel.pdf
+INPUT .\lib\ip_tunnel_ms_windows\figures\FluxogramIPTunnel.pdf
+INPUT .\lib\ip_tunnel_ms_windows\figures\FluxogramIPTunnel.pdf
+INPUT .\lib\ip_tunnel_ms_windows\figures\FluxogramIPTunnel.pdf
+INPUT lib\local_oscillator\local_oscillator.tex
+INPUT lib\local_oscillator\local_oscillator.tex
+INPUT lib\local_oscillator\local_oscillator_upgrade.tex
+INPUT lib\local_oscillator\local_oscillator_upgrade.tex
+INPUT lib\mutual_information_estimator\mutual_information_estimator.tex
+INPUT lib\mutual_information_estimator\mutual_information_estimator.tex
+INPUT lib\m_qam_mapper\m_qam_mapper.tex
+INPUT lib\m_qam_mapper\m_qam_mapper.tex
+INPUT lib\m_qam_mapper\figures\MQAM_constellation.pdf
+INPUT .\lib\m_qam_mapper\figures\MQAM_constellation.pdf
+INPUT .\lib\m_qam_mapper\figures\MQAM_constellation.pdf
+INPUT .\lib\m_qam_mapper\figures\MQAM_constellation.pdf
+INPUT lib\m_qam_mapper\figures\MQAM_mapper_output.pdf
+INPUT .\lib\m_qam_mapper\figures\MQAM_mapper_output.pdf
+INPUT .\lib\m_qam_mapper\figures\MQAM_mapper_output.pdf
+INPUT .\lib\m_qam_mapper\figures\MQAM_mapper_output.pdf
+INPUT lib\m_qam_receiver\m_qam_receiver.tex
+INPUT lib\m_qam_receiver\m_qam_receiver.tex
+INPUT lib\m_qam_receiver\figures\homodyneRx_simple.pdf
+INPUT .\lib\m_qam_receiver\figures\homodyneRx_simple.pdf
+INPUT .\lib\m_qam_receiver\figures\homodyneRx_simple.pdf
+INPUT .\lib\m_qam_receiver\figures\homodyneRx_simple.pdf
+INPUT lib\m_qam_receiver\figures\simulation_rx.pdf
+INPUT .\lib\m_qam_receiver\figures\simulation_rx.pdf
+INPUT .\lib\m_qam_receiver\figures\simulation_rx.pdf
+INPUT .\lib\m_qam_receiver\figures\simulation_rx.pdf
+INPUT lib\m_qam_transmitter\m_qam_transmitter.tex
+INPUT lib\m_qam_transmitter\m_qam_transmitter.tex
+INPUT lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram_simple.png
+INPUT .\lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram_simple.png
+INPUT .\lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram_simple.png
+INPUT .\lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram_simple.png
+INPUT .\lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram_simple.png
+INPUT lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram.png
+INPUT .\lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram.png
+INPUT .\lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram.png
+INPUT .\lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram.png
+INPUT .\lib\m_qam_transmitter\figures\MQAM_transmitter_block_diagram.png
+INPUT lib\m_qam_transmitter\figures\constellations_qpsk.png
+INPUT .\lib\m_qam_transmitter\figures\constellations_qpsk.png
+INPUT .\lib\m_qam_transmitter\figures\constellations_qpsk.png
+INPUT .\lib\m_qam_transmitter\figures\constellations_qpsk.png
+INPUT .\lib\m_qam_transmitter\figures\constellations_qpsk.png
+INPUT lib\m_qam_transmitter\figures\eye_dgm_rcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_rcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_rcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_rcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_rcos.png
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT lib\m_qam_transmitter\figures\eye_dgm_rrcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_rrcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_rrcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_rrcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_rrcos.png
+INPUT lib\m_qam_transmitter\figures\eye_dgm_noise_rcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_noise_rcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_noise_rcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_noise_rcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_noise_rcos.png
+INPUT lib\m_qam_transmitter\figures\eye_dgm_noise_rrcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_noise_rrcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_noise_rrcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_noise_rrcos.png
+INPUT .\lib\m_qam_transmitter\figures\eye_dgm_noise_rrcos.png
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT lib\m_qam_transmitter\figures\simulation_tx.pdf
+INPUT .\lib\m_qam_transmitter\figures\simulation_tx.pdf
+INPUT .\lib\m_qam_transmitter\figures\simulation_tx.pdf
+INPUT .\lib\m_qam_transmitter\figures\simulation_tx.pdf
+INPUT lib\netxpto\netxpto.tex
+INPUT lib\netxpto\netxpto.tex
+INPUT lib\alice_qkd\alice_qkd.tex
+INPUT lib\alice_qkd\alice_qkd.tex
+INPUT lib\polarizer\polarizer.tex
+INPUT lib\polarizer\polarizer.tex
+INPUT lib\probability_estimator\probability_estimator.tex
+INPUT lib\probability_estimator\probability_estimator.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx6.tfm
+INPUT lib\quantum_channel_emulator_dv\quantum_channel_emulator_dv.tex
+INPUT lib\quantum_channel_emulator_dv\quantum_channel_emulator_dv.tex
+INPUT lib\bob_qkd\bob_qkd.tex
+INPUT lib\bob_qkd\bob_qkd.tex
+INPUT lib\eve_qkd\eve_qkd.tex
+INPUT lib\eve_qkd\eve_qkd.tex
+INPUT lib\rotator_linear_polarizer\rotator_linear_polarizer.tex
+INPUT lib\rotator_linear_polarizer\rotator_linear_polarizer.tex
+INPUT lib\ms_windows_ip_tunnel\ms_windows_ip_tunnel.tex
+INPUT lib\ms_windows_ip_tunnel\ms_windows_ip_tunnel.tex
+INPUT lib\ms_windows_ip_tunnel\figures\StructureTCPIP4.pdf
+INPUT .\lib\ms_windows_ip_tunnel\figures\StructureTCPIP4.pdf
+INPUT .\lib\ms_windows_ip_tunnel\figures\StructureTCPIP4.pdf
+INPUT .\lib\ms_windows_ip_tunnel\figures\StructureTCPIP4.pdf
+INPUT lib\mutual_information_estimator\mutual_information_estimator.tex
+INPUT lib\mutual_information_estimator\mutual_information_estimator.tex
+INPUT lib\optical_switch\optical_switch.tex
+INPUT lib\optical_switch\optical_switch.tex
+INPUT lib\optical_hybrid\optical_hybrid.tex
+INPUT lib\optical_hybrid\optical_hybrid.tex
+INPUT lib\optical_hybrid\figures\optical_hybrid_block_diagram.png
+INPUT .\lib\optical_hybrid\figures\optical_hybrid_block_diagram.png
+INPUT .\lib\optical_hybrid\figures\optical_hybrid_block_diagram.png
+INPUT .\lib\optical_hybrid\figures\optical_hybrid_block_diagram.png
+INPUT .\lib\optical_hybrid\figures\optical_hybrid_block_diagram.png
+INPUT lib\photodiode\photodiode.tex
+INPUT lib\photodiode\photodiode.tex
+INPUT lib\photodiode\figures\photodiode.png
+INPUT .\lib\photodiode\figures\photodiode.png
+INPUT .\lib\photodiode\figures\photodiode.png
+INPUT .\lib\photodiode\figures\photodiode.png
+INPUT .\lib\photodiode\figures\photodiode.png
+INPUT lib\photodiode\figures\MQAM_photodiode_old_output.pdf
+INPUT .\lib\photodiode\figures\MQAM_photodiode_old_output.pdf
+INPUT .\lib\photodiode\figures\MQAM_photodiode_old_output.pdf
+INPUT .\lib\photodiode\figures\MQAM_photodiode_old_output.pdf
+INPUT lib\photoelectron_generator\photoelectron_generator.tex
+INPUT lib\photoelectron_generator\photoelectron_generator.tex
+INPUT lib\photoelectron_generator\figures\photoelectron_generator_scheme.pdf
+INPUT .\lib\photoelectron_generator\figures\photoelectron_generator_scheme.pdf
+INPUT .\lib\photoelectron_generator\figures\photoelectron_generator_scheme.pdf
+INPUT .\lib\photoelectron_generator\figures\photoelectron_generator_scheme.pdf
+INPUT lib\photoelectron_generator\figures\scheme_simulation_constant.pdf
+INPUT .\lib\photoelectron_generator\figures\scheme_simulation_constant.pdf
+INPUT .\lib\photoelectron_generator\figures\scheme_simulation_constant.pdf
+INPUT .\lib\photoelectron_generator\figures\scheme_simulation_constant.pdf
+INPUT lib\photoelectron_generator\figures\plot-constant-1uW.png
+INPUT .\lib\photoelectron_generator\figures\plot-constant-1uW.png
+INPUT .\lib\photoelectron_generator\figures\plot-constant-1uW.png
+INPUT .\lib\photoelectron_generator\figures\plot-constant-1uW.png
+INPUT .\lib\photoelectron_generator\figures\plot-constant-1uW.png
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx5.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs7.tfm
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT lib\photoelectron_generator\figures\plot-constant-1nW.png
+INPUT .\lib\photoelectron_generator\figures\plot-constant-1nW.png
+INPUT .\lib\photoelectron_generator\figures\plot-constant-1nW.png
+INPUT .\lib\photoelectron_generator\figures\plot-constant-1nW.png
+INPUT .\lib\photoelectron_generator\figures\plot-constant-1nW.png
+INPUT lib\photoelectron_generator\figures\scheme_simulation_variable.pdf
+INPUT .\lib\photoelectron_generator\figures\scheme_simulation_variable.pdf
+INPUT .\lib\photoelectron_generator\figures\scheme_simulation_variable.pdf
+INPUT .\lib\photoelectron_generator\figures\scheme_simulation_variable.pdf
+INPUT lib\photoelectron_generator\figures\plot-variable.png
+INPUT .\lib\photoelectron_generator\figures\plot-variable.png
+INPUT .\lib\photoelectron_generator\figures\plot-variable.png
+INPUT .\lib\photoelectron_generator\figures\plot-variable.png
+INPUT .\lib\photoelectron_generator\figures\plot-variable.png
+INPUT lib\power_spectral_density_estimator\power_spectral_density_estimator.tex
+INPUT lib\power_spectral_density_estimator\power_spectral_density_estimator.tex
+INPUT lib\power_spectral_density_estimator\figures\qpskExample.pdf
+INPUT .\lib\power_spectral_density_estimator\figures\qpskExample.pdf
+INPUT .\lib\power_spectral_density_estimator\figures\qpskExample.pdf
+INPUT .\lib\power_spectral_density_estimator\figures\qpskExample.pdf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT lib\pulse_shaper\pulse_shaper.tex
+INPUT lib\pulse_shaper\pulse_shaper.tex
+INPUT lib\pulse_shaper\figures\MQAM_pulse_shaper_output.pdf
+INPUT .\lib\pulse_shaper\figures\MQAM_pulse_shaper_output.pdf
+INPUT .\lib\pulse_shaper\figures\MQAM_pulse_shaper_output.pdf
+INPUT .\lib\pulse_shaper\figures\MQAM_pulse_shaper_output.pdf
+INPUT lib\quantizer\quantizer.tex
+INPUT lib\quantizer\quantizer.tex
+INPUT lib\resample\resample.tex
+INPUT lib\resample\resample.tex
+INPUT lib\resample\figures\FILTER.pdf
+INPUT .\lib\resample\figures\FILTER.pdf
+INPUT .\lib\resample\figures\FILTER.pdf
+INPUT .\lib\resample\figures\FILTER.pdf
+INPUT lib\snr_estimator\snr_estimator.tex
+INPUT lib\snr_estimator\snr_estimator.tex
+INPUT lib\sampler\sampler.tex
+INPUT lib\sampler\sampler.tex
+INPUT lib\sampler\figures\MQAM_sampler_output.pdf
+INPUT .\lib\sampler\figures\MQAM_sampler_output.pdf
+INPUT .\lib\sampler\figures\MQAM_sampler_output.pdf
+INPUT .\lib\sampler\figures\MQAM_sampler_output.pdf
+INPUT lib\snr_photoelectron_generator\snr_photoelectron_generator.tex
+INPUT lib\snr_photoelectron_generator\snr_photoelectron_generator.tex
+INPUT lib\snr_photoelectron_generator\figures\snr_photoelectron_generator_scheme.pdf
+INPUT .\lib\snr_photoelectron_generator\figures\snr_photoelectron_generator_scheme.pdf
+INPUT .\lib\snr_photoelectron_generator\figures\snr_photoelectron_generator_scheme.pdf
+INPUT .\lib\snr_photoelectron_generator\figures\snr_photoelectron_generator_scheme.pdf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT lib\snr_photoelectron_generator\figures\scheme-simulation.pdf
+INPUT .\lib\snr_photoelectron_generator\figures\scheme-simulation.pdf
+INPUT .\lib\snr_photoelectron_generator\figures\scheme-simulation.pdf
+INPUT .\lib\snr_photoelectron_generator\figures\scheme-simulation.pdf
+INPUT lib\snr_photoelectron_generator\figures\plot-snr-eff-0_7.png
+INPUT .\lib\snr_photoelectron_generator\figures\plot-snr-eff-0_7.png
+INPUT .\lib\snr_photoelectron_generator\figures\plot-snr-eff-0_7.png
+INPUT .\lib\snr_photoelectron_generator\figures\plot-snr-eff-0_7.png
+INPUT .\lib\snr_photoelectron_generator\figures\plot-snr-eff-0_7.png
+INPUT lib\snr_photoelectron_generator\figures\plot-snr-eff-1.png
+INPUT .\lib\snr_photoelectron_generator\figures\plot-snr-eff-1.png
+INPUT .\lib\snr_photoelectron_generator\figures\plot-snr-eff-1.png
+INPUT .\lib\snr_photoelectron_generator\figures\plot-snr-eff-1.png
+INPUT .\lib\snr_photoelectron_generator\figures\plot-snr-eff-1.png
+INPUT lib\sink\sink.tex
+INPUT lib\sink\sink.tex
+INPUT lib\snr_estimator\snr_estimator.tex
+INPUT lib\snr_estimator\snr_estimator.tex
+INPUT lib\single_photon_receiver\single_photon_receiver.tex
+INPUT lib\single_photon_receiver\single_photon_receiver.tex
+INPUT lib\single_photon_receiver\figures\single_photon_receiver.pdf
+INPUT .\lib\single_photon_receiver\figures\single_photon_receiver.pdf
+INPUT .\lib\single_photon_receiver\figures\single_photon_receiver.pdf
+INPUT .\lib\single_photon_receiver\figures\single_photon_receiver.pdf
+INPUT lib\sop_modulator\sop_modulator.tex
+INPUT lib\sop_modulator\sop_modulator.tex
+INPUT lib\sop_modulator\figures\sop.pdf
+INPUT .\lib\sop_modulator\figures\sop.pdf
+INPUT .\lib\sop_modulator\figures\sop.pdf
+INPUT .\lib\sop_modulator\figures\sop.pdf
+INPUT lib\source_code_efficiency\source_code_efficiency.tex
+INPUT lib\source_code_efficiency\source_code_efficiency.tex
+INPUT lib\white_noise\white_noise.tex
+INPUT lib\white_noise\white_noise.tex
+INPUT lib\ideal_amplifier\ideal_amplifier.tex
+INPUT lib\ideal_amplifier\ideal_amplifier.tex
+INPUT lib\phase_mismatch_compensation\phase_mismatch_compensation.tex
+INPUT lib\phase_mismatch_compensation\phase_mismatch_compensation.tex
+INPUT lib\phase_mismatch_compensation\figures\novelMethodTimeDependence.pdf
+INPUT .\lib\phase_mismatch_compensation\figures\novelMethodTimeDependence.pdf
+INPUT .\lib\phase_mismatch_compensation\figures\novelMethodTimeDependence.pdf
+INPUT .\lib\phase_mismatch_compensation\figures\novelMethodTimeDependence.pdf
+INPUT lib\frequency_mismatch_compensation\frequency_mismatch_compensation.tex
+INPUT lib\frequency_mismatch_compensation\frequency_mismatch_compensation.tex
+INPUT lib\frequency_mismatch_compensation\figures\novelMethodConstellation.pdf
+INPUT .\lib\frequency_mismatch_compensation\figures\novelMethodConstellation.pdf
+INPUT .\lib\frequency_mismatch_compensation\figures\novelMethodConstellation.pdf
+INPUT .\lib\frequency_mismatch_compensation\figures\novelMethodConstellation.pdf
+INPUT lib\cloner\cloner.tex
+INPUT lib\cloner\cloner.tex
+INPUT lib\error_vector_magnitude\error_vector_magnitude.tex
+INPUT lib\error_vector_magnitude\error_vector_magnitude.tex
+INPUT lib\error_vector_magnitude\figures\evm.pdf
+INPUT .\lib\error_vector_magnitude\figures\evm.pdf
+INPUT .\lib\error_vector_magnitude\figures\evm.pdf
+INPUT .\lib\error_vector_magnitude\figures\evm.pdf
+INPUT lib\load_ascii\load_ascii.tex
+INPUT lib\load_ascii\load_ascii.tex
+INPUT lib\load_signal\load_signal.tex
+INPUT lib\load_signal\load_signal.tex
+INPUT lib\matched_filter\matched_filter.tex
+INPUT lib\matched_filter\matched_filter.tex
+INPUT lib\timing_deskew\timing_deskew.tex
+INPUT lib\timing_deskew\timing_deskew.tex
+INPUT lib\timing_deskew\figures\diagramDSP_DS.pdf
+INPUT .\lib\timing_deskew\figures\diagramDSP_DS.pdf
+INPUT .\lib\timing_deskew\figures\diagramDSP_DS.pdf
+INPUT .\lib\timing_deskew\figures\diagramDSP_DS.pdf
+INPUT lib\timing_deskew\figures\diagramDSP_DL.pdf
+INPUT .\lib\timing_deskew\figures\diagramDSP_DL.pdf
+INPUT .\lib\timing_deskew\figures\diagramDSP_DL.pdf
+INPUT .\lib\timing_deskew\figures\diagramDSP_DL.pdf
+INPUT lib\dc_component_removal\dc_component_removal.tex
+INPUT lib\dc_component_removal\dc_component_removal.tex
+INPUT lib\dc_component_removal\figures\S4EXAGERATED.pdf
+INPUT .\lib\dc_component_removal\figures\S4EXAGERATED.pdf
+INPUT .\lib\dc_component_removal\figures\S4EXAGERATED.pdf
+INPUT .\lib\dc_component_removal\figures\S4EXAGERATED.pdf
+INPUT lib\orthonormalization\orthonormalization.tex
+INPUT lib\orthonormalization\orthonormalization.tex
+INPUT lib\orthonormalization\figures\diagramDSP_GS.pdf
+INPUT .\lib\orthonormalization\figures\diagramDSP_GS.pdf
+INPUT .\lib\orthonormalization\figures\diagramDSP_GS.pdf
+INPUT .\lib\orthonormalization\figures\diagramDSP_GS.pdf
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\mtools.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\mtools.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\mtools.tex
+INPUT mtools\sgnToWfm\sgnToWfm.tex
+INPUT mtools\sgnToWfm\sgnToWfm.tex
+INPUT mtools\sgnToWfm\figures\decimationFlochart.pdf
+INPUT .\mtools\sgnToWfm\figures\decimationFlochart.pdf
+INPUT .\mtools\sgnToWfm\figures\decimationFlochart.pdf
+INPUT .\mtools\sgnToWfm\figures\decimationFlochart.pdf
+INPUT mtools\sgnToWfm\figures\tutorial1.png
+INPUT .\mtools\sgnToWfm\figures\tutorial1.png
+INPUT .\mtools\sgnToWfm\figures\tutorial1.png
+INPUT .\mtools\sgnToWfm\figures\tutorial1.png
+INPUT .\mtools\sgnToWfm\figures\tutorial1.png
+INPUT mtools\sgnToWfm\figures\tutorial2.png
+INPUT .\mtools\sgnToWfm\figures\tutorial2.png
+INPUT .\mtools\sgnToWfm\figures\tutorial2.png
+INPUT .\mtools\sgnToWfm\figures\tutorial2.png
+INPUT .\mtools\sgnToWfm\figures\tutorial2.png
+INPUT mtools\sgnToWfm\figures\tutorial3.png
+INPUT .\mtools\sgnToWfm\figures\tutorial3.png
+INPUT .\mtools\sgnToWfm\figures\tutorial3.png
+INPUT .\mtools\sgnToWfm\figures\tutorial3.png
+INPUT .\mtools\sgnToWfm\figures\tutorial3.png
+INPUT mtools\sgnToWfm\figures\tutorial4.png
+INPUT .\mtools\sgnToWfm\figures\tutorial4.png
+INPUT .\mtools\sgnToWfm\figures\tutorial4.png
+INPUT .\mtools\sgnToWfm\figures\tutorial4.png
+INPUT .\mtools\sgnToWfm\figures\tutorial4.png
+INPUT mtools\polarizationAnalysis\polarizationAnalysis.tex
+INPUT mtools\polarizationAnalysis\polarizationAnalysis.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\algorithms.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\algorithms.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\algorithms.tex
+INPUT algorithms\fft\fft.tex
+INPUT algorithms\fft\fft.tex
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT algorithms\fft\figures\FFT_flowchart.pdf
+INPUT .\algorithms\fft\figures\FFT_flowchart.pdf
+INPUT .\algorithms\fft\figures\FFT_flowchart.pdf
+INPUT .\algorithms\fft\figures\FFT_flowchart.pdf
+INPUT algorithms\fft\figures\Radix2.pdf
+INPUT .\algorithms\fft\figures\Radix2.pdf
+INPUT .\algorithms\fft\figures\Radix2.pdf
+INPUT .\algorithms\fft\figures\Radix2.pdf
+INPUT algorithms\fft\figures\Cooley_Tukey.pdf
+INPUT .\algorithms\fft\figures\Cooley_Tukey.pdf
+INPUT .\algorithms\fft\figures\Cooley_Tukey.pdf
+INPUT .\algorithms\fft\figures\Cooley_Tukey.pdf
+INPUT algorithms\fft\figures\Bluestein.pdf
+INPUT .\algorithms\fft\figures\Bluestein.pdf
+INPUT .\algorithms\fft\figures\Bluestein.pdf
+INPUT .\algorithms\fft\figures\Bluestein.pdf
+INPUT algorithms\fft\figures\convolution.pdf
+INPUT .\algorithms\fft\figures\convolution.pdf
+INPUT .\algorithms\fft\figures\convolution.pdf
+INPUT .\algorithms\fft\figures\convolution.pdf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT ..\..\algorithms\fft\fft_test\fft_test.m
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT ..\..\algorithms\fft\fft_test\fft_test.m
+INPUT ..\..\algorithms\fft\fft_test\fft_test.m
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx9.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\anp\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8c.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8c.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\mathpazo\fplmr.tfm
+INPUT ..\..\algorithms\fft\fft_test\fft_test.cpp
+INPUT ..\..\algorithms\fft\fft_test\fft_test.cpp
+INPUT ..\..\algorithms\fft\fft_test\fft_test.cpp
+INPUT algorithms\fft\figures\random_noise.eps
+INPUT .\algorithms\fft\figures\random_noise.eps
+INPUT .\algorithms\fft\figures\random_noise.eps
+INPUT .\algorithms\fft\figures\random_noise-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise.eps
+INPUT .\algorithms\fft\figures\random_noise-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise-eps-converted-to.pdf
+INPUT algorithms\fft\figures\random_noise_fft.eps
+INPUT .\algorithms\fft\figures\random_noise_fft.eps
+INPUT .\algorithms\fft\figures\random_noise_fft.eps
+INPUT .\algorithms\fft\figures\random_noise_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise_fft.eps
+INPUT .\algorithms\fft\figures\random_noise_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\random_noise_fft-eps-converted-to.pdf
+INPUT algorithms\fft\figures\Single_sinusoid.eps
+INPUT .\algorithms\fft\figures\Single_sinusoid.eps
+INPUT .\algorithms\fft\figures\Single_sinusoid.eps
+INPUT .\algorithms\fft\figures\Single_sinusoid-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid.eps
+INPUT .\algorithms\fft\figures\Single_sinusoid-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid-eps-converted-to.pdf
+INPUT algorithms\fft\figures\Single_sinusoid_fft.eps
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft.eps
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft.eps
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft.eps
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\Single_sinusoid_fft-eps-converted-to.pdf
+INPUT algorithms\fft\figures\mixed_signal.eps
+INPUT .\algorithms\fft\figures\mixed_signal.eps
+INPUT .\algorithms\fft\figures\mixed_signal.eps
+INPUT .\algorithms\fft\figures\mixed_signal-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal.eps
+INPUT .\algorithms\fft\figures\mixed_signal-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal-eps-converted-to.pdf
+INPUT algorithms\fft\figures\mixed_signal_fft.eps
+INPUT .\algorithms\fft\figures\mixed_signal_fft.eps
+INPUT .\algorithms\fft\figures\mixed_signal_fft.eps
+INPUT .\algorithms\fft\figures\mixed_signal_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal_fft.eps
+INPUT .\algorithms\fft\figures\mixed_signal_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal_fft-eps-converted-to.pdf
+INPUT .\algorithms\fft\figures\mixed_signal_fft-eps-converted-to.pdf
+INPUT algorithms\overlap_save\overlap_save.tex
+INPUT algorithms\overlap_save\overlap_save.tex
+INPUT algorithms\overlap_save\figures\overlap-savev2.pdf
+INPUT .\algorithms\overlap_save\figures\overlap-savev2.pdf
+INPUT .\algorithms\overlap_save\figures\overlap-savev2.pdf
+INPUT .\algorithms\overlap_save\figures\overlap-savev2.pdf
+INPUT algorithms\overlap_save\figures\OS_top.pdf
+INPUT .\algorithms\overlap_save\figures\OS_top.pdf
+INPUT .\algorithms\overlap_save\figures\OS_top.pdf
+INPUT .\algorithms\overlap_save\figures\OS_top.pdf
+INPUT algorithms\overlap_save\figures\overlapSave.pdf
+INPUT .\algorithms\overlap_save\figures\overlapSave.pdf
+INPUT .\algorithms\overlap_save\figures\overlapSave.pdf
+INPUT .\algorithms\overlap_save\figures\overlapSave.pdf
+INPUT algorithms\overlap_save\figures\convolution.pdf
+INPUT .\algorithms\overlap_save\figures\convolution.pdf
+INPUT .\algorithms\overlap_save\figures\convolution.pdf
+INPUT .\algorithms\overlap_save\figures\convolution.pdf
+INPUT algorithms\overlap_save\figures\convolution_part2.pdf
+INPUT .\algorithms\overlap_save\figures\convolution_part2.pdf
+INPUT .\algorithms\overlap_save\figures\convolution_part2.pdf
+INPUT .\algorithms\overlap_save\figures\convolution_part2.pdf
+INPUT ..\..\algorithms\overlapSave\overlapSave_test\overlap_save_test.m
+INPUT ..\..\algorithms\overlapSave\overlapSave_test\overlap_save_test.m
+INPUT ..\..\algorithms\overlapSave\overlapSave_test\overlap_save_test.m
+INPUT ..\..\algorithms\overlapSave\overlapSave_test\overlap_save_test.cpp
+INPUT ..\..\algorithms\overlapSave\overlapSave_test\overlap_save_test.cpp
+INPUT ..\..\algorithms\overlapSave\overlapSave_test\overlap_save_test.cpp
+INPUT algorithms\overlap_save\figures\randomNoise.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\randomNoise_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_matlab_and_C++-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\randomNoise_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\randomNoise_conv_and_C++-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\mixed_signal2.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_matlab_and_C++-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\mixed_signal2_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\mixed_signal2_conv_and_C++-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\sinusoid_with_exponent.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_matlab_and_C++-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++.eps
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\sinusoid_with_exponent_conv_and_C++-eps-converted-to.pdf
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT algorithms\overlap_save\figures\realTimeOverlapSaveIR.pdf
+INPUT .\algorithms\overlap_save\figures\realTimeOverlapSaveIR.pdf
+INPUT .\algorithms\overlap_save\figures\realTimeOverlapSaveIR.pdf
+INPUT .\algorithms\overlap_save\figures\realTimeOverlapSaveIR.pdf
+INPUT algorithms\overlap_save\figures\S6_S7_ir.eps
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir.eps
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir.eps
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir.eps
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6_S7_ir-eps-converted-to.pdf
+INPUT algorithms\overlap_save\figures\overlap-save_method_tf.pdf
+INPUT .\algorithms\overlap_save\figures\overlap-save_method_tf.pdf
+INPUT .\algorithms\overlap_save\figures\overlap-save_method_tf.pdf
+INPUT .\algorithms\overlap_save\figures\overlap-save_method_tf.pdf
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT algorithms\overlap_save\figures\realTimeOverlapSave.pdf
+INPUT .\algorithms\overlap_save\figures\realTimeOverlapSave.pdf
+INPUT .\algorithms\overlap_save\figures\realTimeOverlapSave.pdf
+INPUT .\algorithms\overlap_save\figures\realTimeOverlapSave.pdf
+INPUT algorithms\overlap_save\figures\S6S7_IrTf.eps
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf.eps
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf.eps
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf.eps
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf-eps-converted-to.pdf
+INPUT .\algorithms\overlap_save\figures\S6S7_IrTf-eps-converted-to.pdf
+INPUT algorithms\filter\filter.tex
+INPUT algorithms\filter\filter.tex
+INPUT algorithms\filter\figures\Filter_class.pdf
+INPUT .\algorithms\filter\figures\Filter_class.pdf
+INPUT .\algorithms\filter\figures\Filter_class.pdf
+INPUT .\algorithms\filter\figures\Filter_class.pdf
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT ..\..\algorithms\filter\filter_20180306.cpp
+INPUT algorithms\filter\figures\Pulse_shaping.pdf
+INPUT .\algorithms\filter\figures\Pulse_shaping.pdf
+INPUT .\algorithms\filter\figures\Pulse_shaping.pdf
+INPUT .\algorithms\filter\figures\Pulse_shaping.pdf
+INPUT algorithms\filter\figures\Test_Filter_Dia.pdf
+INPUT .\algorithms\filter\figures\Test_Filter_Dia.pdf
+INPUT .\algorithms\filter\figures\Test_Filter_Dia.pdf
+INPUT .\algorithms\filter\figures\Test_Filter_Dia.pdf
+INPUT algorithms\filter\figures\RC_S6S7.eps
+INPUT .\algorithms\filter\figures\RC_S6S7.eps
+INPUT .\algorithms\filter\figures\RC_S6S7.eps
+INPUT .\algorithms\filter\figures\RC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RC_S6S7.eps
+INPUT .\algorithms\filter\figures\RC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RC_S6S7-eps-converted-to.pdf
+INPUT algorithms\filter\figures\RRC_S6S7.eps
+INPUT .\algorithms\filter\figures\RRC_S6S7.eps
+INPUT .\algorithms\filter\figures\RRC_S6S7.eps
+INPUT .\algorithms\filter\figures\RRC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RRC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RRC_S6S7.eps
+INPUT .\algorithms\filter\figures\RRC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RRC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RRC_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\RRC_S6S7-eps-converted-to.pdf
+INPUT algorithms\filter\figures\Gaussian_S6S7.eps
+INPUT .\algorithms\filter\figures\Gaussian_S6S7.eps
+INPUT .\algorithms\filter\figures\Gaussian_S6S7.eps
+INPUT .\algorithms\filter\figures\Gaussian_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\Gaussian_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\Gaussian_S6S7.eps
+INPUT .\algorithms\filter\figures\Gaussian_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\Gaussian_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\Gaussian_S6S7-eps-converted-to.pdf
+INPUT .\algorithms\filter\figures\Gaussian_S6S7-eps-converted-to.pdf
+INPUT algorithms\hilbert\hilbert.tex
+INPUT algorithms\hilbert\hilbert.tex
+INPUT algorithms\hilbert\figures\data.pdf
+INPUT .\algorithms\hilbert\figures\data.pdf
+INPUT .\algorithms\hilbert\figures\data.pdf
+INPUT .\algorithms\hilbert\figures\data.pdf
+INPUT algorithms\hilbert\figures\proposedLogic.pdf
+INPUT .\algorithms\hilbert\figures\proposedLogic.pdf
+INPUT .\algorithms\hilbert\figures\proposedLogic.pdf
+INPUT .\algorithms\hilbert\figures\proposedLogic.pdf
+INPUT algorithms\hilbert\figures\test_setup.pdf
+INPUT .\algorithms\hilbert\figures\test_setup.pdf
+INPUT .\algorithms\hilbert\figures\test_setup.pdf
+INPUT .\algorithms\hilbert\figures\test_setup.pdf
+INPUT algorithms\hilbert\figures\S5.eps
+INPUT .\algorithms\hilbert\figures\S5.eps
+INPUT .\algorithms\hilbert\figures\S5.eps
+INPUT .\algorithms\hilbert\figures\S5-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S5-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S5.eps
+INPUT .\algorithms\hilbert\figures\S5-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S5-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S5-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S5-eps-converted-to.pdf
+INPUT algorithms\hilbert\figures\S7.eps
+INPUT .\algorithms\hilbert\figures\S7.eps
+INPUT .\algorithms\hilbert\figures\S7.eps
+INPUT .\algorithms\hilbert\figures\S7-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S7-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S7.eps
+INPUT .\algorithms\hilbert\figures\S7-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S7-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S7-eps-converted-to.pdf
+INPUT .\algorithms\hilbert\figures\S7-eps-converted-to.pdf
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\code_development_guidelines.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\code_development_guidelines.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\code_development_guidelines.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\msbuild.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\msbuild.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\msbuild.tex
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\git\git_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\git\git_helper.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\git\git_helper.tex
+INPUT chapter\git\figures\git_data_model.png
+INPUT .\chapter\git\figures\git_data_model.png
+INPUT .\chapter\git\figures\git_data_model.png
+INPUT .\chapter\git\figures\git_data_model.png
+INPUT .\chapter\git\figures\git_data_model.png
+INPUT chapter\git\figures\git_logical_areas.png
+INPUT .\chapter\git\figures\git_logical_areas.png
+INPUT .\chapter\git\figures\git_logical_areas.png
+INPUT .\chapter\git\figures\git_logical_areas.png
+INPUT .\chapter\git\figures\git_logical_areas.png
+INPUT chapter\git\figures\git_spaces.png
+INPUT .\chapter\git\figures\git_spaces.png
+INPUT .\chapter\git\figures\git_spaces.png
+INPUT .\chapter\git\figures\git_spaces.png
+INPUT .\chapter\git\figures\git_spaces.png
+INPUT chapter\git\figures\git_diff.png
+INPUT .\chapter\git\figures\git_diff.png
+INPUT .\chapter\git\figures\git_diff.png
+INPUT .\chapter\git\figures\git_diff.png
+INPUT .\chapter\git\figures\git_diff.png
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\beamer\beamer_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\beamer\beamer_helper.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\beamer\beamer_helper.tex
+INPUT chapter\beamer\figures\codeANDslideEXAMPLE.png
+INPUT .\chapter\beamer\figures\codeANDslideEXAMPLE.png
+INPUT .\chapter\beamer\figures\codeANDslideEXAMPLE.png
+INPUT .\chapter\beamer\figures\codeANDslideEXAMPLE.png
+INPUT .\chapter\beamer\figures\codeANDslideEXAMPLE.png
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8t.tfm
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplbi8t.vf
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8r.tfm
+INPUT chapter\beamer\figures\pympressColdOpen.png
+INPUT .\chapter\beamer\figures\pympressColdOpen.png
+INPUT .\chapter\beamer\figures\pympressColdOpen.png
+INPUT .\chapter\beamer\figures\pympressColdOpen.png
+INPUT .\chapter\beamer\figures\pympressColdOpen.png
+INPUT chapter\beamer\figures\presentatorView.png
+INPUT .\chapter\beamer\figures\presentatorView.png
+INPUT .\chapter\beamer\figures\presentatorView.png
+INPUT .\chapter\beamer\figures\presentatorView.png
+INPUT .\chapter\beamer\figures\presentatorView.png
+INPUT chapter\beamer\figures\presentation.png
+INPUT .\chapter\beamer\figures\presentation.png
+INPUT .\chapter\beamer\figures\presentation.png
+INPUT .\chapter\beamer\figures\presentation.png
+INPUT .\chapter\beamer\figures\presentation.png
+OUTPUT d:\netxpto\Arduino\doc\tex\chapter\ghdl.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\ghdl.tex
+INPUT d:\netxpto\Arduino\doc\tex\chapter\ghdl.tex
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\introduction.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\introduction.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\simulator_structure\simulator_structure.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\simulator_structure\simulator_structure.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\development_cycle.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\development_cycle.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\visualizer.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\visualizer.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\case_studies.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\case_studies.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\library.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\library.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\mtools.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\mtools.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\algorithms.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\algorithms.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\code_development_guidelines.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\code_development_guidelines.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\msbuild.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\msbuild.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\git\git_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\git\git_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\beamer\beamer_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\beamer\beamer_helper.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\ghdl.aux
+INPUT d:\netxpto\Arduino\doc\tex\chapter\ghdl.aux
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.out
+INPUT d:\netxpto\Arduino\doc\tex\main_netxpto.run.xml
+OUTPUT d:\netxpto\Arduino\doc\tex\main_netxpto.run.xml
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\mathpazo\fplmr.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\mathpazo\fplmr.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplbi8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplbi8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplri8a.pfb
+INPUT C:\Users\anp\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplri8a.pfb
