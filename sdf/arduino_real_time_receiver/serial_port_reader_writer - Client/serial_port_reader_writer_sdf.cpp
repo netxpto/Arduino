@@ -167,35 +167,28 @@ int updateCounter = 0;
 
 
 void autoConnect(void)
-{
-	//wait connection
+{   //wait connection
 	while (!arduinoRec->isConnected() || !arduinoDac->isConnected()) {
 		Sleep(100);
-
 		arduinoRec = new SerialPort(portNameRec);
 		arduinoDac = new SerialPort(portNameDac);
 	}
 
-
 	//Checking if arduino is connected or not
 	if (arduinoRec->isConnected() && arduinoDac->isConnected()) {
 		std::cout << "Connection established at ports " << portNameRec << " and " << portNameDac << endl;
-
 		auto start = chrono::steady_clock::now();
 		auto end = chrono::steady_clock::now();
 		std::cout << "Burning through data now, allow for around 1 second." << endl;
-
 
 		while (1 * 1000 - chrono::duration_cast<chrono::milliseconds>(end - start).count() > 0) { // burns through 10 seconds worth of data
 			end = chrono::steady_clock::now();
 			while (*incomingData != '0' & *incomingData != '1' & *incomingData != '2' & *incomingData != '3') hasRead = arduinoRec->readSerialPort(incomingData, 1);
 		}
 	}
-
 	char selected;
 	char* sendString;
 	int bufferCounter = 0;
-
 	while (arduinoRec->isConnected() && arduinoDac->isConnected()) {
 		updateCounter++;
 		while (*incomingData != '0' & *incomingData != '1' & *incomingData != '2' & *incomingData != '3') hasRead = arduinoRec->readSerialPort(incomingData, 1);
@@ -213,13 +206,11 @@ void autoConnect(void)
 			std::cout << "Sending " << MAX_DATA_LENGTH << " counts to netxpto!" << endl;
 
 			for (size_t i = 0; i < MAX_DATA_LENGTH; i++) {
-				
 				int result = ipTunnelPut(buffer[i] - '0');
 				if (!result) break;
 			}
 		}
-		
-		
+
 		if (updateCounter == 500)
 		{
 			updateCounter = 0;
