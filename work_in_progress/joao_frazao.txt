@@ -17,7 +17,7 @@ Tasks:
 
 	- definir a arquitetura do transmissor (moduladores de fase para fazer codificação na polarização)
 
-next meeting: 29/1, 15h
+next meeting: 31/1, 17h
 
 
 2019-11-12
