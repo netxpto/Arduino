@@ -1,7 +1,24 @@
 ﻿Bolsa termina: 15/12/2019 !
 
+Dissertação:
+
+	1) chapter 1: Introdução, motivação, objetivos, resultados alcançados, estrutura do documento
+	2) chapter 2: QKD using DV with Polarization Encoding
+	3) chapter 3: Receiver
+	4) chapter 4: Transmitter
+	5) chapter 5: Conclusions
+
 Tasks:
 	1) implementação o modulo de receção do QKD em Arduine (Clock In, 2 Clock Out, DataIn0, DataIn1, {0, 1, 2, 3} => QBER)
+
+2020-01-24
+
+	- trabalhar na documentação (chapter 1, 2, 3)
+
+	- definir a arquitetura do transmissor (moduladores de fase para fazer codificação na polarização)
+
+next meeting: 31/1, 17h
+
 
 2019-11-12
 
