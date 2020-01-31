@@ -3,12 +3,19 @@
 Dissertação:
 
 	1) chapter 1: Introdução, motivação, objetivos, resultados alcançados, estrutura do documento
-	2) chapter 2: QKD using DV with Polarization Encoding
+	2) chapter 2: QKD using DV with Polarization Encoding => Recetor só funcionava com um base, limitação no ritmo da transmissão
 	3) chapter 3: Receiver
 	4) chapter 4: Transmitter
 	5) chapter 5: Conclusions
 
-Tasks:
+31/01/2020
+
+	- arquitetura para o transmissor baseado no modulador de fase
+
+next meeting: 12/2, 2 pm
+
+
+15/1/2020
 	1) implementação o modulo de receção do QKD em Arduine (Clock In, 2 Clock Out, DataIn0, DataIn1, {0, 1, 2, 3} => QBER)
 
 2020-01-24
