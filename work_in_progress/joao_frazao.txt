@@ -3,10 +3,19 @@
 Dissertação:
 
 	1) chapter 1: Introdução, motivação, objetivos, resultados alcançados, estrutura do documento
-	2) chapter 2: QKD using DV with Polarization Encoding => Recetor só funcionava com um base, limitação no ritmo da transmissão
-	3) chapter 3: Receiver
-	4) chapter 4: Transmitter
+	2) chapter 2: QKD using DV with Polarization Encoding => Algumas das Limitações do Sistema 
+		(Recetor só funcionava com um base, limitação no ritmo da transmissão devido aos EPCs)
+	3) chapter 3: Receiver => colocar o sistema a funcionar com duas bases => Arduino => calculo do QBER
+	4) chapter 4: Transmitter => explorar a parte da utilização dos moduladores de fase para codificar na polarização
+		( discutir com o nosso Silva)
 	5) chapter 5: Conclusions
+
+12/02/2020
+
+	- escrever a dissertação (chapter 3)(arduino_quantum_rx)
+	- arquitetura para o transmissor baseado no modulador de fase
+
+next meeting: 12/2, 2 pm
 
 31/01/2020
 
