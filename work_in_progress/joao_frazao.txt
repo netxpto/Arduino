@@ -10,6 +10,14 @@ Dissertação:
 		( discutir com o nosso Silva)
 	5) chapter 5: Conclusions
 
+21/02/2020
+
+	- escrever a dissertação (chapter 3)(arduino_quantum_rx)(concluir, entregar primeira versão)
+	- arquitetura para o transmissor baseado no modulador de fase
+
+next meeting: 6/3, 2 pm
+
+
 12/02/2020
 
 	- escrever a dissertação (chapter 3)(arduino_quantum_rx)
