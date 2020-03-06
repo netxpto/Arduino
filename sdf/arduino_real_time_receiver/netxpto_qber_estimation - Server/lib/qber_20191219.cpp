@@ -30,7 +30,7 @@ bool Qber::runBlock(void) {
 			x1 = x2;
 			x2 = x3;
 		}
-
+	
 		z = -x3;
 
 	}
@@ -92,6 +92,7 @@ bool Qber::runBlock(void) {
 				default:
 					cout << "QBER syncing routine: No direction given to sync!\n";
 					break;
+					
 				}
 
 			}
@@ -110,6 +111,7 @@ bool Qber::runBlock(void) {
 				QBER = (1 - coincidencesSync / bufferSize) * 100;
 				if (QBER > 100 - berLimit) {
 					cout << "Cables are crossed yo!\n";
+
 				}
 				if (QBER < berLimit) {
 					nSync = false; // if the QBER is bellow the limit, the system is synchronized
