@@ -11,29 +11,22 @@
 			\textbf{Directory}              &:& sdf/arduino\_quantum\_rx
 		\end{tabular}
 	\end{tcolorbox}
-	
-	
-	\subsection{Project Definition}
-	
-The purpose of this project is to implement the QKD reception module of a quantum communication system, into an Arduino board. To achieve this goal, we need to know what the Arduino is going to receive and what's going to output. A classical signal representing the clock is going to enter a coincidence detection board, outputting three clock signals to the single photon detectors and the Arduino. The purpose of these signals is to keep the system synchronized throughout the communication. In the Arduino a coincidence block is needed to compare the output values of the detectors: 3 if no-clicks have been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. The last block that needs to be implemented is the communication protocol between the pc server and the Arduino. This block is responsible for the transmission of the coincidence detector output in the Arduino (client side) to a pc (server side) through a USB connection.  
 
-
-		
-	\begin{figure}[H]
+	\subsection{Project definition }
+	
+	For the receiver side of the QKD implementation, it was needed a solution so that Bob could do the QBER estimations in real time and choose between two different basis to do the measurments. To achieve these goals, an architecture  based on Arduinos was devolop. The idea is to have one Arduino reading the quantum detectors output signal, in order to do a coincidence check. The Arduino and the detectors are synchronized by a classical signal, and every clock cycle the Arduino is going to output a 3 if none of the detectors clicked, 2 if both clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. Then it sends the data to a computer program through an USB communication. This program establishes a TCP/IP connection with the QBER block where the estimations are going to be reported in real time. A second Arduino communicates with the QBER program and sets the right voltages to an external DAC in order to adjust the Electronic Polarization Controller.
+	
+		\begin{figure}[H] 
 		\centering
-		\includegraphics[width=0.95\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeral.pdf}
-		\caption{General block diagram of QKD a quantum receiver module.}
-		\label{fig:arduino}
+		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/Ard2.pdf}
+		\caption{Block diagram of a arduino implementation.}
+		\label{fig:netxpto}
 		
 	\end{figure}
-
-
-		
-	\subsection{Emulation in NETXPTO Simulator}
+	In figure 5.1, it is represented the final architecture  of the reception modules using Arduinos, after all the trials and tests that were done in the laboratory.
 	
-For the emulation in the NETXPTO Simulator, we must run two separate program codes. The first one corresponds to the client side of the simulation which can be found in the arduino\_quantum\_rx\_netxpto project. The second one is the server side and can be found in the ip\_tunnel\_ms\_windows - Server project. In order to have the emulation working it is needed both programs running simultaneously.
-	
-	
+	\subsection{Emulation in NETXPTO }
+	The first step was to simulate the acquisition of data sequence from the detectors and do the respective coincidence check. It was also simulated the communication of the data between a Client and Server program through an TCP/IP protocol. The client side of the simulation can be found in the arduino\_quantum\_rx\_netxpto project. The second one representing the server side and can be found in the ip\_tunnel\_ms\_windows - Server project. The two programs need to be running simultaneously, in order to have the emulation working.
 	
 	\begin{figure}[H]
 		\centering
@@ -42,224 +35,82 @@ For the emulation in the NETXPTO Simulator, we must run two separate program cod
 		
 		\label{fig:netxpto}
 	\end{figure}
-
+	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{./sdf/arduino_quantum_rx/figures/NetXPTO_2.pdf}
 		\caption{Block diagram of a quantum receiver system emulated in NETXPTO (Server side).}
 		\label{fig:netxpto}
 	\end{figure}
+
+    \clearpage
 	
-	 For the client side in NETXPTO Simulator we have to implement the following 5 modules. The first two are the BinarySource0\_ and the BinarySource1\_ which emulates the received signals coming from the two single-photon and are synchronized by the Clock\_ block. These signals are the inputs of the CoincidenceDetector\_ block, that in its turn, outputs a real signal that has four possible values: 3 if no-clicks in the detectors have been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. Lastly, we have the IPTunnel\_Client\_ block that is responsible for the communications between the client and the PC server. It uses a TCP/IP protocol to communicate with the IPTunnel\_Server, which takes the output of the signal from the CoincidenceDetector\_ block and sends it to the server implemented in a PC, where the QBER estimations are performed.
-
-	The following input parameters were defined for the blocks listed in figure \ref{fig:netxpto}: 
+	In the client side in NETXPTO Simulator we have to implement the following 5 modules. The first two are the BinarySource0\_ and the BinarySource1\_ which emulates the received signals coming from the two single-photon and are synchronized by the Clock\_ block. These signals are the inputs of the CoincidenceDetector\_ block, that in its turn, outputs a real signal that has four possible values: 3 if no-clicks in the detectors have been detected, 2 if both detectors clicked, 1 if bit one was measured, and finally, 0 if bit zero was measured. Lastly, we have the IPTunnel\_Client\_ block that is responsible for the communications between the client and the PC server. It uses a TCP/IP protocol to communicate with the IPTunnel\_Server, which takes the output of the signal from the CoincidenceDetector\_ block and sends it to the server implemented in a PC, where the QBER estimations are performed. In the example below we set a sequence for the BinarySource0 of :011010  and for the BinarySource1 of:110010 . The coincidence sequence is : 120323 and is sent via TCP/IP to server program every 512 samples.
 	
-	\begin{itemize}
-		\item BinarySource0\_:
-		\begin{itemize}
-			\item setMode(BinarySourceMode::DeterministicCyclic)
-			\item setBitStream("1")
-		\end{itemize}
-	
-		\item BinarySource1\_:
-		\begin{itemize}
-			\item setMode(BinarySourceMode::DeterministicCyclic)
-			\item setBitStream("0")
-		\end{itemize}
-		
-		\item Clock\_:
-		\begin{itemize}
-			\item setClockPeriod(1e-6)
-			\item setSamplingPeriod(1e-7)
-		\end{itemize}
-		
-		\item CoincidenceDetector\_;
-		
-		\item IPTunnel\_;
-		
-
-			
-		\end{itemize}
-%	\end{itemize}
-
-
-\vspace{15px}
-
-
-\textbf{Signal Results:}
-
-\begin{itemize}
-	
-	\item SPD0\_out:
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/spd0.png}
-		\caption{Signal generated from BinarySource0.}
-		\label{fig:arduino}
-	\end{figure}
-
-	\vspace{50px}
-	\item SPD1\_out:
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/spd1.png}
-		\caption{Signal generated from BinarySource1.}
-		\label{fig:arduino}
-	\end{figure}
-
-	
-	\item Clock\_out:
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/Clock.JPG}
-		\caption{Signal generated from Clock.}
-		\label{fig:arduino}
-	\end{figure}
-	\clearpage
-	
-	\item BobData\_In;
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/Bobdatain.PNG}
-		\caption{Signal generated from CoincidenceDetector.}
-		\label{fig:arduino}
-	\end{figure}
-
-		\item IPTunnel\_Out;
-	\begin{figure}[H]
+		\begin{figure}[H]
 		\centering
 		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/Iptunnel.PNG}
 		\caption{Signal the client is sending through the IPTunnel block and what the server is receiving.}
 		\label{fig:arduino}
 		
 	\end{figure}
-
-\end{itemize}
-
-
-	\subsection{Simulation Analysis - Arduino Implementation}
+	\clearpage
 	
-	In order to utilize the same project running over NETXPTO simulator using Arduino technology some changes in the source code had to be made once this technology uses C/C++ language features while relying on special rules of code structuring. Acoording to Arduino official manufactures this language is merely a set of C/C++ functions that can be called from your code. Your sketch undergoes minor changes (e.g. automatic generation of function prototypes) and then is passed directly to a C/C++ compiler (avr-g++). \par However, there's currently no support for libstdc++, the standard support library needed for a complete C++ implementation. This imposes a number of restrictions on the C++ programs that can be compiled. Among them are:
-	
-	\begin{itemize}
-		\item Some of the C++ related standard functions, classes, and template classes are available.
-		\item The operators new and delete are not implemented, attempting to use them will cause the linker to complain about undefined external references.
-		\item Some of the supplied include files are not C++ safe.
-		\item Exceptions are not supported.
-		\item When programming C++ in microcontrollers, extra care should be taken to avoid unwanted side effects of the C++ calling conventions like implied copy constructors that could be called upon function invocation etc.
-		\item The outputs to the console have to be made through the arduino serial monitor using the function Serial.print() instead of making use of cout, cin or cerr classes.
-		\item  The implementation of a non-specialized template methods must be visible to a translation unit that uses it. The compiler must be able to see the implementation in order to generate code for all specializations in your code. This can be achieved in two ways: either by moving the implementation, the cpp file, inside the header or if you want to keep it separate, move it into a different header which you include in your original header.
-		\item Arduino does not recognize objects of type std::initializer\_list<T>, which are a lightweight proxy object that provides access to an array of objects of type const T, so instead we have to use vector containers in order to initialize the constructors attributes.
-		\item In order to include self made libraries in the Arduino sketches they must all be present in the same directory of the main file.
-		
+	    \subsection{Arduino}
+	     Arduino represents an open-source platform that consists of both a physical programmable circuit board, containing a microcontroller, and an  Integrated Development Enviroment that runs is a computer through an USB cable.
+	    The Arduino model used for this project was the DUE. It has a microcontroller board based on the Atmel SAM3X8E ARM Cortex-M3 CPU. It also has 54 input/output pins, 12 analog inputs, 4 UARTs, 84 MHz clock, 2 DAC, 2 TWI, a power jack, an SPI header, JTAG header, a reset button and an erase button. However this model is limited at 3.3V for the maximum voltage that the I/O pins can tolerate.  
+	    
+	    \begin{figure}[H]
+	    	\centering
+	    	\includegraphics[width=0.8\linewidth]{./sdf/arduino_quantum_rx/figures/arduino.PNG}
+	    	\caption{Arduino Due.}
+	    	\label{fig:arduino}
+	    \end{figure}
+	    	
+	    In order to utilize the same project running over NETXPTO simulator using Arduino technology some changes in the source code had to be made once this technology uses C/C++ language features while relying on special rules of code structuring. Acoording to Arduino official manufactures this language is merely a set of C/C++ functions that can be called from your code. Your sketch undergoes minor changes (e.g. automatic generation of function prototypes) and then is passed directly to a C/C++ compiler (avr-g++).However, there's currently no support for libstdc++, the standard support library needed for a complete C++ implementation. This imposes a number of restrictions on the C++ programs that can be compiled. Among them are:
+	    
+	    \begin{itemize}
+	    	\item Some of the C++ related standard functions, classes, and template classes are available.
+	    	\item The operators new and delete are not implemented, attempting to use them will cause the linker to complain about undefined external references.
+	    	\item Some of the supplied include files are not C++ safe.
+	    	\item Exceptions are not supported.
+	    	\item When programming C++ in microcontrollers, extra care should be taken to avoid unwanted side effects of the C++ calling conventions like implied copy constructors that could be called upon function invocation etc.
+	    	\item The outputs to the console have to be made through the arduino serial monitor using the function Serial.print() instead of making use of cout, cin or cerr classes.
+	    	\item  The implementation of a non-specialized template methods must be visible to a translation unit that uses it. The compiler must be able to see the implementation in order to generate code for all specializations in your code. This can be achieved in two ways: either by moving the implementation, the cpp file, inside the header or if you want to keep it separate, move it into a different header which you include in your original header.
+	    	\item Arduino does not recognize objects of type std::initializer\_list<T>, which are a lightweight proxy object that provides access to an array of objects of type const T, so instead we have to use vector containers in order to initialize the constructors attributes.
 	\end{itemize}
-	
-	\clearpage
-	
-	\subsection{Arduino Implementation - System Montage and signal acquisition}
-	
-	For the system montage and signal acquisition, we have an Arduino reading the signals from the quantum detectors and sending this data to a PC server where the QBER estimations are going to be performed in real time. The Arduino just executes an interruption when it catches a rising edge coming from the single photon detectors output signal or the clock signal and does a coincidence check. After this, it communicates the data to a PC, where the calculations of the QBER are going to be performed and outputs a file with the data each clock cycle. 
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/DiagramaGeralArduino.pdf}
-		\caption{Block diagram of a arduino implementation.}
-		\label{fig:netxpto}	
-	\end{figure}
-	
-	\vspace{15px}
-	\subsubsection{Clock signal}
-	
-	With the purpose of processing the clock signal, it must be read by the digital Input pins of the Arduino DUE board. This type of reading doesn't require any signal conditioning which means we can take direct measures from the clock into the Arduino. However, we need to be careful, because the max voltage the Arduino DUE can take in the digital pins is 3.3V. The clock trigger signal is going to reach the detectors and the Arduino, at the same time. In order to detect the clock signal, the Arduino does an interruption when it catches the rising edge of the clock and puts a Boolean to true, meaning the Arduino is ready to take the output signal from the detectors.  
-
-	\clearpage 
-	The clock signal at 8 kHz can be seen in the next figure, where the y axis corresponds to the state of the signal (1 when HIGH and 0 when LOW), and x axis corresponds to the number of samples we took from the Arduino:	
-
-   
-   
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/clockSignal2.pdf}
-		\caption{Clock signal read.}
-		\label{montage}
-	\end{figure}
-
-\subsubsection{Detector output signals}
-
-Since it is possible to control the TTL signal voltage that comes from the single photon detectors gate, we can measure them directly into the Arduino board through the digital input pins. When the clock reaches the detectors, they send a pulse signal through the gate to the Arduino. The Arduino does an interrupt function in order to catch the rising edge and puts a Boolean to true. If the two detectors clicked and the clock is in the high state, we will have all the Booleans to true and the Arduino is going to output a 2. If none of the detectors clicked, and only the clock Boolean is true the Arduino is going to output a 3. Depending if one detector clicked and the other did not, one Boolean is going to be true and the other false, and then the Arduino is going to output a 0 or 1.
-A few tests were made with an arbitrary function generator to see if the Arduino due could catch pulses with a width of 100 ns and a frequency of 8 kHz. When the Arduino detects the rising edge, it generates the interrupt and calls a function handler that increments a counter each time a pulse is detected. Furthermore, the program also counts the time between 10000 measures to check if the frequency is correct (for 10000 counts we should be getting 1250000 microseconds which corresponds to 1,25 seconds).
-
-
-\clearpage
-
-Arduino code and results:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.85\linewidth]{./sdf/arduino_quantum_rx/figures/arduinoTest.PNG}
-	\caption{Arduino test code}
-	\label{montage}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/Teste2.pdf}
-	\caption{Rising edges counts}
-	\label{montage}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/Teste1.pdf}
-	\caption{Time for each 10000 rising edges}
-	\label{montage}
-\end{figure}
-	
-	
-	\subsubsection{Communication from ArduinoReceiver to PC server Netxpto}
-	
-To have the set up running we need to open three different programs in the arduino\_real\_time\_receiver paste and run them at the same time: ardRece.ino, serial\_port\_reader\_writer.sln (client side) and netxpto\_qber\_estimation.sln (server side).
-The Arduino program has the 26,27 and 28 pins in the INPUT mode, waiting for an external signal from the clock or the detectors. Each one of the pins, is attached to an interruption that takes place when a rising edge is catched. When a interruption is triggered, the program does a function that puts a boolean to true. There is four possible results that are going to be printed in the COM port.
-Even though, the attachInterrupt function takes about 2 microseconds to be done, this does not represent a problem, because the arduino saves the regist of another event during an interruption.
-Every external clock cycle, the program does one print a resets all the booleans to false.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.85\linewidth]{./sdf/arduino_quantum_rx/figures/arduinoComPC.PNG}
-	\caption{Arduino coincidence block and serial communication}
-	\label{montage}
-	
-\end{figure}
-
-
- After the Arduino outputs the values of the coincidence block, we need to send the data to a PC, in order to do the calculation of the QBER in real time. To have this implemented in our system, we have the Arduino sending the data through the UART one by one to a c++ program in the PC via USB cable. The serial\_port\_reader\_writer.sln program (client side), waits for a connection with the Arduino Serial port in order to start receiving the data. Now that the communication between the Arduino serial port and the PC is done, the program burns the first 10 seconds of information because the Arduino tends to send unnecessary bits when it starts writing in the COM. The program puts the receiving information in a buffer and when it's full all the data is sent to the QBER program. This means we have a TCP/IP connection between the program reading the Arduino data and the one that does the QBER calculations. The size of the buffer is 4000 characters. In order to always have the correct values of the QBER we need to have the sequence the Arduino is sending synchronized with the sequence from the Alice side. To do this, we have the QBER program running in two modes, the synchronized one, and the unsynchronized. After the program burns the unnecessary data, it is going to check the first few bits in the buffer and compare it with the transmitter sequence. If they are different, the program will discard the first bit that entered the sequence and add a new bit (FIFO). This occurs until we have a match in the sequences, and the program will run normally in the synchronized mode. If, for some reason, the program loses the synchronization, it will do the same process previously explained. In the two modes the program will always output a file, the midreports, every 8000 bits, with the results of the QBER block calculations.
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1.1\linewidth]{./sdf/arduino_quantum_rx/figures/PC.png}
-		\caption{Block diagram of Arduino to NETXPTO communication.}
-		\label{fig:netxpto}
-	\end{figure}
-	
-	
-	\clearpage
-	
-	\subsection{Arduino Implementation - Electronic Polarization Controller }
-	Since the communication between the detectors, Arduino and NETXPTO is done, now we must control an EPC, so that Bob can choose in which base he is going to measure the Alice single photons. The new implementation is suggested in the next block diagram, where we added a new Arduino, in order to communicate with the NETXPTO, and an external AD5669 DAC. The DAC will output four values of voltages to an EPC, according to the information that comes from the NETXTPO.
-	
-	\begin{figure}[H] 
-		\centering
-		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/Ard.pdf}
-		\caption{Block diagram of a arduino implementation.}
-		\label{fig:netxpto}
+		\subsection{Arduino implementation - Signal acquision}
+		As mention before, we have one Arduino reading the signals of the quantum detectors each clock cycle and sending this data to a computer. For the signal acquisition we had two options: polling mode or the interruption mode. Polling proved impossible to implement, since the quantum detectors output signal had a maximum width of 100 ns,in contrast to the minimum time of 523 ns for the digitalRead() function to be completed. This means we cannot read two signals simultaneously, and would always be loosing information each cycle. The right approach is to use an interruption every time rising edge coming from the single photon detectors or the clock signal is caught. To do this, all the receiving signals are read in the digital input pins of the Arduino DUE board. This type of reading doesn't require any signal conditioning, which means we can take measures directly into the Arduino. Since we can control all the voltages, we just need to be careful to not set them above the 3.3V max input threshold of the Arduino DUE. The clock trigger reaches the detectors and the Arduino at the same time. In order to detect it, the Arduino does an interruption when it catches a rising voltage and puts a Boolean to true, meaning it is ready to take the output signal from the detectors.
+		Since it is also possible to control the TTL signal voltage that comes from the single photon detectors gate, we can measure them directly into the Arduino board through the digital input pins. When the clock reaches the detectors, they send a pulse through the gate into the DUE board. The Arduino does an interrupt function in order to catch the rising edge and puts a Boolean to true. If the Arduino has the two booleans
+		of the detectors true, it will print to the serial COM a 2. If none of the detectors clicked, only the clock boolean is true and it is going to print a 3. Depending on if one detector clicked and the other did not, one Boolean is going to be true and the other false, and the Arduino is going to print a 0 or 1.
 		
-	\end{figure}
-
+		\subsection{Arduino implementation- Communication with Netxpto}
+		
+		To have the set up running we need to open three different programs in the arduino\_real\_time\_receiver paste and run them at the same time: ardRece.ino, serial\_port\_reader\_writer.sln (client side) and netxpto\_qber\_estimation.sln (server side).
+		The Arduino program has the 26,27 and 28 pins in the INPUT mode, waiting for an external signal from the clock or the detectors. Each one of the pins, is attached to an interruption that takes place when a rising edge is caught. When an interruption is triggered, the program does a function that puts a boolean to true. There is four possible results that are going to be printed in the COM port.
+		Even though, the attachInterrupt function takes about 2 microseconds to be done, this does not represent a problem, because the arduino saves the register of another event during an interruption.
+		Every external clock cycle, the program does one print a resets all the booleans to false.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.85\linewidth]{./sdf/arduino_quantum_rx/figures/arduinoComPC.PNG}
+			\caption{Arduino coincidence block and serial communication}
+			\label{montage}
+			
+		\end{figure}
+		
+		Afterwards the Arduino outputs the values of the coincidence block, we need to send the data to a PC, in order to do the calculation of the QBER in real time. To have this implemented in our system, we have the Arduino sending the data one by one to a c++ program in the PC via USB cable. The serial\_port\_reader\_writer.sln program (client side), waits for a connection with the Arduino Serial port in order to start receiving the data. Now that the communication between the Arduino serial port and the PC is done, the program burns the first 10 seconds of information because the Arduino tends to send unnecessary bits when it starts writing in the COM. The program puts the receiving information in a buffer and when it's full, all the data is sent to the QBER program. This means we have a TCP/IP connection between the program reading the Arduino data and the one that does the QBER estimations. The size of the buffer is 4000 characters. In order to always have the correct values of the QBER we need to have the sequence the Arduino is sending synchronized with the sequence from the Alice side. To do this, we have the QBER program running in two modes, the synchronized one, and the unsynchronized. After burning the unnecessary data, it is going to check the first few bits in the buffer and compare it with the transmitter sequence. If they are different, the program will discard the first bit that entered the sequence and add a new one (FIFO). This occurs until we have a match in the sequences, and the program will run normally in the synchronized mode. If, for some reason, the program loses the synchronization, it will do the same process previously explained. In the two modes the program will always output a file, the midreports, every 8000 bits, with the results of the QBER block calculations. 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/PC.png}
+			\caption{Block diagram of Arduino to NETXPTO communication.}
+			\label{fig:netxpto}
+		\end{figure}
 	
-
-	\subsubsection{Communication from PC server Netxpto to ArduinoTransmitter with DAC}
-		In this implementation we also need to control which base Bob is receiving the data. This set up is going to be able to change between four different basis, in which Bob is going to measure the single photons coming from Alice. To have the basis changing, we have to apply four voltages to an EPC. However, the Arduino only has two internal DACs and needs to receive data from NETXPTO, in order to choose the correct basis. For the first problem, we are using an AD5669 external DAC, that is communicating with the Arduino via I2C protocol and can output 8 signals. Also, the Arduino can't be receiving and sending data through the same serial COM because it will lose synchronism, therefore loosing bits over time. To solve this issue, we are using two Arduinos: One takes the clock and the output signals and sends them to a PC via USB. The other one also has the clock signal to keep the Arduinos synchronized, and it is receiving information from the Netxpto program, through an USB connection, so that it can choose one set of voltages. However, the process of sending data through the PC to the serial COM of the Arduino is limited by the PC performance to send information via USB. This means at certain frequencies of the clock, the PC might be doing a lot of operations internally affecting the synchronism. The limit of the speed is around 2.5 kHz, which does not represent a problem right now since the system, in a first stage, will be working at 500 Hz. The Arduinos need to do all these operations while the detectors are waiting for the next clock pulse. In order to choose the correct basis.
+	
+	\subsubsection{Arduino Implementation - Electronic Polarization Controller }
+	In this implementation we also need to control in which base Bob is receiving the data. This set up is going to be able to change between two different basis, so that Bob can choose the base to measure the single photons coming from Alice. To have the basis changing, we have to apply four voltages to an EPC. However, the Arduino only has two internal DACs and needs to receive data from NETXPTO. For the first problem, we are using an AD5669 external DAC, that is communicating with the Arduino via I2C protocol that can output 8 signals. Also, the Arduino can't be receiving and sending data through the same serial COM because it will lose synchronization, therefore loosing bits over time. That is the reason we are using two Arduinos: One takes the clock, the output signals, and sends them to a PC via USB. The other one is just receiving information from the NETXPTO program, and setting the correct voltages to a DAC. The two Arduinos are syncrhonized by the external clock trigger. However, the process of sending data through the PC to the serial COM  is limited by the PC performance. This means at certain frequencies of the clock, the PC might be doing a lot of operations internally affecting the synchronization. The limit of the speed is around 2.5 kHz, which does not represent a problem right now since the system, in a first stage, will be working at 500 Hz. The Arduinos need to do all these operations while the detectors are waiting for the next clock pulse. 
 	
 	
 	\begin{figure}[H]
@@ -268,15 +119,38 @@ Every external clock cycle, the program does one print a resets all the booleans
 		\includegraphics[width=1\linewidth]{./sdf/arduino_quantum_rx/figures/DAC.png}
 		\caption{Block diagram of NETXPTO to EPC communication.}
 		\label{fig:netxpto}
-
+		
 	\end{figure}
+	
+	Even though we are using two Arduinos, we just do some modifications in the Arduino program previously presented. Since the implementation uses an external DAC, the Arduino needs to communicate with it using a I2C protocol. To do that we need to include the wire library, and use its functions to begin the communication, set the clock speed, write the voltage data to the DAC output and to end the transmission.
+	
+	\subsubsection{Arduino Implementation - AD5669 DAC}
+	
+	The AD5669 is a I2C high-resolution digital to analog converter capble of generating a 0-5V voltage output. It has a 16-Bit resolution and is capble of tuning the output across 65,536 setps. It is equiped with 8 individual output channels and one floating adress line. The AD5669 is capable of 400 kHz communication speed , making it ideal for programmable voltage and current source applications. It is compatible with the Arduino by including the Wire.h library and defining the DAC adress in the program.
+	
+		\begin{figure}[H]
+		
+		\centering
+		\includegraphics[width=0.6\linewidth]{./sdf/arduino_quantum_rx/figures/dac2.png}
+		\caption{AD5669 DAC}
+		\label{fig:netxpto}
+		
+	 \end{figure}
+	
+   In the arduino program we set the correct adress of the AD5669. It also requires two bytes of data for the DAC and a command byte that controls all the various functions. The clock chose was 400 kHz, to achieve maximum speed, and four channels were set to output random voltages. Using the Wire library functions, the I2C transmission is established in order to control all four channels accordingly.
+   
+   \begin{figure}[H]
+   	
+   	\centering
+   	\includegraphics[width=0.7\linewidth]{./sdf/arduino_quantum_rx/figures/DACprogram.png}
+   	\caption{Example of Arduino code to program 2 channels of the AD5669 DAC}
+   	\label{fig:netxpto}
+   	
+   \end{figure}
+	
 
-	Even though we are using two Arduinos, we just do some modifications in the Arduino program previously presented. Since the implementation uses an external DAC, the Arduino needs to communicate with it using a I2C protocol. To do that we need to include the wire library, and use its functions to begin the communication, set the clock speed, write the voltage data to the DAC output and to end the transmission. 
+   \clearpage
 	
-	
-	\subsection{Open Issues}
-	
-	\clearpage
 	\subsection{Visual Studio 2019 - Installation guide (Current version: 16.2.3)}
 	
 	\subsubsection{Step 1}
@@ -398,8 +272,8 @@ Every external clock cycle, the program does one print a resets all the booleans
 	\subsubsection{Step 7}
 	At the end of these steps, you will be ready to write, compile, debug, and upload your Arduino sketches. In case of doubts consult the following link: https://www.visualmicro.com/page/User-Guide.aspx?doc=index.
 	
-
-    
+	
+	
 	
 	
 	% bibliographic references for the section ----------------------------
