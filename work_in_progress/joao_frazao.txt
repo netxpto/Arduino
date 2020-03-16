@@ -10,6 +10,13 @@ Dissertação:
 		( discutir com o nosso Silva)
 	5) chapter 5: Conclusions
 
+6/3/2020
+
+	- melhorar a escrita do capítulo 3
+	- pensar no capítulo 4, basedo no PM-IQ Modulator
+
+next meeting: 17/3. 9h
+
 21/02/2020
 
 	- escrever a dissertação (chapter 3)(arduino_quantum_rx)(concluir, entregar primeira versão)
